@@ -5,8 +5,13 @@ const P=require('../src/prose.js');
 const matches={};
 const requested=new Set(Object.values(D.proseVariants).flatMap(r=>r.flatMap(x=>x.incomingChoiceIds||[])));
 let truthYes=null,truthNo=null;
+const seenNodes=new Set();let renderedStates=0;
 function visit(state){
  if(state.finished)return;
+ const base=E.view(state).scene,rendered=P.scene(D,state,base);
+ assert.ok(rendered.endsWith(base)&&!rendered.includes('undefined'));
+ assert.ok(!rendered.includes('魔族孩子魔族信使'));
+ seenNodes.add(state.nodeId);renderedStates++;
  if(state.nodeId==='d7_w_ledger'){
   if(state.truths.includes('truth_dragon_network'))truthYes??=state;
   else truthNo??=state;
@@ -39,4 +44,5 @@ assert.ok(!P.scene(D,truthNo,'共同正文').includes('龙骨支路'));
 const sample=matches['d3_v_ledger_3'];const generic={...sample,nodeId:'d4_h_guard'};
 assert.ok(P.scene(D,generic,'共同正文').includes('次日，你从边境抵达教会。'));
 assert.equal(P.scene(D,E.initial(),'第一日正文'),'第一日正文');
-console.log(JSON.stringify({reachableIncomingVariants:Object.keys(matches).length,truthYes:!!truthYes,truthNo:!!truthNo,comparedNodes:4}));
+assert.equal(seenNodes.size,89);
+console.log(JSON.stringify({reachableIncomingVariants:Object.keys(matches).length,truthYes:!!truthYes,truthNo:!!truthNo,comparedNodes:4,renderedStates,seenNodes:seenNodes.size}));

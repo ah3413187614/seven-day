@@ -1,6 +1,6 @@
 {
   "buildId": "v0.4.0+16facfdc460f",
-  "builtAtUTC": "2026-09-29T13:44:38.174431+00:00",
+  "builtAtUTC": "2026-09-29T13:53:05.146070+00:00",
   "firstRunPaths": 16384,
   "ngPlusPaths": 16384,
   "reachableEndings": 166,
@@ -105,7 +105,7 @@
     "tests/package.cjs": "4e97e9bfb3a27efcac891923ccf3a61ebccaeb5be4e34e7003bcb9b1c5e1b8d5",
     "tests/playtest_v01_A.json": "22d9d55b6d19bc3b1d74d89e8bf12177eb36638cdeb6ea6c3ef99b19355f6682",
     "tests/playtest_v01_B.json": "f4ef60f8cbc4d0232608124215c2342eb756eac2f22f4ccc50ed082b4b9965a7",
-    "tests/prose-v04.cjs": "d52a8c79a78aae097fe0da77de26515749c9863f554f41fd7c98e9e02ca2c5cf",
+    "tests/prose-v04.cjs": "697f317054b34cb898bb0eaae47f8875b046bb5e7e1f28ec810d63c33d6b3f00",
     "tests/quality-report-v02.json": "db2404712bd0a97b3da668a27a742391669bf6b716b270cb2fb08ba4dc5e43c0",
     "tests/random-report.json": "6244067b210e59fd42b81ae75abfe9bca80a6aba5681abfedc302768aa1951b0",
     "tests/random.cjs": "3228003daded21f8e49336336a7a9e86e9237e61493b0b0de091f9c184913bac",
