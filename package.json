@@ -1,6 +1,6 @@
 {
   "name": "hero-of-the-seventh-dawn",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "七日四选一、数据驱动的离线西幻文字冒险",
   "scripts": {
@@ -10,7 +10,10 @@
     "build:data": "python scripts/build.py",
     "build:html": "python scripts/pack.py",
     "test:evidence": "node tests/evidence-v02.cjs",
-    "test:package": "node tests/package.cjs"
+    "test:package": "node tests/package.cjs",
+    "test:journal": "node tests/journal-v03.cjs",
+    "test:media": "node tests/media-v03.cjs",
+    "test:autoplay": "node tests/autoplay-v03.cjs"
   },
   "engines": {
     "node": ">=18"

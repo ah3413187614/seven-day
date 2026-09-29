@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "host-bound default timers fade without Illegal invocation",
+    "same-key pending play is single-flight",
+    "switch before settlement mutes without pause",
+    "retired promise resolution pauses after settlement",
+    "off while pending defers pause",
+    "AbortError is not reported as autoplay refusal",
+    "next gesture can recover",
+    "status updates do not start audio"
+  ]
+}

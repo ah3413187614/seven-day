@@ -23,7 +23,11 @@
       "truths": [],
       "encounters": [
         "npc_10"
-      ]
+      ],
+      "characterIds": [
+        "npc_10"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d2_c",
@@ -50,7 +54,13 @@
         "npc_01",
         "npc_02",
         "npc_11"
-      ]
+      ],
+      "characterIds": [
+        "npc_01",
+        "npc_02",
+        "npc_11"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d2_h",
@@ -77,7 +87,13 @@
         "npc_03",
         "npc_04",
         "npc_05"
-      ]
+      ],
+      "characterIds": [
+        "npc_03",
+        "npc_04",
+        "npc_05"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d2_w",
@@ -102,7 +118,11 @@
       "truths": [],
       "encounters": [
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_09"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d2_v",
@@ -130,7 +150,12 @@
       "encounters": [
         "npc_05",
         "npc_10"
-      ]
+      ],
+      "characterIds": [
+        "npc_05",
+        "npc_10"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_c_oath",
@@ -157,7 +182,11 @@
       ],
       "encounters": [
         "npc_02"
-      ]
+      ],
+      "characterIds": [
+        "npc_02"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_c_ledger",
@@ -184,7 +213,11 @@
       ],
       "encounters": [
         "npc_11"
-      ]
+      ],
+      "characterIds": [
+        "npc_11"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_c_revolt",
@@ -209,7 +242,11 @@
       "truths": [],
       "encounters": [
         "npc_12"
-      ]
+      ],
+      "characterIds": [
+        "npc_12"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_c_guard",
@@ -234,7 +271,11 @@
       "truths": [],
       "encounters": [
         "npc_05"
-      ]
+      ],
+      "characterIds": [
+        "npc_05"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_h_oath",
@@ -262,7 +303,12 @@
       "encounters": [
         "npc_03",
         "npc_04"
-      ]
+      ],
+      "characterIds": [
+        "npc_03",
+        "npc_04"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_h_ledger",
@@ -289,7 +335,11 @@
       ],
       "encounters": [
         "npc_04"
-      ]
+      ],
+      "characterIds": [
+        "npc_04"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_h_revolt",
@@ -317,7 +367,12 @@
       "encounters": [
         "npc_05",
         "npc_07"
-      ]
+      ],
+      "characterIds": [
+        "npc_05",
+        "npc_07"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_h_guard",
@@ -345,7 +400,12 @@
       "encounters": [
         "npc_04",
         "npc_06"
-      ]
+      ],
+      "characterIds": [
+        "npc_04",
+        "npc_06"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_w_oath",
@@ -372,7 +432,11 @@
       ],
       "encounters": [
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_09"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_w_ledger",
@@ -397,7 +461,11 @@
       "truths": [],
       "encounters": [
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_09"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_w_revolt",
@@ -420,7 +488,9 @@
         "d3_w_revolt_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_w_guard",
@@ -446,7 +516,12 @@
       "encounters": [
         "npc_08",
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_08",
+        "npc_09"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_v_oath",
@@ -469,7 +544,9 @@
         "d3_v_oath_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_v_ledger",
@@ -495,7 +572,12 @@
       "encounters": [
         "npc_05",
         "npc_10"
-      ]
+      ],
+      "characterIds": [
+        "npc_05",
+        "npc_10"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_v_revolt",
@@ -518,7 +600,9 @@
         "d3_v_revolt_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "normal"
     },
     {
       "node_id": "d3_v_guard",
@@ -546,7 +630,12 @@
       "encounters": [
         "npc_06",
         "npc_10"
-      ]
+      ],
+      "characterIds": [
+        "npc_06",
+        "npc_10"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_c_oath",
@@ -578,7 +667,11 @@
       ],
       "encounters": [
         "npc_01"
-      ]
+      ],
+      "characterIds": [
+        "npc_01"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_c_ledger",
@@ -610,7 +703,12 @@
       "encounters": [
         "npc_04",
         "npc_11"
-      ]
+      ],
+      "characterIds": [
+        "npc_04",
+        "npc_11"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_c_revolt",
@@ -640,7 +738,11 @@
       ],
       "encounters": [
         "npc_12"
-      ]
+      ],
+      "characterIds": [
+        "npc_12"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_c_guard",
@@ -671,7 +773,11 @@
       ],
       "encounters": [
         "npc_02"
-      ]
+      ],
+      "characterIds": [
+        "npc_02"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_h_oath",
@@ -701,7 +807,12 @@
       "encounters": [
         "npc_03",
         "npc_04"
-      ]
+      ],
+      "characterIds": [
+        "npc_03",
+        "npc_04"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_h_ledger",
@@ -733,7 +844,11 @@
       ],
       "encounters": [
         "npc_04"
-      ]
+      ],
+      "characterIds": [
+        "npc_04"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_h_revolt",
@@ -766,7 +881,12 @@
       "encounters": [
         "npc_07",
         "npc_13"
-      ]
+      ],
+      "characterIds": [
+        "npc_07",
+        "npc_13"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_h_guard",
@@ -799,7 +919,12 @@
       "encounters": [
         "npc_04",
         "npc_06"
-      ]
+      ],
+      "characterIds": [
+        "npc_04",
+        "npc_06"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_w_oath",
@@ -830,7 +955,12 @@
       "encounters": [
         "npc_08",
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_08",
+        "npc_09"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_w_ledger",
@@ -863,7 +993,12 @@
       "encounters": [
         "npc_08",
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_08",
+        "npc_09"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_w_revolt",
@@ -894,7 +1029,13 @@
         "npc_05",
         "npc_07",
         "npc_08"
-      ]
+      ],
+      "characterIds": [
+        "npc_05",
+        "npc_07",
+        "npc_08"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_w_guard",
@@ -928,7 +1069,13 @@
         "npc_04",
         "npc_08",
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_04",
+        "npc_08",
+        "npc_09"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_v_oath",
@@ -959,7 +1106,11 @@
       ],
       "encounters": [
         "npc_10"
-      ]
+      ],
+      "characterIds": [
+        "npc_10"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_v_ledger",
@@ -988,7 +1139,11 @@
       ],
       "encounters": [
         "npc_12"
-      ]
+      ],
+      "characterIds": [
+        "npc_12"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_v_revolt",
@@ -1014,7 +1169,9 @@
       "truths": [
         "truth_common_people_cost"
       ],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "normal"
     },
     {
       "node_id": "d4_v_guard",
@@ -1043,7 +1200,11 @@
       ],
       "encounters": [
         "npc_10"
-      ]
+      ],
+      "characterIds": [
+        "npc_10"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_c_oath",
@@ -1071,7 +1232,12 @@
       "encounters": [
         "npc_01",
         "npc_02"
-      ]
+      ],
+      "characterIds": [
+        "npc_01",
+        "npc_02"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_c_ledger",
@@ -1102,7 +1268,12 @@
       "encounters": [
         "npc_11",
         "npc_12"
-      ]
+      ],
+      "characterIds": [
+        "npc_11",
+        "npc_12"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_c_revolt",
@@ -1130,7 +1301,11 @@
       "truths": [],
       "encounters": [
         "npc_12"
-      ]
+      ],
+      "characterIds": [
+        "npc_12"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_c_guard",
@@ -1159,7 +1334,12 @@
       "encounters": [
         "npc_02",
         "npc_07"
-      ]
+      ],
+      "characterIds": [
+        "npc_02",
+        "npc_07"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_h_oath",
@@ -1186,7 +1366,12 @@
       "encounters": [
         "npc_03",
         "npc_04"
-      ]
+      ],
+      "characterIds": [
+        "npc_03",
+        "npc_04"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_h_ledger",
@@ -1217,7 +1402,12 @@
       "encounters": [
         "npc_04",
         "npc_14"
-      ]
+      ],
+      "characterIds": [
+        "npc_04",
+        "npc_14"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_h_revolt",
@@ -1249,7 +1439,12 @@
       "encounters": [
         "npc_05",
         "npc_07"
-      ]
+      ],
+      "characterIds": [
+        "npc_05",
+        "npc_07"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_h_guard",
@@ -1280,7 +1475,11 @@
       "truths": [],
       "encounters": [
         "npc_04"
-      ]
+      ],
+      "characterIds": [
+        "npc_04"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_w_oath",
@@ -1315,7 +1514,12 @@
       "encounters": [
         "npc_08",
         "npc_13"
-      ]
+      ],
+      "characterIds": [
+        "npc_08",
+        "npc_13"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_w_ledger",
@@ -1349,7 +1553,11 @@
       ],
       "encounters": [
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_09"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_w_revolt",
@@ -1373,7 +1581,9 @@
         "d5_w_revolt_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_w_guard",
@@ -1402,7 +1612,12 @@
       "encounters": [
         "npc_08",
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_08",
+        "npc_09"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_v_oath",
@@ -1427,7 +1642,11 @@
       "truths": [],
       "encounters": [
         "npc_10"
-      ]
+      ],
+      "characterIds": [
+        "npc_10"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_v_ledger",
@@ -1458,7 +1677,11 @@
       ],
       "encounters": [
         "npc_06"
-      ]
+      ],
+      "characterIds": [
+        "npc_06"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_v_revolt",
@@ -1483,7 +1706,9 @@
         "d5_v_revolt_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "normal"
     },
     {
       "node_id": "d5_v_guard",
@@ -1511,7 +1736,11 @@
       "truths": [],
       "encounters": [
         "npc_10"
-      ]
+      ],
+      "characterIds": [
+        "npc_10"
+      ],
+      "musicKey": "normal"
     },
     {
       "node_id": "d6_c_oath",
@@ -1539,7 +1768,11 @@
       "truths": [],
       "encounters": [
         "npc_01"
-      ]
+      ],
+      "characterIds": [
+        "npc_01"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_c_ledger",
@@ -1568,7 +1801,12 @@
       "encounters": [
         "npc_11",
         "npc_12"
-      ]
+      ],
+      "characterIds": [
+        "npc_11",
+        "npc_12"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_c_revolt",
@@ -1594,7 +1832,11 @@
       "truths": [],
       "encounters": [
         "npc_12"
-      ]
+      ],
+      "characterIds": [
+        "npc_12"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_c_guard",
@@ -1621,7 +1863,11 @@
       "truths": [],
       "encounters": [
         "npc_02"
-      ]
+      ],
+      "characterIds": [
+        "npc_02"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_h_oath",
@@ -1650,7 +1896,11 @@
       ],
       "encounters": [
         "npc_03"
-      ]
+      ],
+      "characterIds": [
+        "npc_03"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_h_ledger",
@@ -1681,7 +1931,12 @@
       "encounters": [
         "npc_04",
         "npc_14"
-      ]
+      ],
+      "characterIds": [
+        "npc_04",
+        "npc_14"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_h_revolt",
@@ -1710,7 +1965,11 @@
       ],
       "encounters": [
         "npc_13"
-      ]
+      ],
+      "characterIds": [
+        "npc_13"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_h_guard",
@@ -1737,7 +1996,11 @@
       "truths": [],
       "encounters": [
         "npc_04"
-      ]
+      ],
+      "characterIds": [
+        "npc_04"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_w_oath",
@@ -1766,7 +2029,11 @@
       "truths": [],
       "encounters": [
         "npc_08"
-      ]
+      ],
+      "characterIds": [
+        "npc_08"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_w_ledger",
@@ -1794,7 +2061,11 @@
       "truths": [],
       "encounters": [
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_09"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_w_revolt",
@@ -1818,7 +2089,9 @@
         "d6_w_revolt_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_w_guard",
@@ -1849,7 +2122,11 @@
       "truths": [],
       "encounters": [
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_09"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_v_oath",
@@ -1883,7 +2160,11 @@
       "truths": [],
       "encounters": [
         "npc_10"
-      ]
+      ],
+      "characterIds": [
+        "npc_10"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_v_ledger",
@@ -1913,7 +2194,11 @@
       "truths": [],
       "encounters": [
         "npc_06"
-      ]
+      ],
+      "characterIds": [
+        "npc_06"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_v_revolt",
@@ -1938,7 +2223,9 @@
         "d6_v_revolt_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "tension"
     },
     {
       "node_id": "d6_v_guard",
@@ -1967,7 +2254,11 @@
       "truths": [],
       "encounters": [
         "npc_10"
-      ]
+      ],
+      "characterIds": [
+        "npc_10"
+      ],
+      "musicKey": "tension"
     },
     {
       "node_id": "d7_c_oath",
@@ -1995,7 +2286,11 @@
       "truths": [],
       "encounters": [
         "npc_01"
-      ]
+      ],
+      "characterIds": [
+        "npc_01"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_c_ledger",
@@ -2021,7 +2316,12 @@
       "encounters": [
         "npc_11",
         "npc_12"
-      ]
+      ],
+      "characterIds": [
+        "npc_11",
+        "npc_12"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_c_revolt",
@@ -2044,7 +2344,9 @@
         "d7_c_revolt_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_c_guard",
@@ -2075,7 +2377,11 @@
       "truths": [],
       "encounters": [
         "npc_02"
-      ]
+      ],
+      "characterIds": [
+        "npc_02"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_h_oath",
@@ -2101,7 +2407,11 @@
       "truths": [],
       "encounters": [
         "npc_03"
-      ]
+      ],
+      "characterIds": [
+        "npc_03"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_h_ledger",
@@ -2126,7 +2436,9 @@
         "d7_h_ledger_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_h_revolt",
@@ -2156,7 +2468,11 @@
       ],
       "encounters": [
         "npc_13"
-      ]
+      ],
+      "characterIds": [
+        "npc_13"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_h_guard",
@@ -2185,7 +2501,11 @@
       "truths": [],
       "encounters": [
         "npc_04"
-      ]
+      ],
+      "characterIds": [
+        "npc_04"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_w_oath",
@@ -2216,7 +2536,11 @@
       "truths": [],
       "encounters": [
         "npc_08"
-      ]
+      ],
+      "characterIds": [
+        "npc_08"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_w_ledger",
@@ -2244,7 +2568,11 @@
       "truths": [],
       "encounters": [
         "npc_09"
-      ]
+      ],
+      "characterIds": [
+        "npc_09"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_w_revolt",
@@ -2268,7 +2596,9 @@
         "d7_w_revolt_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_w_guard",
@@ -2295,7 +2625,11 @@
       "truths": [],
       "encounters": [
         "npc_08"
-      ]
+      ],
+      "characterIds": [
+        "npc_08"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_v_oath",
@@ -2323,7 +2657,9 @@
         "d7_v_oath_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_v_ledger",
@@ -2352,7 +2688,9 @@
         "d7_v_ledger_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_v_revolt",
@@ -2375,7 +2713,9 @@
         "d7_v_revolt_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_v_guard",
@@ -2407,7 +2747,11 @@
       "truths": [],
       "encounters": [
         "npc_10"
-      ]
+      ],
+      "characterIds": [
+        "npc_10"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_w_oath_sword",
@@ -2443,7 +2787,11 @@
       "truths": [],
       "encounters": [
         "npc_08"
-      ]
+      ],
+      "characterIds": [
+        "npc_08"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_w_guard_dragon_debt",
@@ -2473,7 +2821,9 @@
         "d7_w_guard_dragon_debt_4"
       ],
       "truths": [],
-      "encounters": []
+      "encounters": [],
+      "characterIds": [],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_c_oath_judgment",
@@ -2508,7 +2858,11 @@
       "truths": [],
       "encounters": [
         "npc_01"
-      ]
+      ],
+      "characterIds": [
+        "npc_01"
+      ],
+      "musicKey": "final_day"
     },
     {
       "node_id": "d7_h_oath_dissent",
@@ -2539,7 +2893,11 @@
       "truths": [],
       "encounters": [
         "npc_03"
-      ]
+      ],
+      "characterIds": [
+        "npc_03"
+      ],
+      "musicKey": "final_day"
     }
   ],
   "variants": {

@@ -1,53 +1,48 @@
-# CODEX_HANDOFF · V0.2
+# CODEX_HANDOFF · V0.3 封板
 
-## 接手前先读
+## 当前版本与边界
 
-README → playtest_v02 → narrative_polish_v02 → ending_quality_review → visual_qa_v02 → data/bundle.json 与 src/engine.js。V0.1 实际包、数据与报告在 archive/，两条修改前试玩在 tests/playtest_v01_A.json、B.json。
+89个剧情节点、356个行动、24条人物弧光、10项Truth、18个终局动态权限槽。首周目16,384条路径有165个可达称号；NG+ 16,384条路径合计可达166个称号，真结局有22条NG+路径。`src/engine.js`和剧情判定未在本次视觉与存档修复中修改。不要从V0.2重写89场景。
 
-## 已完成与未完成
+最终玩家画面为文字、UI、五首离线BGM、小型纹章、可选的Premium Ending插画。**剧情不显示日常像素人物，普通Ending没有大型或像素结局图。** 14个`spriteKey`、节点`characterIds`、相遇数据和首次简短身份标签仍在项目数据。像素SVG原型只随源码保留，不打入玩家HTML。普通结局规则`artType=none, artKey=null`；8个Premium规则使用`artType=premium`和独立`artKey`。实际完成的Premium插画为0，缺图时省略图片区域；创作说明见`docs/art_prompts_v03.md`。
 
-已完成 89 节点、356 行动的既有工程改写；24 弧光次序判定；10 有来源真相；18 双模式条件槽；14 角色八项约束；24 重点尾声包与旧版 168 称号逐项审查。现在可达 166 称号，首周目 165，二周目真结局 22 条路径。不可达节点 0，选项 0；全部 24 弧光可检测。
+## 主要文件
 
-未完成真实浏览器视觉／读屏／系统导入导出／移动真机／真人盲测。没有新插画或音频。不要把 package.cjs 的模拟 DOM 写成浏览器 QA。
+- `src/ui.js`：首次开场、首次相遇标签、首周目无系统得失的四个选项、图鉴与旅程档案、只读Ending Recall、音频状态按钮。`state`与`recalled.snapshot`分离。
+- `src/journal.js`：最近40次完整旅程、每个Ending一份完整代表记录、旧资料迁移与只读深拷贝。旧版只有称号但无完整历史的条目不能凭空补写尾声。
+- `src/audio.js`：`enabled`玩家偏好与`activated`当前会话手势许可分开。首次加载只设置默认或旧偏好；新用户默认开启、音量0.27，首次交互后尝试播放。旧资料明确关闭时维持关闭；播放被拒后待下次手势重试。后台暂停。五首程序合成WAV已实际嵌入。五个SFX接口存在，素材为0。
+- `scripts/build.py`：生成带人物与结局视觉键的数据；`scripts/pack.py`：单文件内嵌CSS、数据、引擎、档案、音频、UI与WAV，Premium有图才内嵌。
+- `scripts/finalize_v03.py`：同步根目录HTML及文档、生成`tests/final-build-manifest.json` SHA-256并压缩完整项目。
 
-## 唯一编辑入口
+存储键仍为`seventh-day-v2`，路径`schemaVersion=2`，资料`saveVersion=3`。当前路线导出是JSON路径存档，不包括跨设备的完整档案。每次导入都用随机UUID或时间+随机数新建runId；不使用choiceIds身份。首次开场未完成且历史为空时，刷新后“继续旅程”仍回开场；真正进入第一日后新局与NG+不再重复。Ending Recall不调用导入、记录或保存，不覆盖当前runId和七日选择。
 
-- scripts/narrative.py：89 正文，空行是段落边界。content.py 的旧 scene 槽为 V0.1 路由兼容占位，构建不读取其正文；标题与四行动仍在 content.py。
-- scripts/systems.py：真相来源、条件权限与替代动作、NPC 相遇与价值、题名修订。修改门槛后检查每个模式是否可达，避免“全操作永远解不开”。
-- scripts/lore.py：稳定 ID、基本角色、常规题名与弧光初稿；systems.py 覆盖已复审的部分。不要只改生成 JSON。
-- scripts/epilogues.py：24 个完整尾声包。NPC 栏不直接展示，由实际 metNPCs、flags、status 生成。
-- src/engine.js：纯状态推进与结局；src/ui.js：四选、日落、存档、图鉴；style.css：保留原视觉基础的响应式补丁。
-- scripts/build.py → data/；pack.py → dist/SeventhDay.html。pack 依赖当前穷举报告标记活跃称号，不能跳过穷举直接打包。
+## 构建与验证
 
-## 状态与权限
+在项目根目录顺序运行：
 
-schemaVersion=2。truths 与 knowledgeLog 只在抵达具体节点或执行指定动作时授予。encounterLog 与 metNPCs 分开记录亲历相遇，名字出现在画上不算。resolveChoice 必须同时用于 UI 与 apply；fallback 有自己真实的文字、flag、后果与终局身份。不可先播全操作、后台偷偷执行局部行动。
+```sh
+python3 scripts/build.py
+node tests/exhaustive.cjs
+node tests/evidence-v02.cjs
+python3 scripts/pack.py
+node tests/journal-v03.cjs
+node tests/media-v03.cjs
+node tests/autoplay-v03.cjs
+node tests/package.cjs
+node tests/browser.cjs
+python3 scripts/finalize_v03.py
+```
 
-弧光必须符合早段动作、晚段次数、角色、特定 flag，并存在早段之后且最后确认之前的转向。dom 仍由前六天行为取主导，但前台不展示人格诊断。罪责比一般称号优先，赎罪类不会移除旧 flag。
+`tests/package.cjs`读取实际打包HTML，模拟序章→七日→结局→图鉴回看→第二局→档案→返回，以及同一Day3存档导入两次产生不同Ending。穷举、权限、弧光、Truth、旧资料、音频拒绝重试和跨刷新开关的记录在`docs/playtest_v03.md`。结局引擎未结构修改，未在V0.3重新执行100,000随机模拟；`tests/random-report.json`属于V0.2历史结果。
 
-真结局：已完成过新版一局＋lattice_validated＋shared_load＋collective_final＋回流／龙骨网／平民代价知识，无重大罪责或强征。仍失去旧文明部分恒温与无痛便利，没有全员无代价完美方案。
+环境中没有可用Chromium；`tests/browser-report-v03.json`标记七个视口未运行。模拟DOM和CSS断点检查不能代替真实浏览器视觉/触控、音频听感或Android WebView验收。没有CDN、远程字体、服务器请求和联网依赖；核心离线文件包装可供下一阶段WebView实机验证，APK本轮未制作。
 
-## 存档策略
+## 后续
 
-seventh-day-v2 与 V0.1 键隔离。导入只接受 V2 的 choiceIds、meta，按规则重新回放，不信任外部 stats。旧 JSON 请用 archive/SeventhDay_v01.html。禁止静默把旧路径当作新行为；没有自动迁移旧图鉴与周目。
+8幅实际Premium插画、合法SFX与正式BGM制作、Chrome/Edge七视口和触控/听感QA、真人盲测、Android WebView实机与APK，均未完成。当前原型WAV是真实可播放资源，不是最终录制配乐。
 
-## 验证与出包
+## 最终音频按钮补丁
 
-按 README 的开发顺序运行。已执行：两周目共 32,768 路穷举；另 16,384 路证据与模式专项；100,000 局 seed 20260928 模拟；交付 HTML 与模拟 DOM。各条称号的路径在 witnesses.json，各弧光及每个权限双模式的路径在 evidence-report-v02.json。
+实际Edge使用的`SeventhDay(3).html`与项目HTML字节一致。旧按钮把待播放点击视为关闭；现改为关→启用/播放，待播放或失败→保持开启/重试，播放中→关闭。`src/audio.js`保留真实`play()`拒绝名/消息及媒体错误码/消息，成功和失败都通知UI刷新；`src/ui.js`显示“音乐：重试”并在标题与控制台提供诊断。再次修改音频后必须运行`tests/autoplay-v03.cjs`、`tests/media-v03.cjs`和`tests/package.cjs`，重新`pack.py`及`finalize_v03.py`。不要用模拟测试或WAV格式检查宣称Edge实际出声。
 
-最终报告新增不可达称号不得藏起来；应记录是权限、角色或优先级造成。真实浏览器缺失时只标未完成，不重试安装来消耗任务时间。
-
-## V0.3 优先级（最多五项）
-
-1. 在真实浏览器与真机完成七视口截图、键盘、读屏及存档验收。
-2. 找未读策划的玩家做两种起点盲测，记录对证据与选项的理解。
-3. 给 B 级共享身份尾声增加基于具体中段行动的差异，保持称号数量克制。
-4. 把更多 NPC 价值冲突写成可重复核对的拒绝／谈判事件，避免只停在角色表。
-5. 完成旧存档的只读回顾界面与可靠升级提示，再评估是否迁移图鉴。
-
-
-## 最终续跑验收（2026-09-29T01:01:46.441113+00:00）
-
-基于磁盘最终源码重新执行：首周目与 NG+ 各 16,384 路；权限证据专项 16,384 路；固定种子 20260928 随机 100,000 局；重新构建后的 HTML smoke test 通过。89 节点、356 行动、24 弧光、166 可达称号；首周目 165，NG+ 166，真结局 22 条路径。18 条件槽的完整和受限模式全部可达，12 组同终局地点菜单对照通过。10 项 Truth 均有路线见证，单局最多 7 项。未发现节点或行动死路。
-
-本次未重复修改已完成剧情。补入可复现交付脚本 scripts/finalize_v02.py，生成构建哈希与完整 ZIP。再次启动真实浏览器失败（缺少 Chromium），视觉 QA 仍未完成，不计为通过。
+**最新Edge竞态修复：** 用户在桌面路径依然复现AbortError，旧`src/audio.js`在pending play()时调用pause()。现以每音轨pending/settled/retired状态延迟pause、静音退场，并对同键single-flight；onStatus只更新按钮，不render全页。运行`node tests/audio-race-v03.cjs`与原有三项媒体/包测试。AbortError只记内部中断，不进入autoplay失败通道；核心引擎未动。Android资源需再运行`python3 android/sync_game.py`同步新版HTML。

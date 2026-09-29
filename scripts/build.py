@@ -90,10 +90,12 @@ for c in choices.values():
     c['understanding']=c['gain']+'，同时接受：'+c['cost']
     if c['terminal_role']:c['DESIGNER_ONLY']['long_term']='终局身份为'+ROLES[c['terminal_role']][0]+'；条件不齐时执行 fallback，罪责仍保留。'
 
+FIRST_MEETING_LABELS=['摄政 · 主持王庭事务', '骑士队长 · 护送召集者', '教皇 · 主持圣堂', '修女医师 · 照护伤病者', '魔族信使 · 在边境传递消息', '魔族工兵 · 熟悉工事', '魔族将领 · 代表诸部', '古龙 · 守着龙井', '学者 · 绘制地图与管道', '村长兼木匠 · 留守故乡', '账房 · 核对账册', '印工兼工程师 · 修造与印刷', '封印中的承压者', '神谕中的声音']
 characters=[]
 for i,row in enumerate(NPCS):
     characters.append(dict(zip(['name','race','identity','personality','surface_goal','true_goal','secret','possible_relations','fates','related_endings','routes','signature_line'],row),character_id=f'npc_{i+1:02}'))
 for i,c in enumerate(characters):
+    c["firstMeetingLabel"]=FIRST_MEETING_LABELS[i]
     c['values']=dict(zip(['protects','will_sacrifice','red_line','bias','mistake','secret','can_change','cannot_change'],VALUES[i]))
     c['introduction']=INTRO[i+1]
 endings=[]
@@ -115,6 +117,15 @@ for aid,title,early,late,roles,early_flags,late_flags,priority in ARCS:
     endings.append({'ending_id':'arc_'+aid,'title':title,'category':'arc','type':'growth','priority':70,'trigger':arc,'meaning':f'早段有{early}行动，后段至少两次{late}行动，并符合身份与特定行为证据。','visibility':'DESIGNER_ONLY'})
 specials=[('cycle_ended','终结轮回的人','true','savior','二周目已通关至少一次；lattice_validated + shared_load + collective_final；持回流、龙骨网络、平民代价三项来源证据；无强征、重大罪责。'),('swordless','没有圣剑的勇者','secret','hero','拒绝过圣剑；从未取得；终局为勇者。'),('forgotten','被世界遗忘的守护者','secret','guardian','erased_hero_credit；此前至少三次牺牲行动；终局守护者。'),('never_drew','从未拔剑的勇者','secret','hero','从未取得圣剑、无暴力行为、广场主动降温且取消讨伐护送。'),('gods_blade','神明的利剑','secret','hero','持圣剑，早六日信仰行动至少三次，终局救援且无罪责。'),('clear_mad','清醒的疯子','bad','failed','失控结局且理智为早六日最高维度。'),('last_ordinary','最后的普通人','secret','ordinary','拒绝召集+拒绝一切封号；最终选择普通人生。'),('ash_restrained','清醒地封住深渊的人','secret','vessel','吸收黑潮+交出控制权、自毁锁或自断腐化；自愿成为容器。')]
 for eid,title,typ,role,trigger in specials:endings.append({'ending_id':'special_'+eid,'title':title,'category':role,'type':typ,'priority':100 if eid=='cycle_ended' else 80,'trigger_text':trigger,'meaning':ROLES[role][1],'visibility':'DESIGNER_ONLY'})
+PREMIUM_ENDINGS={'special_cycle_ended','special_forgotten','special_clear_mad','arc_coward_to_martyr','arc_hero_to_tyrant','vessel_Mercy','tyrant_Mercy','special_swordless'}
+for c in characters:c['spriteKey']=c['character_id']
+for n in nodes.values():
+    n['characterIds']=list(n.get('encounters',[]))
+    n['musicKey']='final_day' if n['day']==7 else 'tension' if n['day']==6 else 'normal'
+for e in endings:
+    e['artType']='premium' if e['ending_id'] in PREMIUM_ENDINGS else 'none'
+    e['artKey']=e['ending_id'] if e['artType']=='premium' else None
+    e['musicKey']='ending'
 for e in endings:
     e['title']=TITLE_REVISIONS.get(e['ending_id'],e['title'])
     if e['type']=='growth': e['meaning']='早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。'

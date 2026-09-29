@@ -1,0 +1,9 @@
+{
+  "staticChecksPassed": true,
+  "apkBuilt": false,
+  "deviceTested": false,
+  "sourceSha256": "c842d120b4043fdf7cb93913376fac6753ea6ba37f19a3131938dd27640d429d",
+  "assetSha256": "2b0f7649c7dd3ae88fda77913dbbb87c343d1100adb2ad882a2591f3f1838902",
+  "assetBytes": 4126911,
+  "notes": "Android toolchain unavailable in this workspace."
+}

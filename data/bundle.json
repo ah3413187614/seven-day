@@ -23,7 +23,11 @@
         "truths": [],
         "encounters": [
           "npc_10"
-        ]
+        ],
+        "characterIds": [
+          "npc_10"
+        ],
+        "musicKey": "normal"
       },
       "d2_c": {
         "node_id": "d2_c",
@@ -50,7 +54,13 @@
           "npc_01",
           "npc_02",
           "npc_11"
-        ]
+        ],
+        "characterIds": [
+          "npc_01",
+          "npc_02",
+          "npc_11"
+        ],
+        "musicKey": "normal"
       },
       "d2_h": {
         "node_id": "d2_h",
@@ -77,7 +87,13 @@
           "npc_03",
           "npc_04",
           "npc_05"
-        ]
+        ],
+        "characterIds": [
+          "npc_03",
+          "npc_04",
+          "npc_05"
+        ],
+        "musicKey": "normal"
       },
       "d2_w": {
         "node_id": "d2_w",
@@ -102,7 +118,11 @@
         "truths": [],
         "encounters": [
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_09"
+        ],
+        "musicKey": "normal"
       },
       "d2_v": {
         "node_id": "d2_v",
@@ -130,7 +150,12 @@
         "encounters": [
           "npc_05",
           "npc_10"
-        ]
+        ],
+        "characterIds": [
+          "npc_05",
+          "npc_10"
+        ],
+        "musicKey": "normal"
       },
       "d3_c_oath": {
         "node_id": "d3_c_oath",
@@ -157,7 +182,11 @@
         ],
         "encounters": [
           "npc_02"
-        ]
+        ],
+        "characterIds": [
+          "npc_02"
+        ],
+        "musicKey": "normal"
       },
       "d3_c_ledger": {
         "node_id": "d3_c_ledger",
@@ -184,7 +213,11 @@
         ],
         "encounters": [
           "npc_11"
-        ]
+        ],
+        "characterIds": [
+          "npc_11"
+        ],
+        "musicKey": "normal"
       },
       "d3_c_revolt": {
         "node_id": "d3_c_revolt",
@@ -209,7 +242,11 @@
         "truths": [],
         "encounters": [
           "npc_12"
-        ]
+        ],
+        "characterIds": [
+          "npc_12"
+        ],
+        "musicKey": "normal"
       },
       "d3_c_guard": {
         "node_id": "d3_c_guard",
@@ -234,7 +271,11 @@
         "truths": [],
         "encounters": [
           "npc_05"
-        ]
+        ],
+        "characterIds": [
+          "npc_05"
+        ],
+        "musicKey": "normal"
       },
       "d3_h_oath": {
         "node_id": "d3_h_oath",
@@ -262,7 +303,12 @@
         "encounters": [
           "npc_03",
           "npc_04"
-        ]
+        ],
+        "characterIds": [
+          "npc_03",
+          "npc_04"
+        ],
+        "musicKey": "normal"
       },
       "d3_h_ledger": {
         "node_id": "d3_h_ledger",
@@ -289,7 +335,11 @@
         ],
         "encounters": [
           "npc_04"
-        ]
+        ],
+        "characterIds": [
+          "npc_04"
+        ],
+        "musicKey": "normal"
       },
       "d3_h_revolt": {
         "node_id": "d3_h_revolt",
@@ -317,7 +367,12 @@
         "encounters": [
           "npc_05",
           "npc_07"
-        ]
+        ],
+        "characterIds": [
+          "npc_05",
+          "npc_07"
+        ],
+        "musicKey": "normal"
       },
       "d3_h_guard": {
         "node_id": "d3_h_guard",
@@ -345,7 +400,12 @@
         "encounters": [
           "npc_04",
           "npc_06"
-        ]
+        ],
+        "characterIds": [
+          "npc_04",
+          "npc_06"
+        ],
+        "musicKey": "normal"
       },
       "d3_w_oath": {
         "node_id": "d3_w_oath",
@@ -372,7 +432,11 @@
         ],
         "encounters": [
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_09"
+        ],
+        "musicKey": "normal"
       },
       "d3_w_ledger": {
         "node_id": "d3_w_ledger",
@@ -397,7 +461,11 @@
         "truths": [],
         "encounters": [
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_09"
+        ],
+        "musicKey": "normal"
       },
       "d3_w_revolt": {
         "node_id": "d3_w_revolt",
@@ -420,7 +488,9 @@
           "d3_w_revolt_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "normal"
       },
       "d3_w_guard": {
         "node_id": "d3_w_guard",
@@ -446,7 +516,12 @@
         "encounters": [
           "npc_08",
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_08",
+          "npc_09"
+        ],
+        "musicKey": "normal"
       },
       "d3_v_oath": {
         "node_id": "d3_v_oath",
@@ -469,7 +544,9 @@
           "d3_v_oath_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "normal"
       },
       "d3_v_ledger": {
         "node_id": "d3_v_ledger",
@@ -495,7 +572,12 @@
         "encounters": [
           "npc_05",
           "npc_10"
-        ]
+        ],
+        "characterIds": [
+          "npc_05",
+          "npc_10"
+        ],
+        "musicKey": "normal"
       },
       "d3_v_revolt": {
         "node_id": "d3_v_revolt",
@@ -518,7 +600,9 @@
           "d3_v_revolt_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "normal"
       },
       "d3_v_guard": {
         "node_id": "d3_v_guard",
@@ -546,7 +630,12 @@
         "encounters": [
           "npc_06",
           "npc_10"
-        ]
+        ],
+        "characterIds": [
+          "npc_06",
+          "npc_10"
+        ],
+        "musicKey": "normal"
       },
       "d4_c_oath": {
         "node_id": "d4_c_oath",
@@ -578,7 +667,11 @@
         ],
         "encounters": [
           "npc_01"
-        ]
+        ],
+        "characterIds": [
+          "npc_01"
+        ],
+        "musicKey": "normal"
       },
       "d4_c_ledger": {
         "node_id": "d4_c_ledger",
@@ -610,7 +703,12 @@
         "encounters": [
           "npc_04",
           "npc_11"
-        ]
+        ],
+        "characterIds": [
+          "npc_04",
+          "npc_11"
+        ],
+        "musicKey": "normal"
       },
       "d4_c_revolt": {
         "node_id": "d4_c_revolt",
@@ -640,7 +738,11 @@
         ],
         "encounters": [
           "npc_12"
-        ]
+        ],
+        "characterIds": [
+          "npc_12"
+        ],
+        "musicKey": "normal"
       },
       "d4_c_guard": {
         "node_id": "d4_c_guard",
@@ -671,7 +773,11 @@
         ],
         "encounters": [
           "npc_02"
-        ]
+        ],
+        "characterIds": [
+          "npc_02"
+        ],
+        "musicKey": "normal"
       },
       "d4_h_oath": {
         "node_id": "d4_h_oath",
@@ -701,7 +807,12 @@
         "encounters": [
           "npc_03",
           "npc_04"
-        ]
+        ],
+        "characterIds": [
+          "npc_03",
+          "npc_04"
+        ],
+        "musicKey": "normal"
       },
       "d4_h_ledger": {
         "node_id": "d4_h_ledger",
@@ -733,7 +844,11 @@
         ],
         "encounters": [
           "npc_04"
-        ]
+        ],
+        "characterIds": [
+          "npc_04"
+        ],
+        "musicKey": "normal"
       },
       "d4_h_revolt": {
         "node_id": "d4_h_revolt",
@@ -766,7 +881,12 @@
         "encounters": [
           "npc_07",
           "npc_13"
-        ]
+        ],
+        "characterIds": [
+          "npc_07",
+          "npc_13"
+        ],
+        "musicKey": "normal"
       },
       "d4_h_guard": {
         "node_id": "d4_h_guard",
@@ -799,7 +919,12 @@
         "encounters": [
           "npc_04",
           "npc_06"
-        ]
+        ],
+        "characterIds": [
+          "npc_04",
+          "npc_06"
+        ],
+        "musicKey": "normal"
       },
       "d4_w_oath": {
         "node_id": "d4_w_oath",
@@ -830,7 +955,12 @@
         "encounters": [
           "npc_08",
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_08",
+          "npc_09"
+        ],
+        "musicKey": "normal"
       },
       "d4_w_ledger": {
         "node_id": "d4_w_ledger",
@@ -863,7 +993,12 @@
         "encounters": [
           "npc_08",
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_08",
+          "npc_09"
+        ],
+        "musicKey": "normal"
       },
       "d4_w_revolt": {
         "node_id": "d4_w_revolt",
@@ -894,7 +1029,13 @@
           "npc_05",
           "npc_07",
           "npc_08"
-        ]
+        ],
+        "characterIds": [
+          "npc_05",
+          "npc_07",
+          "npc_08"
+        ],
+        "musicKey": "normal"
       },
       "d4_w_guard": {
         "node_id": "d4_w_guard",
@@ -928,7 +1069,13 @@
           "npc_04",
           "npc_08",
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_04",
+          "npc_08",
+          "npc_09"
+        ],
+        "musicKey": "normal"
       },
       "d4_v_oath": {
         "node_id": "d4_v_oath",
@@ -959,7 +1106,11 @@
         ],
         "encounters": [
           "npc_10"
-        ]
+        ],
+        "characterIds": [
+          "npc_10"
+        ],
+        "musicKey": "normal"
       },
       "d4_v_ledger": {
         "node_id": "d4_v_ledger",
@@ -988,7 +1139,11 @@
         ],
         "encounters": [
           "npc_12"
-        ]
+        ],
+        "characterIds": [
+          "npc_12"
+        ],
+        "musicKey": "normal"
       },
       "d4_v_revolt": {
         "node_id": "d4_v_revolt",
@@ -1014,7 +1169,9 @@
         "truths": [
           "truth_common_people_cost"
         ],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "normal"
       },
       "d4_v_guard": {
         "node_id": "d4_v_guard",
@@ -1043,7 +1200,11 @@
         ],
         "encounters": [
           "npc_10"
-        ]
+        ],
+        "characterIds": [
+          "npc_10"
+        ],
+        "musicKey": "normal"
       },
       "d5_c_oath": {
         "node_id": "d5_c_oath",
@@ -1071,7 +1232,12 @@
         "encounters": [
           "npc_01",
           "npc_02"
-        ]
+        ],
+        "characterIds": [
+          "npc_01",
+          "npc_02"
+        ],
+        "musicKey": "normal"
       },
       "d5_c_ledger": {
         "node_id": "d5_c_ledger",
@@ -1102,7 +1268,12 @@
         "encounters": [
           "npc_11",
           "npc_12"
-        ]
+        ],
+        "characterIds": [
+          "npc_11",
+          "npc_12"
+        ],
+        "musicKey": "normal"
       },
       "d5_c_revolt": {
         "node_id": "d5_c_revolt",
@@ -1130,7 +1301,11 @@
         "truths": [],
         "encounters": [
           "npc_12"
-        ]
+        ],
+        "characterIds": [
+          "npc_12"
+        ],
+        "musicKey": "normal"
       },
       "d5_c_guard": {
         "node_id": "d5_c_guard",
@@ -1159,7 +1334,12 @@
         "encounters": [
           "npc_02",
           "npc_07"
-        ]
+        ],
+        "characterIds": [
+          "npc_02",
+          "npc_07"
+        ],
+        "musicKey": "normal"
       },
       "d5_h_oath": {
         "node_id": "d5_h_oath",
@@ -1186,7 +1366,12 @@
         "encounters": [
           "npc_03",
           "npc_04"
-        ]
+        ],
+        "characterIds": [
+          "npc_03",
+          "npc_04"
+        ],
+        "musicKey": "normal"
       },
       "d5_h_ledger": {
         "node_id": "d5_h_ledger",
@@ -1217,7 +1402,12 @@
         "encounters": [
           "npc_04",
           "npc_14"
-        ]
+        ],
+        "characterIds": [
+          "npc_04",
+          "npc_14"
+        ],
+        "musicKey": "normal"
       },
       "d5_h_revolt": {
         "node_id": "d5_h_revolt",
@@ -1249,7 +1439,12 @@
         "encounters": [
           "npc_05",
           "npc_07"
-        ]
+        ],
+        "characterIds": [
+          "npc_05",
+          "npc_07"
+        ],
+        "musicKey": "normal"
       },
       "d5_h_guard": {
         "node_id": "d5_h_guard",
@@ -1280,7 +1475,11 @@
         "truths": [],
         "encounters": [
           "npc_04"
-        ]
+        ],
+        "characterIds": [
+          "npc_04"
+        ],
+        "musicKey": "normal"
       },
       "d5_w_oath": {
         "node_id": "d5_w_oath",
@@ -1315,7 +1514,12 @@
         "encounters": [
           "npc_08",
           "npc_13"
-        ]
+        ],
+        "characterIds": [
+          "npc_08",
+          "npc_13"
+        ],
+        "musicKey": "normal"
       },
       "d5_w_ledger": {
         "node_id": "d5_w_ledger",
@@ -1349,7 +1553,11 @@
         ],
         "encounters": [
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_09"
+        ],
+        "musicKey": "normal"
       },
       "d5_w_revolt": {
         "node_id": "d5_w_revolt",
@@ -1373,7 +1581,9 @@
           "d5_w_revolt_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "normal"
       },
       "d5_w_guard": {
         "node_id": "d5_w_guard",
@@ -1402,7 +1612,12 @@
         "encounters": [
           "npc_08",
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_08",
+          "npc_09"
+        ],
+        "musicKey": "normal"
       },
       "d5_v_oath": {
         "node_id": "d5_v_oath",
@@ -1427,7 +1642,11 @@
         "truths": [],
         "encounters": [
           "npc_10"
-        ]
+        ],
+        "characterIds": [
+          "npc_10"
+        ],
+        "musicKey": "normal"
       },
       "d5_v_ledger": {
         "node_id": "d5_v_ledger",
@@ -1458,7 +1677,11 @@
         ],
         "encounters": [
           "npc_06"
-        ]
+        ],
+        "characterIds": [
+          "npc_06"
+        ],
+        "musicKey": "normal"
       },
       "d5_v_revolt": {
         "node_id": "d5_v_revolt",
@@ -1483,7 +1706,9 @@
           "d5_v_revolt_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "normal"
       },
       "d5_v_guard": {
         "node_id": "d5_v_guard",
@@ -1511,7 +1736,11 @@
         "truths": [],
         "encounters": [
           "npc_10"
-        ]
+        ],
+        "characterIds": [
+          "npc_10"
+        ],
+        "musicKey": "normal"
       },
       "d6_c_oath": {
         "node_id": "d6_c_oath",
@@ -1539,7 +1768,11 @@
         "truths": [],
         "encounters": [
           "npc_01"
-        ]
+        ],
+        "characterIds": [
+          "npc_01"
+        ],
+        "musicKey": "tension"
       },
       "d6_c_ledger": {
         "node_id": "d6_c_ledger",
@@ -1568,7 +1801,12 @@
         "encounters": [
           "npc_11",
           "npc_12"
-        ]
+        ],
+        "characterIds": [
+          "npc_11",
+          "npc_12"
+        ],
+        "musicKey": "tension"
       },
       "d6_c_revolt": {
         "node_id": "d6_c_revolt",
@@ -1594,7 +1832,11 @@
         "truths": [],
         "encounters": [
           "npc_12"
-        ]
+        ],
+        "characterIds": [
+          "npc_12"
+        ],
+        "musicKey": "tension"
       },
       "d6_c_guard": {
         "node_id": "d6_c_guard",
@@ -1621,7 +1863,11 @@
         "truths": [],
         "encounters": [
           "npc_02"
-        ]
+        ],
+        "characterIds": [
+          "npc_02"
+        ],
+        "musicKey": "tension"
       },
       "d6_h_oath": {
         "node_id": "d6_h_oath",
@@ -1650,7 +1896,11 @@
         ],
         "encounters": [
           "npc_03"
-        ]
+        ],
+        "characterIds": [
+          "npc_03"
+        ],
+        "musicKey": "tension"
       },
       "d6_h_ledger": {
         "node_id": "d6_h_ledger",
@@ -1681,7 +1931,12 @@
         "encounters": [
           "npc_04",
           "npc_14"
-        ]
+        ],
+        "characterIds": [
+          "npc_04",
+          "npc_14"
+        ],
+        "musicKey": "tension"
       },
       "d6_h_revolt": {
         "node_id": "d6_h_revolt",
@@ -1710,7 +1965,11 @@
         ],
         "encounters": [
           "npc_13"
-        ]
+        ],
+        "characterIds": [
+          "npc_13"
+        ],
+        "musicKey": "tension"
       },
       "d6_h_guard": {
         "node_id": "d6_h_guard",
@@ -1737,7 +1996,11 @@
         "truths": [],
         "encounters": [
           "npc_04"
-        ]
+        ],
+        "characterIds": [
+          "npc_04"
+        ],
+        "musicKey": "tension"
       },
       "d6_w_oath": {
         "node_id": "d6_w_oath",
@@ -1766,7 +2029,11 @@
         "truths": [],
         "encounters": [
           "npc_08"
-        ]
+        ],
+        "characterIds": [
+          "npc_08"
+        ],
+        "musicKey": "tension"
       },
       "d6_w_ledger": {
         "node_id": "d6_w_ledger",
@@ -1794,7 +2061,11 @@
         "truths": [],
         "encounters": [
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_09"
+        ],
+        "musicKey": "tension"
       },
       "d6_w_revolt": {
         "node_id": "d6_w_revolt",
@@ -1818,7 +2089,9 @@
           "d6_w_revolt_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "tension"
       },
       "d6_w_guard": {
         "node_id": "d6_w_guard",
@@ -1849,7 +2122,11 @@
         "truths": [],
         "encounters": [
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_09"
+        ],
+        "musicKey": "tension"
       },
       "d6_v_oath": {
         "node_id": "d6_v_oath",
@@ -1883,7 +2160,11 @@
         "truths": [],
         "encounters": [
           "npc_10"
-        ]
+        ],
+        "characterIds": [
+          "npc_10"
+        ],
+        "musicKey": "tension"
       },
       "d6_v_ledger": {
         "node_id": "d6_v_ledger",
@@ -1913,7 +2194,11 @@
         "truths": [],
         "encounters": [
           "npc_06"
-        ]
+        ],
+        "characterIds": [
+          "npc_06"
+        ],
+        "musicKey": "tension"
       },
       "d6_v_revolt": {
         "node_id": "d6_v_revolt",
@@ -1938,7 +2223,9 @@
           "d6_v_revolt_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "tension"
       },
       "d6_v_guard": {
         "node_id": "d6_v_guard",
@@ -1967,7 +2254,11 @@
         "truths": [],
         "encounters": [
           "npc_10"
-        ]
+        ],
+        "characterIds": [
+          "npc_10"
+        ],
+        "musicKey": "tension"
       },
       "d7_c_oath": {
         "node_id": "d7_c_oath",
@@ -1995,7 +2286,11 @@
         "truths": [],
         "encounters": [
           "npc_01"
-        ]
+        ],
+        "characterIds": [
+          "npc_01"
+        ],
+        "musicKey": "final_day"
       },
       "d7_c_ledger": {
         "node_id": "d7_c_ledger",
@@ -2021,7 +2316,12 @@
         "encounters": [
           "npc_11",
           "npc_12"
-        ]
+        ],
+        "characterIds": [
+          "npc_11",
+          "npc_12"
+        ],
+        "musicKey": "final_day"
       },
       "d7_c_revolt": {
         "node_id": "d7_c_revolt",
@@ -2044,7 +2344,9 @@
           "d7_c_revolt_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "final_day"
       },
       "d7_c_guard": {
         "node_id": "d7_c_guard",
@@ -2075,7 +2377,11 @@
         "truths": [],
         "encounters": [
           "npc_02"
-        ]
+        ],
+        "characterIds": [
+          "npc_02"
+        ],
+        "musicKey": "final_day"
       },
       "d7_h_oath": {
         "node_id": "d7_h_oath",
@@ -2101,7 +2407,11 @@
         "truths": [],
         "encounters": [
           "npc_03"
-        ]
+        ],
+        "characterIds": [
+          "npc_03"
+        ],
+        "musicKey": "final_day"
       },
       "d7_h_ledger": {
         "node_id": "d7_h_ledger",
@@ -2126,7 +2436,9 @@
           "d7_h_ledger_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "final_day"
       },
       "d7_h_revolt": {
         "node_id": "d7_h_revolt",
@@ -2156,7 +2468,11 @@
         ],
         "encounters": [
           "npc_13"
-        ]
+        ],
+        "characterIds": [
+          "npc_13"
+        ],
+        "musicKey": "final_day"
       },
       "d7_h_guard": {
         "node_id": "d7_h_guard",
@@ -2185,7 +2501,11 @@
         "truths": [],
         "encounters": [
           "npc_04"
-        ]
+        ],
+        "characterIds": [
+          "npc_04"
+        ],
+        "musicKey": "final_day"
       },
       "d7_w_oath": {
         "node_id": "d7_w_oath",
@@ -2216,7 +2536,11 @@
         "truths": [],
         "encounters": [
           "npc_08"
-        ]
+        ],
+        "characterIds": [
+          "npc_08"
+        ],
+        "musicKey": "final_day"
       },
       "d7_w_ledger": {
         "node_id": "d7_w_ledger",
@@ -2244,7 +2568,11 @@
         "truths": [],
         "encounters": [
           "npc_09"
-        ]
+        ],
+        "characterIds": [
+          "npc_09"
+        ],
+        "musicKey": "final_day"
       },
       "d7_w_revolt": {
         "node_id": "d7_w_revolt",
@@ -2268,7 +2596,9 @@
           "d7_w_revolt_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "final_day"
       },
       "d7_w_guard": {
         "node_id": "d7_w_guard",
@@ -2295,7 +2625,11 @@
         "truths": [],
         "encounters": [
           "npc_08"
-        ]
+        ],
+        "characterIds": [
+          "npc_08"
+        ],
+        "musicKey": "final_day"
       },
       "d7_v_oath": {
         "node_id": "d7_v_oath",
@@ -2323,7 +2657,9 @@
           "d7_v_oath_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "final_day"
       },
       "d7_v_ledger": {
         "node_id": "d7_v_ledger",
@@ -2352,7 +2688,9 @@
           "d7_v_ledger_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "final_day"
       },
       "d7_v_revolt": {
         "node_id": "d7_v_revolt",
@@ -2375,7 +2713,9 @@
           "d7_v_revolt_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "final_day"
       },
       "d7_v_guard": {
         "node_id": "d7_v_guard",
@@ -2407,7 +2747,11 @@
         "truths": [],
         "encounters": [
           "npc_10"
-        ]
+        ],
+        "characterIds": [
+          "npc_10"
+        ],
+        "musicKey": "final_day"
       },
       "d7_w_oath_sword": {
         "node_id": "d7_w_oath_sword",
@@ -2443,7 +2787,11 @@
         "truths": [],
         "encounters": [
           "npc_08"
-        ]
+        ],
+        "characterIds": [
+          "npc_08"
+        ],
+        "musicKey": "final_day"
       },
       "d7_w_guard_dragon_debt": {
         "node_id": "d7_w_guard_dragon_debt",
@@ -2473,7 +2821,9 @@
           "d7_w_guard_dragon_debt_4"
         ],
         "truths": [],
-        "encounters": []
+        "encounters": [],
+        "characterIds": [],
+        "musicKey": "final_day"
       },
       "d7_c_oath_judgment": {
         "node_id": "d7_c_oath_judgment",
@@ -2508,7 +2858,11 @@
         "truths": [],
         "encounters": [
           "npc_01"
-        ]
+        ],
+        "characterIds": [
+          "npc_01"
+        ],
+        "musicKey": "final_day"
       },
       "d7_h_oath_dissent": {
         "node_id": "d7_h_oath_dissent",
@@ -2539,7 +2893,11 @@
         "truths": [],
         "encounters": [
           "npc_03"
-        ]
+        ],
+        "characterIds": [
+          "npc_03"
+        ],
+        "musicKey": "final_day"
       }
     }
   },
@@ -14201,6 +14559,7 @@
       "routes": "王庭、共同议会",
       "signature_line": "秩序救不了每个人，崩溃也不会只找有罪的人。",
       "character_id": "npc_01",
+      "firstMeetingLabel": "摄政 · 主持王庭事务",
       "values": {
         "protects": "撤离调度",
         "will_sacrifice": "王室资产与个人权位",
@@ -14211,7 +14570,8 @@
         "can_change": "谁持印及如何监督",
         "cannot_change": "不以王族身份免责"
       },
-      "introduction": "摄政莱娅"
+      "introduction": "摄政莱娅",
+      "spriteKey": "npc_01"
     },
     {
       "name": "玛伦·赫斯",
@@ -14227,6 +14587,7 @@
       "routes": "王庭、护送",
       "signature_line": "别替我洗干净，让我把下一道命令说清楚。",
       "character_id": "npc_02",
+      "firstMeetingLabel": "骑士队长 · 护送召集者",
       "values": {
         "protects": "眼前的护送对象",
         "will_sacrifice": "军职与清白名声",
@@ -14237,7 +14598,8 @@
         "can_change": "是否继续带队",
         "cannot_change": "罪行应被如实记录"
       },
-      "introduction": "骑士玛伦"
+      "introduction": "骑士玛伦",
+      "spriteKey": "npc_02"
     },
     {
       "name": "瑟文",
@@ -14253,6 +14615,7 @@
       "routes": "教会、封印",
       "signature_line": "我希望自己没有错；这不该成为你不能问的理由。",
       "character_id": "npc_03",
+      "firstMeetingLabel": "教皇 · 主持圣堂",
       "values": {
         "protects": "信徒与封印",
         "will_sacrifice": "教职与自身安逸",
@@ -14263,7 +14626,8 @@
         "can_change": "仪式与权力配置",
         "cannot_change": "不能许诺免除真实代价"
       },
-      "introduction": "教皇瑟文"
+      "introduction": "教皇瑟文",
+      "spriteKey": "npc_03"
     },
     {
       "name": "伊芙·兰",
@@ -14279,6 +14643,7 @@
       "routes": "医院、禁书",
       "signature_line": "止痛不能代替审判，审判也不能代替止痛。",
       "character_id": "npc_04",
+      "firstMeetingLabel": "修女医师 · 照护伤病者",
       "values": {
         "protects": "伤者获得救治",
         "will_sacrifice": "教职与库存",
@@ -14289,7 +14654,8 @@
         "can_change": "医院如何管理",
         "cannot_change": "救治不等于赦免"
       },
-      "introduction": "修女医师伊芙"
+      "introduction": "修女医师伊芙",
+      "spriteKey": "npc_04"
     },
     {
       "name": "妮娅",
@@ -14305,6 +14671,7 @@
       "routes": "教会、边境",
       "signature_line": "我知道路在哪，不代表我同意谁从那里过去。",
       "character_id": "npc_05",
+      "firstMeetingLabel": "魔族信使 · 在边境传递消息",
       "values": {
         "protects": "证词与平民道路",
         "will_sacrifice": "阵营好感",
@@ -14315,7 +14682,8 @@
         "can_change": "愿与谁合作",
         "cannot_change": "发言权属于自己"
       },
-      "introduction": "魔族信使妮娅"
+      "introduction": "魔族信使妮娅",
+      "spriteKey": "npc_05"
     },
     {
       "name": "萨德",
@@ -14331,6 +14699,7 @@
       "routes": "医院、渡口",
       "signature_line": "这次把维修方法写上去，不要写我的名字。",
       "character_id": "npc_06",
+      "firstMeetingLabel": "魔族工兵 · 熟悉工事",
       "values": {
         "protects": "桥上的住户",
         "will_sacrifice": "双手与行动自由",
@@ -14341,7 +14710,8 @@
         "can_change": "接受审判与指挥",
         "cannot_change": "维修不取消赔偿"
       },
-      "introduction": "魔族工兵萨德"
+      "introduction": "魔族工兵萨德",
+      "spriteKey": "npc_06"
     },
     {
       "name": "瓦尔",
@@ -14357,6 +14727,7 @@
       "routes": "魔王城、证词",
       "signature_line": "没有军队的和平，谁来保证它不会被下一支军队撕掉？",
       "character_id": "npc_07",
+      "firstMeetingLabel": "魔族将领 · 代表诸部",
       "values": {
         "protects": "军队代表权",
         "will_sacrifice": "部下的利益与他人名誉",
@@ -14367,7 +14738,8 @@
         "can_change": "有限停火条件",
         "cannot_change": "不会被一句劝说放弃权力"
       },
-      "introduction": "魔族将领瓦尔"
+      "introduction": "魔族将领瓦尔",
+      "spriteKey": "npc_07"
     },
     {
       "name": "阿瑟兰",
@@ -14383,6 +14755,7 @@
       "routes": "龙境、封印",
       "signature_line": "我也知道这不公平，可那是我的孩子。",
       "character_id": "npc_08",
+      "firstMeetingLabel": "古龙 · 守着龙井",
       "values": {
         "protects": "幼龙与龙巢",
         "will_sacrifice": "礼仪和有限特权",
@@ -14393,7 +14766,8 @@
         "can_change": "公开责任与轮值",
         "cannot_change": "不会自动原谅屠龙"
       },
-      "introduction": "守井古龙阿瑟兰"
+      "introduction": "守井古龙阿瑟兰",
+      "spriteKey": "npc_08"
     },
     {
       "name": "缇尔",
@@ -14409,6 +14783,7 @@
       "routes": "旧林、遗迹",
       "signature_line": "空白不代表没有人，常常只是画图的人不愿看见。",
       "character_id": "npc_09",
+      "firstMeetingLabel": "学者 · 绘制地图与管道",
       "values": {
         "protects": "可复核的知识",
         "will_sacrifice": "族籍与秘密",
@@ -14419,7 +14794,8 @@
         "can_change": "图纸归属",
         "cannot_change": "不能删去不利测量"
       },
-      "introduction": "精灵地图师缇尔"
+      "introduction": "精灵地图师缇尔",
+      "spriteKey": "npc_09"
     },
     {
       "name": "托马",
@@ -14435,6 +14811,7 @@
       "routes": "故乡、议会",
       "signature_line": "你可以回来，但不要替没回来的人宣布原谅。",
       "character_id": "npc_10",
+      "firstMeetingLabel": "村长兼木匠 · 留守故乡",
       "values": {
         "protects": "村民休息的机会",
         "will_sacrifice": "代表席与自己的船位",
@@ -14445,7 +14822,8 @@
         "can_change": "谁来主持村务",
         "cannot_change": "普通生活值得被照料"
       },
-      "introduction": "村长托马"
+      "introduction": "村长托马",
+      "spriteKey": "npc_10"
     },
     {
       "name": "奥伦",
@@ -14461,6 +14839,7 @@
       "routes": "军粮、预算",
       "signature_line": "这笔钱确实救过人，它也确实不是我的。",
       "character_id": "npc_11",
+      "firstMeetingLabel": "账房 · 核对账册",
       "values": {
         "protects": "救济线与自身安全",
         "will_sacrifice": "账面名誉",
@@ -14471,7 +14850,8 @@
         "can_change": "接受外部复核",
         "cannot_change": "不会突然不再自辩"
       },
-      "introduction": "账房奥伦"
+      "introduction": "账房奥伦",
+      "spriteKey": "npc_11"
     },
     {
       "name": "维克",
@@ -14487,6 +14867,7 @@
       "routes": "广场、工程",
       "signature_line": "我们赢了以后，钥匙该交给谁？",
       "character_id": "npc_12",
+      "firstMeetingLabel": "印工兼工程师 · 修造与印刷",
       "values": {
         "protects": "民众掌握工具",
         "will_sacrifice": "旧制度与对手权力",
@@ -14497,7 +14878,8 @@
         "can_change": "是否接受受害者监督",
         "cannot_change": "没有自动保证永远温和"
       },
-      "introduction": "印工兼工程师维克"
+      "introduction": "印工兼工程师维克",
+      "spriteKey": "npc_12"
     },
     {
       "name": "艾德里安",
@@ -14513,6 +14895,7 @@
       "routes": "封印、记忆",
       "signature_line": "愿意不是一张永远有效的签名。",
       "character_id": "npc_13",
+      "firstMeetingLabel": "封印中的承压者",
       "values": {
         "protects": "停止与重新同意的权利",
         "will_sacrifice": "寿命与名声",
@@ -14523,7 +14906,8 @@
         "can_change": "愿意再等多久",
         "cannot_change": "不能因称号被强迫继续"
       },
-      "introduction": "承压者艾德里安"
+      "introduction": "承压者艾德里安",
+      "spriteKey": "npc_13"
     },
     {
       "name": "曙母",
@@ -14539,6 +14923,7 @@
       "routes": "禁书、核心",
       "signature_line": "我能替你省去犹豫。你只需告诉我，谁可以不被计算。",
       "character_id": "npc_14",
+      "firstMeetingLabel": "神谕中的声音",
       "values": {
         "protects": "系统稳定目标",
         "will_sacrifice": "被抽取者的个人利益",
@@ -14549,7 +14934,8 @@
         "can_change": "接口权力可被人限制",
         "cannot_change": "神性不能凭停机被证实或否定"
       },
-      "introduction": "分配意志曙母"
+      "introduction": "分配意志曙母",
+      "spriteKey": "npc_14"
     }
   ],
   "endings": [
@@ -14565,6 +14951,9 @@
       },
       "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14579,6 +14968,9 @@
       },
       "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14593,6 +14985,9 @@
       },
       "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14607,6 +15002,9 @@
       },
       "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14621,6 +15019,9 @@
       },
       "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14635,6 +15036,9 @@
       },
       "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14649,6 +15053,9 @@
       },
       "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14663,6 +15070,9 @@
       },
       "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14677,6 +15087,9 @@
       },
       "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14691,6 +15104,9 @@
       },
       "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14705,6 +15121,9 @@
       },
       "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14719,6 +15138,9 @@
       },
       "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14733,6 +15155,9 @@
       },
       "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14747,6 +15172,9 @@
       },
       "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14761,6 +15189,9 @@
       },
       "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14775,6 +15206,9 @@
       },
       "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14789,6 +15223,9 @@
       },
       "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14803,6 +15240,9 @@
       },
       "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14817,6 +15257,9 @@
       },
       "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "premium",
+      "artKey": "vessel_Mercy",
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14831,6 +15274,9 @@
       },
       "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14845,6 +15291,9 @@
       },
       "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14859,6 +15308,9 @@
       },
       "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14873,6 +15325,9 @@
       },
       "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14887,6 +15342,9 @@
       },
       "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14901,6 +15359,9 @@
       },
       "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14915,6 +15376,9 @@
       },
       "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14929,6 +15393,9 @@
       },
       "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14943,6 +15410,9 @@
       },
       "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14957,6 +15427,9 @@
       },
       "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14971,6 +15444,9 @@
       },
       "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14985,6 +15461,9 @@
       },
       "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -14999,6 +15478,9 @@
       },
       "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15013,6 +15495,9 @@
       },
       "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15027,6 +15512,9 @@
       },
       "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15041,6 +15529,9 @@
       },
       "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15055,6 +15546,9 @@
       },
       "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15069,6 +15563,9 @@
       },
       "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15083,6 +15580,9 @@
       },
       "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15097,6 +15597,9 @@
       },
       "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15111,6 +15614,9 @@
       },
       "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": false
     },
     {
@@ -15125,6 +15631,9 @@
       },
       "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15139,6 +15648,9 @@
       },
       "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15153,6 +15665,9 @@
       },
       "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15167,6 +15682,9 @@
       },
       "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15181,6 +15699,9 @@
       },
       "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15195,6 +15716,9 @@
       },
       "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15209,6 +15733,9 @@
       },
       "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15223,6 +15750,9 @@
       },
       "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": false
     },
     {
@@ -15237,6 +15767,9 @@
       },
       "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15251,6 +15784,9 @@
       },
       "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15265,6 +15801,9 @@
       },
       "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15279,6 +15818,9 @@
       },
       "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15293,6 +15835,9 @@
       },
       "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15307,6 +15852,9 @@
       },
       "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15321,6 +15869,9 @@
       },
       "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15335,6 +15886,9 @@
       },
       "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": false
     },
     {
@@ -15349,6 +15903,9 @@
       },
       "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15363,6 +15920,9 @@
       },
       "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15377,6 +15937,9 @@
       },
       "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15391,6 +15954,9 @@
       },
       "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15405,6 +15971,9 @@
       },
       "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15419,6 +15988,9 @@
       },
       "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15433,6 +16005,9 @@
       },
       "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15447,6 +16022,9 @@
       },
       "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15461,6 +16039,9 @@
       },
       "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15475,6 +16056,9 @@
       },
       "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15489,6 +16073,9 @@
       },
       "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15503,6 +16090,9 @@
       },
       "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15517,6 +16107,9 @@
       },
       "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15531,6 +16124,9 @@
       },
       "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15545,6 +16141,9 @@
       },
       "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15559,6 +16158,9 @@
       },
       "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15573,6 +16175,9 @@
       },
       "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15587,6 +16192,9 @@
       },
       "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15601,6 +16209,9 @@
       },
       "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15615,6 +16226,9 @@
       },
       "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15629,6 +16243,9 @@
       },
       "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15643,6 +16260,9 @@
       },
       "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15657,6 +16277,9 @@
       },
       "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15671,6 +16294,9 @@
       },
       "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15685,6 +16311,9 @@
       },
       "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15699,6 +16328,9 @@
       },
       "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": false
     },
     {
@@ -15713,6 +16345,9 @@
       },
       "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15727,6 +16362,9 @@
       },
       "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15741,6 +16379,9 @@
       },
       "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15755,6 +16396,9 @@
       },
       "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15769,6 +16413,9 @@
       },
       "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": false
     },
     {
@@ -15783,6 +16430,9 @@
       },
       "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": false
     },
     {
@@ -15797,6 +16447,9 @@
       },
       "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15811,6 +16464,9 @@
       },
       "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15825,6 +16481,9 @@
       },
       "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "premium",
+      "artKey": "tyrant_Mercy",
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15839,6 +16498,9 @@
       },
       "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15853,6 +16515,9 @@
       },
       "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15867,6 +16532,9 @@
       },
       "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15881,6 +16549,9 @@
       },
       "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15895,6 +16566,9 @@
       },
       "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15909,6 +16583,9 @@
       },
       "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15923,6 +16600,9 @@
       },
       "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15937,6 +16617,9 @@
       },
       "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15951,6 +16634,9 @@
       },
       "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15965,6 +16651,9 @@
       },
       "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15979,6 +16668,9 @@
       },
       "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -15993,6 +16685,9 @@
       },
       "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16007,6 +16702,9 @@
       },
       "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16021,6 +16719,9 @@
       },
       "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16035,6 +16736,9 @@
       },
       "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16049,6 +16753,9 @@
       },
       "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16063,6 +16770,9 @@
       },
       "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16077,6 +16787,9 @@
       },
       "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16091,6 +16804,9 @@
       },
       "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16105,6 +16821,9 @@
       },
       "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16119,6 +16838,9 @@
       },
       "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16133,6 +16855,9 @@
       },
       "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16147,6 +16872,9 @@
       },
       "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16161,6 +16889,9 @@
       },
       "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16175,6 +16906,9 @@
       },
       "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16189,6 +16923,9 @@
       },
       "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16203,6 +16940,9 @@
       },
       "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16217,6 +16957,9 @@
       },
       "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16231,6 +16974,9 @@
       },
       "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16245,6 +16991,9 @@
       },
       "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16259,6 +17008,9 @@
       },
       "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": false
     },
     {
@@ -16273,6 +17025,9 @@
       },
       "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16287,6 +17042,9 @@
       },
       "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": false
     },
     {
@@ -16301,6 +17059,9 @@
       },
       "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16315,6 +17076,9 @@
       },
       "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16329,6 +17093,9 @@
       },
       "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16343,6 +17110,9 @@
       },
       "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": false
     },
     {
@@ -16357,6 +17127,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16371,6 +17144,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16385,6 +17161,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16399,6 +17178,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16413,6 +17195,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16427,6 +17212,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16441,6 +17229,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16455,6 +17246,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16469,6 +17263,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16483,6 +17280,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16497,6 +17297,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16511,6 +17314,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": false
     },
     {
@@ -16525,6 +17331,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16539,6 +17348,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16553,6 +17365,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16567,6 +17382,9 @@
       },
       "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16615,6 +17433,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16658,6 +17479,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16704,6 +17528,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16750,6 +17577,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "premium",
+      "artKey": "arc_hero_to_tyrant",
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16795,6 +17625,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16846,6 +17679,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16891,6 +17727,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16934,6 +17773,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -16980,6 +17822,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17030,6 +17875,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17074,6 +17922,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "premium",
+      "artKey": "arc_coward_to_martyr",
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17115,6 +17966,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17157,6 +18011,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17200,6 +18057,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17243,6 +18103,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17286,6 +18149,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17329,6 +18195,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17375,6 +18244,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17417,6 +18289,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17460,6 +18335,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17503,6 +18381,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17546,6 +18427,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17589,6 +18473,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17632,6 +18519,9 @@
       },
       "meaning": "早段行动、其后中段转向、晚段至少两次行动及终局身份共同验证；不以最终分数代替经历。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17643,6 +18533,9 @@
       "trigger_text": "二周目已通关至少一次；lattice_validated + shared_load + collective_final；持回流、龙骨网络、平民代价三项来源证据；无强征、重大罪责。",
       "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "premium",
+      "artKey": "special_cycle_ended",
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17654,6 +18547,9 @@
       "trigger_text": "拒绝过圣剑；从未取得；终局为勇者。",
       "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "premium",
+      "artKey": "special_swordless",
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17665,6 +18561,9 @@
       "trigger_text": "erased_hero_credit；此前至少三次牺牲行动；终局守护者。",
       "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "premium",
+      "artKey": "special_forgotten",
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17676,6 +18575,9 @@
       "trigger_text": "从未取得圣剑、无暴力行为、广场主动降温且取消讨伐护送。",
       "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17687,6 +18589,9 @@
       "trigger_text": "持圣剑，早六日信仰行动至少三次，终局救援且无罪责。",
       "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17698,6 +18603,9 @@
       "trigger_text": "失控结局且理智为早六日最高维度。",
       "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "premium",
+      "artKey": "special_clear_mad",
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17709,6 +18617,9 @@
       "trigger_text": "拒绝召集+拒绝一切封号；最终选择普通人生。",
       "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     },
     {
@@ -17720,6 +18631,9 @@
       "trigger_text": "吸收黑潮+交出控制权、自毁锁或自断腐化；自愿成为容器。",
       "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
       "visibility": "DESIGNER_ONLY",
+      "artType": "none",
+      "artKey": null,
+      "musicKey": "ending",
       "reachable": true
     }
   ],

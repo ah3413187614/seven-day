@@ -15,3 +15,23 @@ button{min-height:44px;overflow-wrap:anywhere}.dayline,.choice-label,.topbar{fle
 main:focus{outline:none}.chapter-title:focus,.ending-head h1:focus{outline:2px solid var(--gold);outline-offset:6px}
 @media(max-width:760px){.scene{padding:24px;line-height:2}.choice-label{gap:8px}.choice{min-height:96px}.topbar{gap:12px}.nav{flex-wrap:wrap}.nav button{font-size:12px}.echo-panel{padding-left:13px}.dayline{row-gap:14px}}
 @media(max-width:420px){.shell{padding:16px}.topbar{align-items:flex-start}.nav{width:100%;justify-content:space-between;gap:4px}.nav button{flex:1}.scene{padding:22px 18px}.chapter-title{font-size:27px;line-height:1.55}.days{gap:8px}.choice{padding:16px 14px;gap:12px}.choice .num{padding-right:10px}.catalog-grid{grid-template-columns:1fr}.hero h1{font-size:40px}.ending-head h1{font-size:27px;overflow-wrap:anywhere}.epilogue{padding:22px 18px}.history-row{grid-template-columns:44px minmax(0,1fr);gap:10px}.sunset{padding:24px 20px}.sunset h2{font-size:28px}.actions>button{max-width:100%}}
+/* V0.3 history and first-encounter labels; preserve the reading layout. */
+button.ending-card{text-align:left;width:100%;color:inherit;cursor:pointer;font:inherit;background:rgba(255,255,255,.025)}
+button.ending-card:hover,button.ending-card:focus-visible{border-color:var(--gold)}
+.npc-introductions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.npc-label{font-size:12px;line-height:1.7;color:#d0c49f;border:1px solid #657064;padding:4px 9px;border-radius:3px}
+.onboarding .scene p{margin-bottom:1.2em}.catalog h3{overflow-wrap:anywhere}
+/* V0.3 sealed visual direction: text, quiet emblems, optional premium art. */
+.npc-introductions:empty{display:none}
+.ending-emblem{display:inline-grid;place-items:center;width:28px;height:28px;margin:0 auto 8px;border:1px solid #667267;border-radius:50%;color:#b7a373;font:18px Georgia,serif}
+.ending-card .ending-emblem{width:23px;height:23px;font-size:15px;margin:0 0 4px}
+.ending-art{width:min(100%,540px);margin:0 auto 20px;overflow:hidden}
+.ending-art img{display:block;width:100%;height:auto;max-height:340px;object-fit:contain}
+.ending-card .ending-art{width:min(100%,180px);margin:5px 0 8px}
+.ending-card .ending-art img{max-height:100px}
+.volume-control{display:flex;align-items:center;gap:5px;color:#bdc7b9;font-size:11px;white-space:nowrap;min-height:44px;min-width:0}
+.volume-control input{width:76px;max-width:100%;accent-color:#b9a372;min-height:36px;touch-action:auto}
+.nav button{min-width:44px}
+@media(max-width:760px){.nav{width:100%;gap:4px}.nav button{flex:1 1 auto;padding:10px 7px}.volume-control{flex:1 0 110px;justify-content:center}.hero-art{max-width:min(250px,65vw);margin:auto}}
+@media(max-width:430px){.shell{padding:14px}.topbar{gap:6px}.nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.nav button{width:100%;font-size:12px;padding:10px 4px;min-height:44px}.volume-control{grid-column:1;justify-content:flex-start;padding-left:4px}.volume-control input{width:min(110px,24vw)}.choice{min-height:72px;padding:14px 12px}.scene{padding:20px 16px}.catalog-grid{grid-template-columns:1fr;min-width:0}.ending-art img{max-height:230px}}
+@media(max-width:350px){.shell{padding:11px}.hero h1{font-size:35px}.nav button{font-size:11px}.chapter-title{font-size:24px}.scene{padding:18px 14px}.choice strong{font-size:15px}.history-row{grid-template-columns:37px minmax(0,1fr)}}
+@media(prefers-reduced-motion:reduce){.ending-art img{animation:none!important}}

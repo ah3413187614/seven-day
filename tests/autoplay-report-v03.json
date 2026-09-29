@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "no audio created on load",
+    "rejected play retains enabled preference, error name and message",
+    "failed-state button retries without toggling off",
+    "pending-state button starts BGM",
+    "successful play updates button to on",
+    "playing-state button turns off",
+    "off-state button enables and plays",
+    "volume survives reload",
+    "toggle off stops all tracks",
+    "explicit off survives navigation and reload",
+    "pointerdown/click/render share one pending play",
+    "scene change defers pause until first play settles"
+  ]
+}

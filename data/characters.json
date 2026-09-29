@@ -14,6 +14,7 @@
       "routes": "王庭、共同议会",
       "signature_line": "秩序救不了每个人，崩溃也不会只找有罪的人。",
       "character_id": "npc_01",
+      "firstMeetingLabel": "摄政 · 主持王庭事务",
       "values": {
         "protects": "撤离调度",
         "will_sacrifice": "王室资产与个人权位",
@@ -24,7 +25,8 @@
         "can_change": "谁持印及如何监督",
         "cannot_change": "不以王族身份免责"
       },
-      "introduction": "摄政莱娅"
+      "introduction": "摄政莱娅",
+      "spriteKey": "npc_01"
     },
     {
       "name": "玛伦·赫斯",
@@ -40,6 +42,7 @@
       "routes": "王庭、护送",
       "signature_line": "别替我洗干净，让我把下一道命令说清楚。",
       "character_id": "npc_02",
+      "firstMeetingLabel": "骑士队长 · 护送召集者",
       "values": {
         "protects": "眼前的护送对象",
         "will_sacrifice": "军职与清白名声",
@@ -50,7 +53,8 @@
         "can_change": "是否继续带队",
         "cannot_change": "罪行应被如实记录"
       },
-      "introduction": "骑士玛伦"
+      "introduction": "骑士玛伦",
+      "spriteKey": "npc_02"
     },
     {
       "name": "瑟文",
@@ -66,6 +70,7 @@
       "routes": "教会、封印",
       "signature_line": "我希望自己没有错；这不该成为你不能问的理由。",
       "character_id": "npc_03",
+      "firstMeetingLabel": "教皇 · 主持圣堂",
       "values": {
         "protects": "信徒与封印",
         "will_sacrifice": "教职与自身安逸",
@@ -76,7 +81,8 @@
         "can_change": "仪式与权力配置",
         "cannot_change": "不能许诺免除真实代价"
       },
-      "introduction": "教皇瑟文"
+      "introduction": "教皇瑟文",
+      "spriteKey": "npc_03"
     },
     {
       "name": "伊芙·兰",
@@ -92,6 +98,7 @@
       "routes": "医院、禁书",
       "signature_line": "止痛不能代替审判，审判也不能代替止痛。",
       "character_id": "npc_04",
+      "firstMeetingLabel": "修女医师 · 照护伤病者",
       "values": {
         "protects": "伤者获得救治",
         "will_sacrifice": "教职与库存",
@@ -102,7 +109,8 @@
         "can_change": "医院如何管理",
         "cannot_change": "救治不等于赦免"
       },
-      "introduction": "修女医师伊芙"
+      "introduction": "修女医师伊芙",
+      "spriteKey": "npc_04"
     },
     {
       "name": "妮娅",
@@ -118,6 +126,7 @@
       "routes": "教会、边境",
       "signature_line": "我知道路在哪，不代表我同意谁从那里过去。",
       "character_id": "npc_05",
+      "firstMeetingLabel": "魔族信使 · 在边境传递消息",
       "values": {
         "protects": "证词与平民道路",
         "will_sacrifice": "阵营好感",
@@ -128,7 +137,8 @@
         "can_change": "愿与谁合作",
         "cannot_change": "发言权属于自己"
       },
-      "introduction": "魔族信使妮娅"
+      "introduction": "魔族信使妮娅",
+      "spriteKey": "npc_05"
     },
     {
       "name": "萨德",
@@ -144,6 +154,7 @@
       "routes": "医院、渡口",
       "signature_line": "这次把维修方法写上去，不要写我的名字。",
       "character_id": "npc_06",
+      "firstMeetingLabel": "魔族工兵 · 熟悉工事",
       "values": {
         "protects": "桥上的住户",
         "will_sacrifice": "双手与行动自由",
@@ -154,7 +165,8 @@
         "can_change": "接受审判与指挥",
         "cannot_change": "维修不取消赔偿"
       },
-      "introduction": "魔族工兵萨德"
+      "introduction": "魔族工兵萨德",
+      "spriteKey": "npc_06"
     },
     {
       "name": "瓦尔",
@@ -170,6 +182,7 @@
       "routes": "魔王城、证词",
       "signature_line": "没有军队的和平，谁来保证它不会被下一支军队撕掉？",
       "character_id": "npc_07",
+      "firstMeetingLabel": "魔族将领 · 代表诸部",
       "values": {
         "protects": "军队代表权",
         "will_sacrifice": "部下的利益与他人名誉",
@@ -180,7 +193,8 @@
         "can_change": "有限停火条件",
         "cannot_change": "不会被一句劝说放弃权力"
       },
-      "introduction": "魔族将领瓦尔"
+      "introduction": "魔族将领瓦尔",
+      "spriteKey": "npc_07"
     },
     {
       "name": "阿瑟兰",
@@ -196,6 +210,7 @@
       "routes": "龙境、封印",
       "signature_line": "我也知道这不公平，可那是我的孩子。",
       "character_id": "npc_08",
+      "firstMeetingLabel": "古龙 · 守着龙井",
       "values": {
         "protects": "幼龙与龙巢",
         "will_sacrifice": "礼仪和有限特权",
@@ -206,7 +221,8 @@
         "can_change": "公开责任与轮值",
         "cannot_change": "不会自动原谅屠龙"
       },
-      "introduction": "守井古龙阿瑟兰"
+      "introduction": "守井古龙阿瑟兰",
+      "spriteKey": "npc_08"
     },
     {
       "name": "缇尔",
@@ -222,6 +238,7 @@
       "routes": "旧林、遗迹",
       "signature_line": "空白不代表没有人，常常只是画图的人不愿看见。",
       "character_id": "npc_09",
+      "firstMeetingLabel": "学者 · 绘制地图与管道",
       "values": {
         "protects": "可复核的知识",
         "will_sacrifice": "族籍与秘密",
@@ -232,7 +249,8 @@
         "can_change": "图纸归属",
         "cannot_change": "不能删去不利测量"
       },
-      "introduction": "精灵地图师缇尔"
+      "introduction": "精灵地图师缇尔",
+      "spriteKey": "npc_09"
     },
     {
       "name": "托马",
@@ -248,6 +266,7 @@
       "routes": "故乡、议会",
       "signature_line": "你可以回来，但不要替没回来的人宣布原谅。",
       "character_id": "npc_10",
+      "firstMeetingLabel": "村长兼木匠 · 留守故乡",
       "values": {
         "protects": "村民休息的机会",
         "will_sacrifice": "代表席与自己的船位",
@@ -258,7 +277,8 @@
         "can_change": "谁来主持村务",
         "cannot_change": "普通生活值得被照料"
       },
-      "introduction": "村长托马"
+      "introduction": "村长托马",
+      "spriteKey": "npc_10"
     },
     {
       "name": "奥伦",
@@ -274,6 +294,7 @@
       "routes": "军粮、预算",
       "signature_line": "这笔钱确实救过人，它也确实不是我的。",
       "character_id": "npc_11",
+      "firstMeetingLabel": "账房 · 核对账册",
       "values": {
         "protects": "救济线与自身安全",
         "will_sacrifice": "账面名誉",
@@ -284,7 +305,8 @@
         "can_change": "接受外部复核",
         "cannot_change": "不会突然不再自辩"
       },
-      "introduction": "账房奥伦"
+      "introduction": "账房奥伦",
+      "spriteKey": "npc_11"
     },
     {
       "name": "维克",
@@ -300,6 +322,7 @@
       "routes": "广场、工程",
       "signature_line": "我们赢了以后，钥匙该交给谁？",
       "character_id": "npc_12",
+      "firstMeetingLabel": "印工兼工程师 · 修造与印刷",
       "values": {
         "protects": "民众掌握工具",
         "will_sacrifice": "旧制度与对手权力",
@@ -310,7 +333,8 @@
         "can_change": "是否接受受害者监督",
         "cannot_change": "没有自动保证永远温和"
       },
-      "introduction": "印工兼工程师维克"
+      "introduction": "印工兼工程师维克",
+      "spriteKey": "npc_12"
     },
     {
       "name": "艾德里安",
@@ -326,6 +350,7 @@
       "routes": "封印、记忆",
       "signature_line": "愿意不是一张永远有效的签名。",
       "character_id": "npc_13",
+      "firstMeetingLabel": "封印中的承压者",
       "values": {
         "protects": "停止与重新同意的权利",
         "will_sacrifice": "寿命与名声",
@@ -336,7 +361,8 @@
         "can_change": "愿意再等多久",
         "cannot_change": "不能因称号被强迫继续"
       },
-      "introduction": "承压者艾德里安"
+      "introduction": "承压者艾德里安",
+      "spriteKey": "npc_13"
     },
     {
       "name": "曙母",
@@ -352,6 +378,7 @@
       "routes": "禁书、核心",
       "signature_line": "我能替你省去犹豫。你只需告诉我，谁可以不被计算。",
       "character_id": "npc_14",
+      "firstMeetingLabel": "神谕中的声音",
       "values": {
         "protects": "系统稳定目标",
         "will_sacrifice": "被抽取者的个人利益",
@@ -362,7 +389,8 @@
         "can_change": "接口权力可被人限制",
         "cannot_change": "神性不能凭停机被证实或否定"
       },
-      "introduction": "分配意志曙母"
+      "introduction": "分配意志曙母",
+      "spriteKey": "npc_14"
     }
   ]
 }

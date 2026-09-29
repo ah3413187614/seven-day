@@ -1,51 +1,19 @@
-# 第七日的勇者 · V0.2
+# 《第七日的勇者》
 
-下载并用浏览器直接打开 dist/SeventhDay.html。无需安装、无需启动服务器、无需联网。独立交付的 SeventhDay.html 与此文件相同。
+**Dark Fantasy Interactive Narrative** · 当前最新版 **V0.3**
 
-七天，每天一次决定，每处固定四个选择。昨日改变今日处境，重大行为与所见证据长期保留。通关后可再走一局，图鉴只显示已发现的称号。
+七天选择结构，每天四个行动。**Yesterday's choice determines today's options.** 昨日的决定改变今日能做什么，七日共同决定结局。
 
-## 本版范围
+下载并直接打开根目录的 `SeventhDay.html` 即可离线游玩。Android APK 在规划中；仓库的 `android/` 是包装工程，当前没有已验证的 APK 成品。
 
-89 场景／356 选择／14 NPC／24 弧光／10 真相片段／18 条件选项槽／24 重点尾声包。176 条候选规则中，166 个称号经穷举可触发。称号不是同等数量的独立世界结局：基础身份共 16 类，有限收拢，尾声结合本局动作与相遇生成。
+历史版本：[`v0.1.0`](../../tree/v0.1.0)、[`v0.2.0`](../../tree/v0.2.0)、[`v0.3.0`](../../tree/v0.3.0)。各 tag 保留对应时期的文件；V0.1 的变更记录是归档补录。
 
-真实浏览器视觉、移动端与读屏 QA 尚未完成。逻辑与实际打包 HTML 的模拟 DOM 测试已通过，不代替真实渲染。音频、额外插画与真人盲测未实装／未执行。
+# 第七日的勇者 · V0.3 封板版
 
-## 保存与旧版
+直接打开根目录的 `SeventhDay.html` 离线游玩。七天、每天四个可执行选择，昨日行为改变今日处境与最终称号。通关后的图鉴可回看完整结局；旅程档案保存最近40局，每个已解锁称号另保留一次完整代表记录。
 
-新版自动保存使用独立键 seventh-day-v2。建议在重要进度处导出 JSON；浏览器对 file:// 本地保存的行为可能不同。
+本体以文字、UI、BGM和极少量纹章呈现。剧情中不显示像素人物；首次相遇时有简洁NPC身份标签。普通Ending没有大型插画。8个Premium称号保留高质量插画接口，目前尚无正式图片，缺图时自然呈现文字结局。BGM有5段原创程序合成原型；新玩家默认愿意听，但首次明确交互后才播放。玩家主动关闭的音乐设置不会被重开。
 
-V0.1 存档不能直接导入 V0.2，以免相同 choice ID 被解释成不同操作。旧键不删除；项目 archive/SeventhDay_v01.html 保留旧引擎，可导入旧 JSON。新版图鉴与周目从新版独立累计，没有自动把旧结局视为新规则已完成。
+项目HTML内嵌文字、UI、音频和实际使用的资源，不依赖CDN、服务器或远程字体。WebView包装尚未实测，不宣称APK已制作。Chrome/Edge真实视觉、真机触控、音频听感、真人盲测仍待验证。路径存档JSON导出只包括本局，不包括全档案。V0.2旧图鉴题名保留；旧版没有记录的完整历史无法凭空恢复。
 
-## 项目入口
-
-| 内容 | 路径 |
-|---|---|
-| 可直接游玩 | dist/SeventhDay.html |
-| 交接与限制 | docs/CODEX_HANDOFF.md |
-| 修改前双路线与修改后回放 | docs/playtest_v02.md |
-| 89 节点、真相、权限、24 弧光审核 | docs/narrative_polish_v02.md |
-| 168 结局逐项评级 | docs/ending_quality_review.md |
-| 真实视觉 QA 状态 | docs/visual_qa_v02.md |
-| 美术／音频计划 | docs/art_direction.md、docs/audio_plan.md |
-| 完整文案与事件数据 | scripts/、data/、docs/story_reference.md |
-| 版本改动 | CHANGELOG_V0.2.md |
-
-## 开发构建（玩家不需要）
-
-需要 Python 3 与 Node；本体无运行依赖。
-
-```sh
-python3 scripts/build.py
-node tests/exhaustive.cjs
-node tests/random.cjs 100000 20260928
-node tests/evidence-v02.cjs
-python3 scripts/pack.py
-node tests/package.cjs
-python3 scripts/reports.py
-python3 scripts/quality_review.py
-python3 scripts/reports_v02.py
-```
-
-有现成 Playwright 与浏览器后另运行 node tests/browser.cjs。脚本不会替你下载浏览器。报告生成使用最近的 browser-report-v02.json；如尚未真实运行，保留 blocked，不可改成通过。
-
-最终交付打包：在上述测试与构建完成后运行 `python3 scripts/finalize_v02.py`。它检查报告、同步三个 HTML、生成 SHA-256 清单并验证项目 ZIP；交付文件写在工程的上一级目录。
+89节点、356行动、24弧光、10真相、166可达称号。构建与回归命令见 `docs/CODEX_HANDOFF.md`；封板状态和测试边界见 `docs/playtest_v03.md`、`docs/visual_qa_v03.md`、`docs/audio_system_v03.md`。
