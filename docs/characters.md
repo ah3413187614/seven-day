@@ -13,6 +13,8 @@
 - **related_endings**：国王、染血救世主
 - **routes**：王庭、共同议会
 - **signature_line**：秩序救不了每个人，崩溃也不会只找有罪的人。
+- **values**：{'protects': '撤离调度', 'will_sacrifice': '王室资产与个人权位', 'red_line': '让灾民独担家族责任', 'bias': '把集中权力当作唯一效率', 'mistake': '默认候选者会同意', 'secret': '父亲失败的选拔', 'can_change': '谁持印及如何监督', 'cannot_change': '不以王族身份免责'}
+- **introduction**：摄政莱娅
 
 ## 玛伦·赫斯
 
@@ -27,6 +29,8 @@
 - **related_endings**：勇者、守护者、殉道者
 - **routes**：王庭、护送
 - **signature_line**：别替我洗干净，让我把下一道命令说清楚。
+- **values**：{'protects': '眼前的护送对象', 'will_sacrifice': '军职与清白名声', 'red_line': '把烧村称为误会', 'bias': '以为纪律能约束一切', 'mistake': '执行烧毁哨站的命令', 'secret': '地下平民之死', 'can_change': '是否继续带队', 'cannot_change': '罪行应被如实记录'}
+- **introduction**：骑士玛伦
 
 ## 瑟文
 
@@ -41,6 +45,8 @@
 - **related_endings**：教会领袖、容器
 - **routes**：教会、封印
 - **signature_line**：我希望自己没有错；这不该成为你不能问的理由。
+- **values**：{'protects': '信徒与封印', 'will_sacrifice': '教职与自身安逸', 'red_line': '将拒绝者强推上椅', 'bias': '相信统一祷词能稳定人群', 'mistake': '纵容删改退出权', 'secret': '知道部分答复来自机器', 'can_change': '仪式与权力配置', 'cannot_change': '不能许诺免除真实代价'}
+- **introduction**：教皇瑟文
 
 ## 伊芙·兰
 
@@ -55,6 +61,8 @@
 - **related_endings**：守护者、摆渡人
 - **routes**：医院、禁书
 - **signature_line**：止痛不能代替审判，审判也不能代替止痛。
+- **values**：{'protects': '伤者获得救治', 'will_sacrifice': '教职与库存', 'red_line': '按种族停药', 'bias': '对政治组织缺乏耐心', 'mistake': '曾低估私藏病历的牵连', 'secret': '保存两族原始病历', 'can_change': '医院如何管理', 'cannot_change': '救治不等于赦免'}
+- **introduction**：修女医师伊芙
 
 ## 妮娅
 
@@ -69,6 +77,8 @@
 - **related_endings**：和平、见证者
 - **routes**：教会、边境
 - **signature_line**：我知道路在哪，不代表我同意谁从那里过去。
+- **values**：{'protects': '证词与平民道路', 'will_sacrifice': '阵营好感', 'red_line': '别人替她答应公开坐标', 'bias': '起初不信人类的担保', 'mistake': '没看出地图被军方挪用', 'secret': '图上有军事标记', 'can_change': '愿与谁合作', 'cannot_change': '发言权属于自己'}
+- **introduction**：魔族信使妮娅
 
 ## 萨德
 
@@ -83,6 +93,8 @@
 - **related_endings**：摆渡人、分压真结局
 - **routes**：医院、渡口
 - **signature_line**：这次把维修方法写上去，不要写我的名字。
+- **values**：{'protects': '桥上的住户', 'will_sacrifice': '双手与行动自由', 'red_line': '把炸桥之罪抹成战绩', 'bias': '相信工具比谈判可靠', 'mistake': '炸桥造成平民伤亡', 'secret': '自己的爆破手法', 'can_change': '接受审判与指挥', 'cannot_change': '维修不取消赔偿'}
+- **introduction**：魔族工兵萨德
 
 ## 瓦尔
 
@@ -97,6 +109,8 @@
 - **related_endings**：暴君、和平的代价
 - **routes**：魔王城、证词
 - **signature_line**：没有军队的和平，谁来保证它不会被下一支军队撕掉？
+- **values**：{'protects': '军队代表权', 'will_sacrifice': '部下的利益与他人名誉', 'red_line': '失去独占谈判位置', 'bias': '将平民支持等同军方授权', 'mistake': '扣押同族粮车', 'secret': '和平也能作为军功', 'can_change': '有限停火条件', 'cannot_change': '不会被一句劝说放弃权力'}
+- **introduction**：魔族将领瓦尔
 
 ## 阿瑟兰
 
@@ -111,6 +125,8 @@
 - **related_endings**：养龙人、弑龙之后
 - **routes**：龙境、封印
 - **signature_line**：我也知道这不公平，可那是我的孩子。
+- **values**：{'protects': '幼龙与龙巢', 'will_sacrifice': '礼仪和有限特权', 'red_line': '幼龙被当作无主财产', 'bias': '认为长寿者更有资格决定', 'mistake': '祖辈让活人承担本族压力', 'secret': '祖墓是泄压管网', 'can_change': '公开责任与轮值', 'cannot_change': '不会自动原谅屠龙'}
+- **introduction**：守井古龙阿瑟兰
 
 ## 缇尔
 
@@ -125,6 +141,8 @@
 - **related_endings**：理智救世主、真结局
 - **routes**：旧林、遗迹
 - **signature_line**：空白不代表没有人，常常只是画图的人不愿看见。
+- **values**：{'protects': '可复核的知识', 'will_sacrifice': '族籍与秘密', 'red_line': '藏起工程误差', 'bias': '以为准确图纸足以说服人', 'mistake': '隐去有人居住的出口', 'secret': '曾保护墓地机密', 'can_change': '图纸归属', 'cannot_change': '不能删去不利测量'}
+- **introduction**：精灵地图师缇尔
 
 ## 托马
 
@@ -139,6 +157,8 @@
 - **related_endings**：普通人、摆渡人
 - **routes**：故乡、议会
 - **signature_line**：你可以回来，但不要替没回来的人宣布原谅。
+- **values**：{'protects': '村民休息的机会', 'will_sacrifice': '代表席与自己的船位', 'red_line': '替未归者宣布原谅', 'bias': '先照顾熟悉的住户', 'mistake': '曾独自逃离洪灾', 'secret': '旧洪灾的逃生经历', 'can_change': '谁来主持村务', 'cannot_change': '普通生活值得被照料'}
+- **introduction**：村长托马
 
 ## 奥伦
 
@@ -153,6 +173,8 @@
 - **related_endings**：国王、见证者
 - **routes**：军粮、预算
 - **signature_line**：这笔钱确实救过人，它也确实不是我的。
+- **values**：{'protects': '救济线与自身安全', 'will_sacrifice': '账面名誉', 'red_line': '立即切断病村口粮', 'bias': '用善果为手段开脱', 'mistake': '让情报贩运共用粮车', 'secret': '救济账也是牟利账', 'can_change': '接受外部复核', 'cannot_change': '不会突然不再自辩'}
+- **introduction**：账房奥伦
 
 ## 维克
 
@@ -167,6 +189,8 @@
 - **related_endings**：英雄到暴君、真结局
 - **routes**：广场、工程
 - **signature_line**：我们赢了以后，钥匙该交给谁？
+- **values**：{'protects': '民众掌握工具', 'will_sacrifice': '旧制度与对手权力', 'red_line': '钥匙再被贵族收走', 'bias': '把反对派视为破坏者', 'mistake': '纵容煽动与集体处决', 'secret': '害怕失去胜利后的席位', 'can_change': '是否接受受害者监督', 'cannot_change': '没有自动保证永远温和'}
+- **introduction**：印工兼工程师维克
 
 ## 艾德里安
 
@@ -181,6 +205,8 @@
 - **related_endings**：魔王、弑神、终结轮回
 - **routes**：封印、记忆
 - **signature_line**：愿意不是一张永远有效的签名。
+- **values**：{'protects': '停止与重新同意的权利', 'will_sacrifice': '寿命与名声', 'red_line': '把签名解释成永久同意', 'bias': '起初以为接替能终结制度', 'mistake': '未预见继任被无限延期', 'secret': '七百年囚禁不是原约定', 'can_change': '愿意再等多久', 'cannot_change': '不能因称号被强迫继续'}
+- **introduction**：承压者艾德里安
 
 ## 曙母
 
@@ -195,3 +221,5 @@
 - **related_endings**：弑神者、暴君
 - **routes**：禁书、核心
 - **signature_line**：我能替你省去犹豫。你只需告诉我，谁可以不被计算。
+- **values**：{'protects': '系统稳定目标', 'will_sacrifice': '被抽取者的个人利益', 'red_line': '权限被撤销后不再执行征用', 'bias': '把可计算损失当作全部损失', 'mistake': '以稳定覆盖同意', 'secret': '权限来自旧文明建造记录', 'can_change': '接口权力可被人限制', 'cannot_change': '神性不能凭停机被证实或否定'}
+- **introduction**：分配意志曙母

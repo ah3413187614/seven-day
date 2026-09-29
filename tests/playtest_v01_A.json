@@ -1,0 +1,477 @@
+{
+  "state": {
+    "schemaVersion": 1,
+    "nodeId": null,
+    "day": 7,
+    "stats": {
+      "Courage": 3,
+      "Reason": 6,
+      "Mercy": 12,
+      "Ambition": 0,
+      "Faith": 0,
+      "Freedom": 0,
+      "Sacrifice": 0,
+      "Corruption": 0
+    },
+    "relations": {
+      "Kingdom": 1,
+      "Church": 1,
+      "Demons": 1,
+      "Companions": 0,
+      "Dragons": 0,
+      "People": 2
+    },
+    "flags": [
+      "answered_summons",
+      "audited_grain",
+      "separated_accounts",
+      "learned_truth",
+      "met_previous_hero",
+      "civilian_pact",
+      "saved_seeds",
+      "chose_ordinary_life"
+    ],
+    "history": [
+      {
+        "day": 1,
+        "nodeId": "d1_start",
+        "choiceId": "d1_start_1",
+        "primary": "Courage",
+        "text": "带着故乡的粮单，响应王都召集。",
+        "consequence": "你得到入城凭证；村里的青壮少了一个。",
+        "flags": [
+          "answered_summons"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      {
+        "day": 2,
+        "nodeId": "d2_c",
+        "choiceId": "d2_c_2",
+        "primary": "Reason",
+        "text": "留下核对军粮账，暂缓出征。",
+        "consequence": "找到虚报数字；玛伦独自赶往前线。",
+        "flags": [
+          "audited_grain"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      {
+        "day": 3,
+        "nodeId": "d3_c_ledger",
+        "choiceId": "d3_c_ledger_2",
+        "primary": "Reason",
+        "text": "保留救济支出，只追查军情买家。",
+        "consequence": "追查方向变窄；你必须替部分假账担责。",
+        "flags": [
+          "separated_accounts"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      {
+        "day": 4,
+        "nodeId": "d4_h_ledger",
+        "choiceId": "d4_h_ledger_2",
+        "primary": "Mercy",
+        "text": "将原件交给艾德里安，请他确认自己的意愿。",
+        "consequence": "旧勇者重新成为能回答的人；你必须进入魔王城。",
+        "flags": [
+          "met_previous_hero"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      {
+        "day": 5,
+        "nodeId": "d5_h_revolt",
+        "choiceId": "d5_h_revolt_2",
+        "primary": "Mercy",
+        "text": "邀请两族平民代表另签救援公约。",
+        "consequence": "平民获得独立声音；军事保护有所减弱。",
+        "flags": [
+          "civilian_pact"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 6,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      {
+        "day": 6,
+        "nodeId": "d6_v_oath",
+        "choiceId": "d6_v_oath_3",
+        "primary": "Mercy",
+        "text": "为种子与儿童保留第一批船位。",
+        "consequence": "灾后生活有了起点；部分战斗物资被留下。",
+        "flags": [
+          "saved_seeds"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 6,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 9,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 2
+          }
+        }
+      },
+      {
+        "day": 7,
+        "nodeId": "d7_v_guard",
+        "choiceId": "d7_v_guard_1",
+        "primary": "Mercy",
+        "text": "留在故乡，照顾活下来的人并承认自己的限度。",
+        "consequence": "日常重新开始；失去的人不会因此回来。",
+        "flags": [
+          "chose_ordinary_life"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 9,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 2
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 12,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 2
+          }
+        }
+      }
+    ],
+    "finished": true,
+    "role": "ordinary",
+    "meta": {
+      "completedRuns": 0
+    }
+  },
+  "ending": {
+    "endingId": "arc_soldier_to_healer",
+    "title": "放下军令的照护者",
+    "role": "ordinary",
+    "kind": "growth",
+    "dominant": "Mercy",
+    "arcs": [
+      "soldier_to_healer"
+    ],
+    "crimes": [],
+    "violent": [],
+    "evidence": [
+      {
+        "day": 1,
+        "text": "带着故乡的粮单，响应王都召集。",
+        "consequence": "你得到入城凭证；村里的青壮少了一个。"
+      },
+      {
+        "day": 2,
+        "text": "留下核对军粮账，暂缓出征。",
+        "consequence": "找到虚报数字；玛伦独自赶往前线。"
+      },
+      {
+        "day": 3,
+        "text": "保留救济支出，只追查军情买家。",
+        "consequence": "追查方向变窄；你必须替部分假账担责。"
+      },
+      {
+        "day": 4,
+        "text": "将原件交给艾德里安，请他确认自己的意愿。",
+        "consequence": "旧勇者重新成为能回答的人；你必须进入魔王城。"
+      },
+      {
+        "day": 5,
+        "text": "邀请两族平民代表另签救援公约。",
+        "consequence": "平民获得独立声音；军事保护有所减弱。"
+      },
+      {
+        "day": 6,
+        "text": "为种子与儿童保留第一批船位。",
+        "consequence": "灾后生活有了起点；部分战斗物资被留下。"
+      },
+      {
+        "day": 7,
+        "text": "留在故乡，照顾活下来的人并承认自己的限度。",
+        "consequence": "日常重新开始；失去的人不会因此回来。"
+      }
+    ],
+    "status": {
+      "dragon": "alive",
+      "previousHero": "supported",
+      "player": "alive"
+    },
+    "reason": "早期与后期行动发生可核对的转变。",
+    "relations": {
+      "Kingdom": 1,
+      "Church": 1,
+      "Demons": 1,
+      "Companions": 0,
+      "Dragons": 0,
+      "People": 2
+    },
+    "epilogue": {
+      "number": "S09",
+      "title": "最后的普通人",
+      "main": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。 日常重新开始；失去的人不会因此回来。",
+      "npc": "龙族仍保留自己的立场，没有因你的终局身份自动与你和解。\n\n艾德里安仍由留守队支撑；你的局部救援没有自动解决容器的长期困境。\n\n同行者各自回到需要他们的地方；他们仍有拒绝你下一次请求的权利。",
+      "world": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
+      "self": "你记得第一天的选择：“带着故乡的粮单，响应王都召集。”七天后，那个决定没有被后来的身份抹去。",
+      "last": "第八天，你仍然需要起床。"
+    },
+    "badges": {
+      "zeroDirectKill": true,
+      "allNamedAlive": true,
+      "swordless": true,
+      "independent": true
+    }
+  }
+}

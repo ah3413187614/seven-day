@@ -1,11 +1,11 @@
 const fs=require('fs'),path=require('path'),assert=require('assert/strict');
 const root=path.resolve(__dirname,'..'),data=JSON.parse(fs.readFileSync(path.join(root,'data/bundle.json'),'utf8'));
 const E=require('../src/engine.js').createEngine(data);
-const report={version:1,nodes:Object.keys(data.story.nodes).length,choices:Object.keys(data.choices).length,candidateTitles:data.endings.length,arcs:data.arcs.length,runs:{},assertions:[],limitations:[]};
+const report={version:2,nodes:Object.keys(data.story.nodes).length,choices:Object.keys(data.choices).length,candidateTitles:data.endings.length,arcs:data.arcs.length,runs:{},assertions:[],limitations:[]};
 assert.equal(new Set(data.endings.map(e=>e.title)).size,data.endings.length,'Duplicate titles');
 for(const n of Object.values(data.story.nodes)){
  assert.equal(n.choices.length,4);assert.equal(new Set(n.choices).size,4);
- assert.ok(n.scene.length>=100&&n.scene.length<=400,`${n.node_id} scene ${n.scene.length}`);
+ assert.ok(n.scene.length>=120&&n.scene.length<=300,`${n.node_id} scene ${n.scene.length}`);
  assert.equal(new Set(n.choices.map(id=>data.choices[id].text)).size,4);
  if(n.day<7){assert.equal(new Set(n.choices.map(id=>data.choices[id].next_node)).size,4,'same successor within menu');
  for(const id of n.choices){const c=data.choices[id];assert.equal(data.story.nodes[c.next_node].day,n.day+1);assert.ok(data.story.nodes[c.next_node].previous_requirement.any_previous_choice.includes(id));}}

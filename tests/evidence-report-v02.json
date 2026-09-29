@@ -1,0 +1,6729 @@
+{
+  "version": "0.2",
+  "visitedStates": 21845,
+  "terminalStates": 16384,
+  "gates": {
+    "d4_w_oath_1": {
+      "full": 1,
+      "limited": 3,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_2",
+            "d2_h_1",
+            "d3_h_oath_4",
+            "d4_w_oath_1"
+          ],
+          "truths": [
+            "truth_container_system",
+            "truth_sword_nature"
+          ],
+          "flags": [
+            "sought_prophecy",
+            "obeyed_church",
+            "shared_burden"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_3",
+            "d2_w_1",
+            "d3_w_oath_1",
+            "d4_w_oath_1"
+          ],
+          "truths": [
+            "truth_sword_nature"
+          ],
+          "flags": [
+            "entered_forest",
+            "took_holy_sword",
+            "bound_dragon_pact"
+          ]
+        }
+      }
+    },
+    "d4_w_oath_4": {
+      "full": 1,
+      "limited": 3,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_2",
+            "d2_h_1",
+            "d3_h_oath_4",
+            "d4_w_oath_4"
+          ],
+          "truths": [
+            "truth_container_system",
+            "truth_sword_nature"
+          ],
+          "flags": [
+            "sought_prophecy",
+            "obeyed_church",
+            "shared_burden"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_3",
+            "d2_w_1",
+            "d3_w_oath_1",
+            "d4_w_oath_4"
+          ],
+          "truths": [
+            "truth_sword_nature"
+          ],
+          "flags": [
+            "entered_forest",
+            "took_holy_sword",
+            "bound_dragon_pact"
+          ]
+        }
+      }
+    },
+    "d6_c_ledger_1": {
+      "full": 1,
+      "limited": 30,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_3",
+            "d5_c_revolt_1",
+            "d6_c_ledger_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_dragon_network"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "confessed_lie",
+            "supervised_official"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_3",
+            "d2_w_2",
+            "d3_w_ledger_3",
+            "d4_h_ledger_1",
+            "d5_c_revolt_1",
+            "d6_c_ledger_1"
+          ],
+          "truths": [
+            "truth_abyss_function",
+            "truth_hero_identity",
+            "truth_church_edit",
+            "truth_container_system",
+            "truth_dragon_network"
+          ],
+          "flags": [
+            "entered_forest",
+            "refused_holy_sword",
+            "measured_abyss",
+            "published_original_record",
+            "supervised_official"
+          ]
+        }
+      }
+    },
+    "d6_h_oath_3": {
+      "full": 12,
+      "limited": 40,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_1",
+            "d6_h_oath_3"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_goddess_origin"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "accepted_crosier"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_3",
+            "d3_c_revolt_1",
+            "d4_h_oath_1",
+            "d5_h_oath_1",
+            "d6_h_oath_3"
+          ],
+          "truths": [
+            "truth_church_edit",
+            "truth_goddess_origin"
+          ],
+          "flags": [
+            "answered_summons",
+            "challenged_crown",
+            "shared_sentence",
+            "reformed_oath",
+            "accepted_crosier"
+          ]
+        }
+      }
+    },
+    "d6_w_oath_2": {
+      "full": 5,
+      "limited": 54,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_4",
+            "d6_w_oath_2"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "replaced_pope"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_4",
+            "d3_c_guard_3",
+            "d4_w_ledger_1",
+            "d5_w_guard_2",
+            "d6_w_oath_2"
+          ],
+          "truths": [
+            "truth_abyss_function",
+            "truth_dragon_network",
+            "truth_common_people_cost"
+          ],
+          "flags": [
+            "answered_summons",
+            "escorted_refugees",
+            "verified_warning",
+            "exposed_dragon_role",
+            "dragon_priority"
+          ]
+        }
+      }
+    },
+    "d6_w_ledger_1": {
+      "full": 22,
+      "limited": 64,
+      "witnesses": {
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_2",
+            "d4_h_ledger_3",
+            "d5_w_ledger_1",
+            "d6_w_ledger_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_hero_identity",
+            "truth_church_edit",
+            "truth_container_system",
+            "truth_abyss_function",
+            "truth_dragon_network"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "shared_writ",
+            "researched_lattice",
+            "lattice_validated"
+          ]
+        },
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_3",
+            "d4_c_revolt_3",
+            "d5_h_ledger_1",
+            "d6_w_ledger_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_abyss_function",
+            "truth_goddess_origin"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "burned_order",
+            "held_public_hearing",
+            "edited_mother_protocol"
+          ]
+        }
+      }
+    },
+    "d7_c_ledger_1": {
+      "full": 1,
+      "limited": 30,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_3",
+            "d5_c_revolt_1",
+            "d6_c_ledger_1",
+            "d7_c_ledger_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_dragon_network"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "confessed_lie",
+            "supervised_official",
+            "partial_load"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_3",
+            "d2_w_2",
+            "d3_w_ledger_3",
+            "d4_h_ledger_1",
+            "d5_c_revolt_1",
+            "d6_c_ledger_1",
+            "d7_c_ledger_1"
+          ],
+          "truths": [
+            "truth_abyss_function",
+            "truth_hero_identity",
+            "truth_church_edit",
+            "truth_container_system",
+            "truth_dragon_network"
+          ],
+          "flags": [
+            "entered_forest",
+            "refused_holy_sword",
+            "measured_abyss",
+            "published_original_record",
+            "supervised_official",
+            "shared_load"
+          ]
+        }
+      }
+    },
+    "d7_h_ledger_1": {
+      "full": 64,
+      "limited": 52,
+      "witnesses": {
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_1",
+            "d6_h_oath_2",
+            "d7_h_ledger_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_goddess_origin"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "accepted_crosier",
+            "reparation_covenant"
+          ]
+        },
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_3",
+            "d6_h_revolt_4",
+            "d7_h_ledger_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_hero_identity",
+            "truth_church_edit"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "destroyed_candidate_list",
+            "received_memory"
+          ]
+        }
+      }
+    },
+    "d7_h_revolt_2": {
+      "full": 104,
+      "limited": 34,
+      "witnesses": {
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_1",
+            "d6_h_oath_3",
+            "d7_h_revolt_2"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_goddess_origin",
+            "truth_hero_identity"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "accepted_crosier",
+            "oracle_audit"
+          ]
+        },
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_4",
+            "d5_c_guard_2",
+            "d6_c_guard_1",
+            "d7_h_revolt_2"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_hero_identity"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "evacuated_north",
+            "forgave_traitor",
+            "trusted_companion_again"
+          ]
+        }
+      }
+    },
+    "d7_h_revolt_3": {
+      "full": 7,
+      "limited": 131,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_1",
+            "d6_h_oath_3",
+            "d7_h_revolt_3"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_goddess_origin",
+            "truth_hero_identity"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "accepted_crosier",
+            "oracle_audit"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_4",
+            "d3_c_guard_3",
+            "d4_w_ledger_4",
+            "d5_w_revolt_2",
+            "d6_c_guard_1",
+            "d7_h_revolt_3"
+          ],
+          "truths": [
+            "truth_abyss_function",
+            "truth_dragon_network",
+            "truth_hero_identity",
+            "truth_container_system"
+          ],
+          "flags": [
+            "answered_summons",
+            "escorted_refugees",
+            "verified_warning",
+            "took_dragon_bone",
+            "surrendered_power",
+            "trusted_companion_again"
+          ]
+        }
+      }
+    },
+    "d7_w_oath_3": {
+      "full": 76,
+      "limited": 336,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_1",
+            "d6_h_oath_4",
+            "d7_w_oath_3"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_goddess_origin"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "accepted_crosier",
+            "sole_volunteer"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_2",
+            "d4_h_ledger_3",
+            "d5_w_ledger_1",
+            "d6_w_ledger_2",
+            "d7_w_oath_3"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_hero_identity",
+            "truth_church_edit",
+            "truth_container_system",
+            "truth_abyss_function",
+            "truth_dragon_network"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "shared_writ",
+            "researched_lattice",
+            "lattice_validated",
+            "personal_buffer"
+          ]
+        }
+      }
+    },
+    "d7_w_ledger_1": {
+      "full": 5,
+      "limited": 198,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_2",
+            "d6_h_ledger_2",
+            "d7_w_ledger_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_goddess_origin"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "decentralized_church",
+            "built_exit_switch"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_4",
+            "d3_c_guard_3",
+            "d4_w_ledger_1",
+            "d5_w_guard_2",
+            "d6_w_oath_2",
+            "d7_w_ledger_1"
+          ],
+          "truths": [
+            "truth_abyss_function",
+            "truth_dragon_network",
+            "truth_common_people_cost"
+          ],
+          "flags": [
+            "answered_summons",
+            "escorted_refugees",
+            "verified_warning",
+            "exposed_dragon_role",
+            "dragon_priority",
+            "opened_backup_channel"
+          ]
+        }
+      }
+    },
+    "d7_w_ledger_2": {
+      "full": 76,
+      "limited": 127,
+      "witnesses": {
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_2",
+            "d6_h_ledger_2",
+            "d7_w_ledger_2"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_goddess_origin"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "decentralized_church",
+            "built_exit_switch"
+          ]
+        },
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_4",
+            "d6_w_oath_2",
+            "d7_w_ledger_2"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "replaced_pope",
+            "requested_channel_audit"
+          ]
+        }
+      }
+    },
+    "d7_w_guard_1": {
+      "full": 32,
+      "limited": 193,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_4",
+            "d6_w_oath_3",
+            "d7_w_guard_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "replaced_pope",
+            "erased_hero_credit"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_4",
+            "d3_c_guard_3",
+            "d4_w_ledger_2",
+            "d5_w_oath_3",
+            "d6_w_guard_1",
+            "d7_w_guard_1"
+          ],
+          "truths": [
+            "truth_abyss_function",
+            "truth_dragon_network",
+            "truth_hero_identity",
+            "truth_container_system"
+          ],
+          "flags": [
+            "answered_summons",
+            "escorted_refugees",
+            "verified_warning",
+            "kept_dragon_secret",
+            "relieved_hero",
+            "rotating_watch"
+          ]
+        }
+      }
+    },
+    "d7_v_oath_1": {
+      "full": 22,
+      "limited": 379,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_4",
+            "d6_w_oath_4",
+            "d7_v_oath_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "replaced_pope",
+            "rejected_single_vessel"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_2",
+            "d4_h_ledger_3",
+            "d5_w_ledger_1",
+            "d6_w_ledger_3",
+            "d7_v_oath_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_hero_identity",
+            "truth_church_edit",
+            "truth_container_system",
+            "truth_abyss_function",
+            "truth_dragon_network"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "shared_writ",
+            "researched_lattice",
+            "lattice_validated",
+            "open_lattice"
+          ]
+        }
+      }
+    },
+    "d7_v_ledger_1": {
+      "full": 22,
+      "limited": 623,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_2",
+            "d5_c_ledger_2",
+            "d6_v_ledger_1",
+            "d7_v_ledger_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "held_succession_record",
+            "delayed_seal",
+            "kept_ferry"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_2",
+            "d4_h_ledger_3",
+            "d5_w_ledger_1",
+            "d6_w_ledger_1",
+            "d7_v_ledger_1"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_hero_identity",
+            "truth_church_edit",
+            "truth_container_system",
+            "truth_abyss_function",
+            "truth_dragon_network"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "shared_writ",
+            "researched_lattice",
+            "lattice_validated",
+            "shared_load"
+          ]
+        }
+      }
+    },
+    "d7_v_guard_3": {
+      "full": 183,
+      "limited": 436,
+      "witnesses": {
+        "limited": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_1",
+            "d4_c_oath_1",
+            "d5_h_oath_3",
+            "d6_h_revolt_3",
+            "d7_v_guard_3"
+          ],
+          "truths": [
+            "truth_common_people_cost",
+            "truth_kingdom_succession",
+            "truth_container_system",
+            "truth_hero_identity"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "requisitioned_horses",
+            "accepted_training",
+            "destroyed_candidate_list",
+            "dismissed_armies"
+          ]
+        },
+        "full": {
+          "choiceIds": [
+            "d1_start_1",
+            "d2_c_1",
+            "d3_c_oath_3",
+            "d4_c_revolt_1",
+            "d5_h_guard_3",
+            "d6_v_guard_1",
+            "d7_v_guard_3"
+          ],
+          "truths": [
+            "truth_common_people_cost"
+          ],
+          "flags": [
+            "answered_summons",
+            "obeyed_kingdom",
+            "burned_order",
+            "protected_clergy",
+            "sold_home_for_medicine",
+            "chose_home"
+          ]
+        }
+      }
+    },
+    "d7_w_oath_sword_2": {
+      "full": 6,
+      "limited": 21,
+      "witnesses": {
+        "full": {
+          "choiceIds": [
+            "d1_start_3",
+            "d2_w_1",
+            "d3_w_oath_1",
+            "d4_w_oath_1",
+            "d5_c_guard_1",
+            "d6_h_ledger_4",
+            "d7_w_oath_sword_2"
+          ],
+          "truths": [
+            "truth_sword_nature",
+            "truth_goddess_origin",
+            "truth_common_people_cost"
+          ],
+          "flags": [
+            "entered_forest",
+            "took_holy_sword",
+            "bound_dragon_pact",
+            "limited_sword",
+            "submitted_maren",
+            "refused_substitute"
+          ]
+        },
+        "limited": {
+          "choiceIds": [
+            "d1_start_3",
+            "d2_w_1",
+            "d3_w_oath_1",
+            "d4_w_oath_1",
+            "d5_c_guard_4",
+            "d6_w_guard_4",
+            "d7_w_oath_sword_2"
+          ],
+          "truths": [
+            "truth_sword_nature"
+          ],
+          "flags": [
+            "entered_forest",
+            "took_holy_sword",
+            "bound_dragon_pact",
+            "limited_sword",
+            "took_maren_post",
+            "befriended_dragon"
+          ]
+        }
+      }
+    }
+  },
+  "maxTruths": 7,
+  "maxMet": 11,
+  "arcWitnesses": {
+    "believer_to_inquirer": {
+      "early": {
+        "day": 2,
+        "nodeId": "d2_c",
+        "choiceId": "d2_c_1",
+        "mode": "full",
+        "stat_change": {
+          "Faith": 3
+        },
+        "primary": "Faith",
+        "text": "签下征召誓书，换取故乡的粮车。",
+        "consequence": "粮车出发；你须接受王庭征用。",
+        "flags": [
+          "obeyed_kingdom"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_h_oath",
+        "choiceId": "d6_h_oath_2",
+        "mode": "full",
+        "stat_change": {
+          "Reason": 3
+        },
+        "primary": "Reason",
+        "text": "把忏悔与赔偿写入继任公约。",
+        "consequence": "旧罪留在记录里；你失去无瑕的公众形象。",
+        "flags": [
+          "reparation_covenant"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 9,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 2,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 9,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 3,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_h_ledger",
+          "choiceId": "d7_h_ledger_1",
+          "mode": "full",
+          "stat_change": {
+            "Reason": 3
+          },
+          "primary": "Reason",
+          "text": "永久停用强制神谕核心，保存其计算档案。",
+          "consequence": "强制征用终止；失去中央协调造成长期困难。",
+          "flags": [
+            "killed_oracle"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 9,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 3,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 0
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 6,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 9,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 3,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 0
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_1",
+        "d5_h_oath_1",
+        "d6_h_oath_2",
+        "d7_h_ledger_1"
+      ]
+    },
+    "idealistic_to_pragmatic": {
+      "early": {
+        "day": 2,
+        "nodeId": "d2_c",
+        "choiceId": "d2_c_1",
+        "mode": "full",
+        "stat_change": {
+          "Faith": 3
+        },
+        "primary": "Faith",
+        "text": "签下征召誓书，换取故乡的粮车。",
+        "consequence": "粮车出发；你须接受王庭征用。",
+        "flags": [
+          "obeyed_kingdom"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 5,
+        "nodeId": "d5_h_oath",
+        "choiceId": "d5_h_oath_2",
+        "mode": "full",
+        "stat_change": {
+          "Reason": 3
+        },
+        "primary": "Reason",
+        "text": "拆分教皇职权，交给医师与地方教区。",
+        "consequence": "单人不再控制选拔；决策要经过协商。",
+        "flags": [
+          "decentralized_church"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 6,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 6,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 2,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_h_revolt",
+          "choiceId": "d7_h_revolt_3",
+          "mode": "limited",
+          "stat_change": {
+            "Reason": 3
+          },
+          "primary": "Reason",
+          "text": "先续接止痛管，陪医师寻找他能够安全停止的时刻。",
+          "consequence": "疼痛暂时减轻；停止请求尚未兑现，居民撤离继续。",
+          "flags": [
+            "supported_previous_hero"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 6,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 2,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 0
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 6,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 6,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 2,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 0
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_1",
+        "d5_h_oath_2",
+        "d6_h_ledger_1",
+        "d7_h_revolt_3"
+      ]
+    },
+    "hero_to_tyrant": {
+      "early": {
+        "day": 1,
+        "nodeId": "d1_start",
+        "choiceId": "d1_start_1",
+        "mode": "full",
+        "stat_change": {
+          "Courage": 3
+        },
+        "primary": "Courage",
+        "text": "带着故乡的粮单，响应王都召集。",
+        "consequence": "你得到入城凭证；村里的青壮少了一个。",
+        "flags": [
+          "answered_summons"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_h_ledger",
+        "choiceId": "d6_h_ledger_3",
+        "mode": "full",
+        "stat_change": {
+          "Ambition": 3,
+          "Corruption": 2,
+          "Mercy": -1
+        },
+        "primary": "Ambition",
+        "text": "接受交换，先保证自己的同伴存活。",
+        "consequence": "熟人得到屏障；陌生街区承担压力。",
+        "flags": [
+          "betrayed_strangers"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 6,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 2,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 3,
+            "Mercy": -1,
+            "Ambition": 3,
+            "Faith": 6,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 2
+          },
+          "relations": {
+            "Kingdom": 3,
+            "Church": 2,
+            "Demons": 0,
+            "Companions": -3,
+            "Dragons": 0,
+            "People": -2
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_c_oath_judgment",
+          "choiceId": "d7_c_oath_judgment_4",
+          "mode": "full",
+          "stat_change": {
+            "Ambition": 3,
+            "Corruption": 2,
+            "Mercy": -1
+          },
+          "primary": "Ambition",
+          "text": "让卫队驱逐证人，以封印危机为由永不交权。",
+          "consequence": "你的命令不再被打断；受害者失去拒绝的权利。",
+          "flags": [
+            "enslaved_core"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": -1,
+              "Ambition": 3,
+              "Faith": 6,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 2
+            },
+            "relations": {
+              "Kingdom": 3,
+              "Church": 2,
+              "Demons": 0,
+              "Companions": -3,
+              "Dragons": 0,
+              "People": -2
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": -2,
+              "Ambition": 6,
+              "Faith": 6,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 4
+            },
+            "relations": {
+              "Kingdom": 3,
+              "Church": 2,
+              "Demons": 0,
+              "Companions": -4,
+              "Dragons": 0,
+              "People": -4
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_1",
+        "d5_h_oath_2",
+        "d6_h_ledger_3",
+        "d7_c_oath_judgment_4"
+      ]
+    },
+    "soldier_to_healer": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_oath",
+        "choiceId": "d3_c_oath_1",
+        "mode": "full",
+        "stat_change": {
+          "Courage": 3
+        },
+        "primary": "Courage",
+        "text": "签征马令，亲自跟随粮队承担责问。",
+        "consequence": "粮队能赶上防线；村民失去春耕牲口。",
+        "flags": [
+          "requisitioned_horses"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_h_revolt",
+        "choiceId": "d6_h_revolt_1",
+        "mode": "full",
+        "stat_change": {
+          "Mercy": 3
+        },
+        "primary": "Mercy",
+        "text": "和他约定交接时刻，不再把同意视为永久。",
+        "consequence": "旧勇者保有撤回权；你必须兑现时间。",
+        "flags": [
+          "hero_consent_renewed"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 6,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 6,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 1,
+            "People": 0
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_w_oath",
+          "choiceId": "d7_w_oath_4",
+          "mode": "full",
+          "stat_change": {
+            "Mercy": 3
+          },
+          "primary": "Mercy",
+          "text": "将封印外门改成共同哨所，与龙族轮值。",
+          "consequence": "守门职责不再独占；休息必须以他人的接班换来。",
+          "flags": [
+            "shared_watch_final"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 0,
+              "Mercy": 3,
+              "Ambition": 0,
+              "Faith": 6,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 1,
+              "People": 0
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 0,
+              "Mercy": 6,
+              "Ambition": 0,
+              "Faith": 6,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 1,
+              "People": 0
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_1",
+        "d5_h_oath_3",
+        "d6_h_revolt_1",
+        "d7_w_oath_4"
+      ]
+    },
+    "oathkeeper_to_free": {
+      "early": {
+        "day": 2,
+        "nodeId": "d2_c",
+        "choiceId": "d2_c_1",
+        "mode": "full",
+        "stat_change": {
+          "Faith": 3
+        },
+        "primary": "Faith",
+        "text": "签下征召誓书，换取故乡的粮车。",
+        "consequence": "粮车出发；你须接受王庭征用。",
+        "flags": [
+          "obeyed_kingdom"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 5,
+        "nodeId": "d5_h_oath",
+        "choiceId": "d5_h_oath_3",
+        "mode": "full",
+        "stat_change": {
+          "Freedom": 3
+        },
+        "primary": "Freedom",
+        "text": "烧掉强制候选名单，请信徒自行离开。",
+        "consequence": "被选中的人重获自由；继任储备骤减。",
+        "flags": [
+          "destroyed_candidate_list"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 6,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 6,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_h_guard",
+          "choiceId": "d7_h_guard_4",
+          "mode": "full",
+          "stat_change": {
+            "Freedom": 3
+          },
+          "primary": "Freedom",
+          "text": "拒绝任何职务，回村照料幸存的邻人。",
+          "consequence": "你保有一段普通生活；世界的修复不会因此完成。",
+          "flags": [
+            "chose_ordinary_life"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 6,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 1
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 6,
+              "Freedom": 6,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 1
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_1",
+        "d5_h_oath_3",
+        "d6_h_revolt_2",
+        "d7_h_guard_4"
+      ]
+    },
+    "hero_to_demon_king": {
+      "early": {
+        "day": 1,
+        "nodeId": "d1_start",
+        "choiceId": "d1_start_1",
+        "mode": "full",
+        "stat_change": {
+          "Courage": 3
+        },
+        "primary": "Courage",
+        "text": "带着故乡的粮单，响应王都召集。",
+        "consequence": "你得到入城凭证；村里的青壮少了一个。",
+        "flags": [
+          "answered_summons"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 5,
+        "nodeId": "d5_h_oath",
+        "choiceId": "d5_h_oath_4",
+        "mode": "full",
+        "stat_change": {
+          "Sacrifice": 3
+        },
+        "primary": "Sacrifice",
+        "text": "请瑟文留下照料信徒，由你参加承压。",
+        "consequence": "医院有了熟悉的主持者；你承担他的风险。",
+        "flags": [
+          "replaced_pope"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 6,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 6,
+            "Freedom": 0,
+            "Sacrifice": 3,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 1,
+            "People": 0
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 6,
+          "nodeId": "d6_w_oath",
+          "choiceId": "d6_w_oath_3",
+          "mode": "full",
+          "stat_change": {
+            "Sacrifice": 3
+          },
+          "primary": "Sacrifice",
+          "text": "请求同伴带走黎明的故事，只把痛苦留给自己。",
+          "consequence": "同伴能够离开；你可能不被后世记住。",
+          "flags": [
+            "erased_hero_credit"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 0,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 6,
+              "Freedom": 0,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 1,
+              "Demons": 0,
+              "Companions": 1,
+              "Dragons": 1,
+              "People": 0
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 0,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 6,
+              "Freedom": 0,
+              "Sacrifice": 6,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 1,
+              "Demons": 0,
+              "Companions": 3,
+              "Dragons": 1,
+              "People": 0
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_1",
+        "d5_h_oath_4",
+        "d6_w_oath_3",
+        "d7_w_guard_3"
+      ]
+    },
+    "human_supremacist_to_peacemaker": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_oath",
+        "choiceId": "d3_c_oath_1",
+        "mode": "full",
+        "stat_change": {
+          "Courage": 3
+        },
+        "primary": "Courage",
+        "text": "签征马令，亲自跟随粮队承担责问。",
+        "consequence": "粮队能赶上防线；村民失去春耕牲口。",
+        "flags": [
+          "requisitioned_horses"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 5,
+        "nodeId": "d5_c_ledger",
+        "choiceId": "d5_c_ledger_2",
+        "mode": "full",
+        "stat_change": {
+          "Mercy": 3
+        },
+        "primary": "Mercy",
+        "text": "先撤空外环再关闭，接受中央失守风险。",
+        "consequence": "被当作数字的人获得时间；核心压力继续上升。",
+        "flags": [
+          "delayed_seal"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 3,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 3,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 3,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 6,
+          "nodeId": "d6_v_ledger",
+          "choiceId": "d6_v_ledger_4",
+          "mode": "full",
+          "stat_change": {
+            "Mercy": 3
+          },
+          "primary": "Mercy",
+          "text": "请两族水手共同守船，让家人先过河。",
+          "consequence": "家人与乘客获得照料；船员必须克服旧怨。",
+          "flags": [
+            "mixed_ferry_crew"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": 3,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 3,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 1
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": 6,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 3,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 2
+            }
+          }
+        },
+        {
+          "day": 7,
+          "nodeId": "d7_h_guard",
+          "choiceId": "d7_h_guard_1",
+          "mode": "full",
+          "stat_change": {
+            "Mercy": 3
+          },
+          "primary": "Mercy",
+          "text": "接下医院的终身守护契约，拒绝军事征用。",
+          "consequence": "伤者有了中立家园；守护并不等于没有敌人。",
+          "flags": [
+            "protected_hospital"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": 6,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 3,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 2
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": 9,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 3,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 2
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_2",
+        "d5_c_ledger_2",
+        "d6_v_ledger_4",
+        "d7_h_guard_1"
+      ]
+    },
+    "follower_to_leader": {
+      "early": {
+        "day": 2,
+        "nodeId": "d2_c",
+        "choiceId": "d2_c_1",
+        "mode": "full",
+        "stat_change": {
+          "Faith": 3
+        },
+        "primary": "Faith",
+        "text": "签下征召誓书，换取故乡的粮车。",
+        "consequence": "粮车出发；你须接受王庭征用。",
+        "flags": [
+          "obeyed_kingdom"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_c_ledger",
+        "choiceId": "d6_c_ledger_2",
+        "mode": "full",
+        "stat_change": {
+          "Ambition": 3,
+          "Corruption": 2,
+          "Mercy": -1
+        },
+        "primary": "Ambition",
+        "text": "用军令强制接入，保证系统完整。",
+        "consequence": "模型接近最佳效率；拒绝权消失。",
+        "flags": [
+          "forced_load"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 3,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 3,
+            "Mercy": -1,
+            "Ambition": 3,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 2
+          },
+          "relations": {
+            "Kingdom": 4,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": -1,
+            "Dragons": 0,
+            "People": -1
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_c_oath",
+          "choiceId": "d7_c_oath_1",
+          "mode": "full",
+          "stat_change": {
+            "Ambition": 3
+          },
+          "primary": "Ambition",
+          "text": "戴上王冠，将封印维护纳入公开国法。",
+          "consequence": "王国保留统一调度；你必须接受长期问责。",
+          "flags": [
+            "accepted_crown"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": -1,
+              "Ambition": 3,
+              "Faith": 3,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 2
+            },
+            "relations": {
+              "Kingdom": 4,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": -1,
+              "Dragons": 0,
+              "People": -1
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": -1,
+              "Ambition": 6,
+              "Faith": 3,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 2
+            },
+            "relations": {
+              "Kingdom": 4,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": -1,
+              "Dragons": 0,
+              "People": -1
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_3",
+        "d5_c_revolt_1",
+        "d6_c_ledger_2",
+        "d7_c_oath_1"
+      ]
+    },
+    "skeptic_to_oathkeeper": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_oath",
+        "choiceId": "d3_c_oath_2",
+        "mode": "full",
+        "stat_change": {
+          "Reason": 3
+        },
+        "primary": "Reason",
+        "text": "把王令交给修女，请她核查征用名单。",
+        "consequence": "军需接受外部审计；王庭不再独信你。",
+        "flags": [
+          "shared_writ"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_c_oath",
+        "choiceId": "d6_c_oath_1",
+        "mode": "full",
+        "stat_change": {
+          "Faith": 3
+        },
+        "primary": "Faith",
+        "text": "亲自主持继任仪式，并写明退出权。",
+        "consequence": "仪式得以进行；临阵退出仍可能危及全局。",
+        "flags": [
+          "consent_rite"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 6,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 2,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_h_oath",
+          "choiceId": "d7_h_oath_1",
+          "mode": "full",
+          "stat_change": {
+            "Faith": 3
+          },
+          "primary": "Faith",
+          "text": "接下权杖，把拒绝与退出写成不可删改的教律。",
+          "consequence": "教会继续存在；改革必须日复一日执行。",
+          "flags": [
+            "accepted_crosier"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 6,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 2,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 1
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 9,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 2,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 1
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_2",
+        "d4_h_ledger_1",
+        "d5_c_revolt_2",
+        "d6_c_oath_1",
+        "d7_h_oath_1"
+      ]
+    },
+    "scholar_to_actor": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_oath",
+        "choiceId": "d3_c_oath_2",
+        "mode": "full",
+        "stat_change": {
+          "Reason": 3
+        },
+        "primary": "Reason",
+        "text": "把王令交给修女，请她核查征用名单。",
+        "consequence": "军需接受外部审计；王庭不再独信你。",
+        "flags": [
+          "shared_writ"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 5,
+        "nodeId": "d5_h_revolt",
+        "choiceId": "d5_h_revolt_3",
+        "mode": "full",
+        "stat_change": {
+          "Courage": 3
+        },
+        "primary": "Courage",
+        "text": "公开瓦尔扣押粮车的证据，逼其退让。",
+        "consequence": "军方的体面受损；谈判可能变成武斗。",
+        "flags": [
+          "exposed_var"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 3,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_c_guard",
+          "choiceId": "d7_c_guard_1",
+          "mode": "full",
+          "stat_change": {
+            "Courage": 3
+          },
+          "primary": "Courage",
+          "text": "带最后一队伤者穿过山口，然后放下武器。",
+          "consequence": "这一队人活着抵达；你无法保证远处的城。",
+          "flags": [
+            "escorted_last"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 3,
+              "Mercy": 3,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 2,
+              "Dragons": 0,
+              "People": 1
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 9,
+              "Reason": 3,
+              "Mercy": 3,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 2,
+              "Dragons": 0,
+              "People": 1
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_2",
+        "d4_h_ledger_2",
+        "d5_h_revolt_3",
+        "d6_c_revolt_4",
+        "d7_c_guard_1"
+      ]
+    },
+    "free_to_responsible": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_oath",
+        "choiceId": "d3_c_oath_3",
+        "mode": "full",
+        "stat_change": {
+          "Freedom": 3
+        },
+        "primary": "Freedom",
+        "text": "烧掉征用单，让每户自行决定是否出马。",
+        "consequence": "农户保住选择权；军粮晚到一夜。",
+        "flags": [
+          "burned_order"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_h_ledger",
+        "choiceId": "d6_h_ledger_4",
+        "mode": "full",
+        "stat_change": {
+          "Sacrifice": 3
+        },
+        "primary": "Sacrifice",
+        "text": "由自己承担它索要的份额，拒绝指定替身。",
+        "consequence": "无人替你支付；你承担过量回流。",
+        "flags": [
+          "refused_substitute"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 2
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 3,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 1,
+            "People": 2
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_w_oath",
+          "choiceId": "d7_w_oath_2",
+          "mode": "full",
+          "stat_change": {
+            "Sacrifice": 3
+          },
+          "primary": "Sacrifice",
+          "text": "站在外环承担第一轮黑潮，掩护所有值守者退后。",
+          "consequence": "维护者保存下来；你的生命耗尽。",
+          "flags": [
+            "sacrificed_self"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 3,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 3,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 1,
+              "Demons": 0,
+              "Companions": 1,
+              "Dragons": 1,
+              "People": 2
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 3,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 3,
+              "Sacrifice": 6,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 1,
+              "Demons": 0,
+              "Companions": 2,
+              "Dragons": 1,
+              "People": 2
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_3",
+        "d4_c_revolt_1",
+        "d5_h_guard_1",
+        "d6_h_ledger_4",
+        "d7_w_oath_2"
+      ]
+    },
+    "kindness_to_boundary": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_oath",
+        "choiceId": "d3_c_oath_4",
+        "mode": "full",
+        "stat_change": {
+          "Mercy": 3
+        },
+        "primary": "Mercy",
+        "text": "用自己的军饷雇船，不让士兵进村。",
+        "consequence": "粮食沿河前行；你没有钱购买护身药。",
+        "flags": [
+          "paid_transport"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      "turn": {
+        "day": 4,
+        "nodeId": "d4_v_ledger",
+        "choiceId": "d4_v_ledger_1",
+        "mode": "full",
+        "stat_change": {
+          "Reason": 3
+        },
+        "primary": "Reason",
+        "text": "先登记所有空白村，再动工修渠。",
+        "consequence": "风险能被计算；抢修时间变少。",
+        "flags": [
+          "mapped_all_villages"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 2
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 6,
+          "nodeId": "d6_v_guard",
+          "choiceId": "d6_v_guard_3",
+          "mode": "full",
+          "stat_change": {
+            "Reason": 3
+          },
+          "primary": "Reason",
+          "text": "将种子、病历和钥匙分别交给三个孩子。",
+          "consequence": "未来不依赖一名幸存者；你放弃独自保管遗产。",
+          "flags": [
+            "distributed_future"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 6,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 3
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 6,
+              "Mercy": 6,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 4
+            }
+          }
+        },
+        {
+          "day": 7,
+          "nodeId": "d7_v_ledger",
+          "choiceId": "d7_v_ledger_1",
+          "mode": "limited",
+          "stat_change": {
+            "Reason": 3
+          },
+          "primary": "Reason",
+          "text": "维持本地木闸和轮值，只接回已经确认的一段水路。",
+          "consequence": "本地洪峰被缓住；单一容器制度仍未结束。",
+          "flags": [
+            "local_shared_watch"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 6,
+              "Mercy": 6,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 4
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 9,
+              "Mercy": 6,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 4
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_4",
+        "d4_v_ledger_1",
+        "d5_v_ledger_1",
+        "d6_v_guard_3",
+        "d7_v_ledger_1"
+      ]
+    },
+    "merciful_to_cruel": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_oath",
+        "choiceId": "d3_c_oath_4",
+        "mode": "full",
+        "stat_change": {
+          "Mercy": 3
+        },
+        "primary": "Mercy",
+        "text": "用自己的军饷雇船，不让士兵进村。",
+        "consequence": "粮食沿河前行；你没有钱购买护身药。",
+        "flags": [
+          "paid_transport"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_w_ledger",
+        "choiceId": "d6_w_ledger_4",
+        "mode": "full",
+        "stat_change": {
+          "Corruption": 3
+        },
+        "primary": "Corruption",
+        "text": "接入未经批准的龙晶，强行提高功率。",
+        "consequence": "功率足以压制一轮黑潮；龙晶被永久污染。",
+        "flags": [
+          "unlicensed_boost"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 1,
+            "People": 2
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 3
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 2,
+            "People": 2
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_w_revolt",
+          "choiceId": "d7_w_revolt_1",
+          "mode": "full",
+          "stat_change": {
+            "Corruption": 5,
+            "Mercy": -1
+          },
+          "primary": "Corruption",
+          "text": "独占核心，以恐惧维持一座不会反抗的城。",
+          "consequence": "城内暂时安定；居民的意志成为燃料。",
+          "flags": [
+            "enslaved_core"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 6,
+              "Mercy": 3,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 3
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 2,
+              "People": 2
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 6,
+              "Mercy": 2,
+              "Ambition": 0,
+              "Faith": 3,
+              "Freedom": 0,
+              "Sacrifice": 0,
+              "Corruption": 8
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": -1,
+              "Dragons": 2,
+              "People": 0
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_4",
+        "d4_v_ledger_1",
+        "d5_v_ledger_2",
+        "d6_w_ledger_4",
+        "d7_w_revolt_1"
+      ]
+    },
+    "healer_to_ruler": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_oath",
+        "choiceId": "d3_c_oath_4",
+        "mode": "full",
+        "stat_change": {
+          "Mercy": 3
+        },
+        "primary": "Mercy",
+        "text": "用自己的军饷雇船，不让士兵进村。",
+        "consequence": "粮食沿河前行；你没有钱购买护身药。",
+        "flags": [
+          "paid_transport"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_v_oath",
+        "choiceId": "d6_v_oath_4",
+        "mode": "full",
+        "stat_change": {
+          "Ambition": 3
+        },
+        "primary": "Ambition",
+        "text": "请求临时独裁到日落，用效率赌信任。",
+        "consequence": "命令迅速执行；交权只剩你的承诺。",
+        "flags": [
+          "emergency_dictator"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 3
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 3,
+            "Ambition": 3,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 3
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_c_oath",
+          "choiceId": "d7_c_oath_1",
+          "mode": "full",
+          "stat_change": {
+            "Ambition": 3
+          },
+          "primary": "Ambition",
+          "text": "戴上王冠，将封印维护纳入公开国法。",
+          "consequence": "王国保留统一调度；你必须接受长期问责。",
+          "flags": [
+            "accepted_crown"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 3,
+              "Ambition": 3,
+              "Faith": 3,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 3
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 3,
+              "Ambition": 6,
+              "Faith": 3,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 3
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_4",
+        "d4_v_ledger_1",
+        "d5_v_ledger_3",
+        "d6_v_oath_4",
+        "d7_c_oath_1"
+      ]
+    },
+    "pragmatic_to_idealistic": {
+      "early": {
+        "day": 2,
+        "nodeId": "d2_c",
+        "choiceId": "d2_c_2",
+        "mode": "full",
+        "stat_change": {
+          "Reason": 3
+        },
+        "primary": "Reason",
+        "text": "留下核对军粮账，暂缓出征。",
+        "consequence": "找到虚报数字；玛伦独自赶往前线。",
+        "flags": [
+          "audited_grain"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 5,
+        "nodeId": "d5_c_oath",
+        "choiceId": "d5_c_oath_1",
+        "mode": "full",
+        "stat_change": {
+          "Faith": 3
+        },
+        "primary": "Faith",
+        "text": "接印，保留继任制度并增设志愿见证。",
+        "consequence": "命令立刻生效；制度仍需要一个人受苦。",
+        "flags": [
+          "accepted_crown"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 6,
+          "nodeId": "d6_h_oath",
+          "choiceId": "d6_h_oath_1",
+          "mode": "full",
+          "stat_change": {
+            "Faith": 3
+          },
+          "primary": "Faith",
+          "text": "承认拒绝权，在公开见证下接过权杖。",
+          "consequence": "教会仍有共同仪式；服从不再理所当然。",
+          "flags": [
+            "public_consent"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 3,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 1,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 1
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 6,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 2,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 1
+            }
+          }
+        },
+        {
+          "day": 7,
+          "nodeId": "d7_h_oath",
+          "choiceId": "d7_h_oath_1",
+          "mode": "full",
+          "stat_change": {
+            "Faith": 3
+          },
+          "primary": "Faith",
+          "text": "接下权杖，把拒绝与退出写成不可删改的教律。",
+          "consequence": "教会继续存在；改革必须日复一日执行。",
+          "flags": [
+            "accepted_crosier"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 6,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 2,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 1
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 9,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 2,
+              "Demons": 0,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 1
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_2",
+        "d3_c_ledger_1",
+        "d4_c_revolt_2",
+        "d5_c_oath_1",
+        "d6_h_oath_1",
+        "d7_h_oath_1"
+      ]
+    },
+    "selfish_to_selfless": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_ledger",
+        "choiceId": "d3_c_ledger_3",
+        "mode": "full",
+        "stat_change": {
+          "Ambition": 3
+        },
+        "primary": "Ambition",
+        "text": "接管运输线，用情报收入养活病人。",
+        "consequence": "救济继续；走私者开始称你东家。",
+        "flags": [
+          "lied_for_power"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_h_oath",
+        "choiceId": "d6_h_oath_4",
+        "mode": "full",
+        "stat_change": {
+          "Sacrifice": 3
+        },
+        "primary": "Sacrifice",
+        "text": "把候选者全送出门，留下自己值守。",
+        "consequence": "没人被推上祭台；你成为唯一的缓冲。",
+        "flags": [
+          "sole_volunteer"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 6,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 2,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 6,
+            "Freedom": 0,
+            "Sacrifice": 3,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 2,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 1,
+            "People": 0
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_w_oath",
+          "choiceId": "d7_w_oath_2",
+          "mode": "full",
+          "stat_change": {
+            "Sacrifice": 3
+          },
+          "primary": "Sacrifice",
+          "text": "站在外环承担第一轮黑潮，掩护所有值守者退后。",
+          "consequence": "维护者保存下来；你的生命耗尽。",
+          "flags": [
+            "sacrificed_self"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 6,
+              "Freedom": 0,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 2,
+              "Demons": 0,
+              "Companions": 1,
+              "Dragons": 1,
+              "People": 0
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 6,
+              "Freedom": 0,
+              "Sacrifice": 6,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 2,
+              "Demons": 0,
+              "Companions": 2,
+              "Dragons": 1,
+              "People": 0
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_2",
+        "d3_c_ledger_3",
+        "d4_c_oath_1",
+        "d5_h_oath_1",
+        "d6_h_oath_4",
+        "d7_w_oath_2"
+      ]
+    },
+    "conqueror_to_keeper": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_ledger",
+        "choiceId": "d3_c_ledger_3",
+        "mode": "full",
+        "stat_change": {
+          "Ambition": 3
+        },
+        "primary": "Ambition",
+        "text": "接管运输线，用情报收入养活病人。",
+        "consequence": "救济继续；走私者开始称你东家。",
+        "flags": [
+          "lied_for_power"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_h_revolt",
+        "choiceId": "d6_h_revolt_1",
+        "mode": "full",
+        "stat_change": {
+          "Mercy": 3
+        },
+        "primary": "Mercy",
+        "text": "和他约定交接时刻，不再把同意视为永久。",
+        "consequence": "旧勇者保有撤回权；你必须兑现时间。",
+        "flags": [
+          "hero_consent_renewed"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 3,
+            "Ambition": 3,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 1,
+            "People": 0
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_w_oath",
+          "choiceId": "d7_w_oath_4",
+          "mode": "full",
+          "stat_change": {
+            "Mercy": 3
+          },
+          "primary": "Mercy",
+          "text": "将封印外门改成共同哨所，与龙族轮值。",
+          "consequence": "守门职责不再独占；休息必须以他人的接班换来。",
+          "flags": [
+            "shared_watch_final"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 3,
+              "Ambition": 3,
+              "Faith": 3,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 1,
+              "People": 0
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 3,
+              "Mercy": 6,
+              "Ambition": 3,
+              "Faith": 3,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 1,
+              "People": 0
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_2",
+        "d3_c_ledger_3",
+        "d4_c_oath_1",
+        "d5_h_oath_3",
+        "d6_h_revolt_1",
+        "d7_w_oath_4"
+      ]
+    },
+    "ruler_to_neighbor": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_ledger",
+        "choiceId": "d3_c_ledger_3",
+        "mode": "full",
+        "stat_change": {
+          "Ambition": 3
+        },
+        "primary": "Ambition",
+        "text": "接管运输线，用情报收入养活病人。",
+        "consequence": "救济继续；走私者开始称你东家。",
+        "flags": [
+          "lied_for_power"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 5,
+        "nodeId": "d5_h_oath",
+        "choiceId": "d5_h_oath_3",
+        "mode": "full",
+        "stat_change": {
+          "Freedom": 3
+        },
+        "primary": "Freedom",
+        "text": "烧掉强制候选名单，请信徒自行离开。",
+        "consequence": "被选中的人重获自由；继任储备骤减。",
+        "flags": [
+          "destroyed_candidate_list"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 3,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 2,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_h_guard",
+          "choiceId": "d7_h_guard_4",
+          "mode": "full",
+          "stat_change": {
+            "Freedom": 3
+          },
+          "primary": "Freedom",
+          "text": "拒绝任何职务，回村照料幸存的邻人。",
+          "consequence": "你保有一段普通生活；世界的修复不会因此完成。",
+          "flags": [
+            "chose_ordinary_life"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 6,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 3,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 1
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 6,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 3,
+              "Freedom": 6,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 2,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 1
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_2",
+        "d3_c_ledger_3",
+        "d4_c_oath_1",
+        "d5_h_oath_3",
+        "d6_h_revolt_2",
+        "d7_h_guard_4"
+      ]
+    },
+    "martyr_to_selfowner": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_c_ledger",
+        "choiceId": "d3_c_ledger_4",
+        "mode": "full",
+        "stat_change": {
+          "Sacrifice": 3
+        },
+        "primary": "Sacrifice",
+        "text": "送出自己的行粮，再押奥伦去教会作证。",
+        "consequence": "证人和病人都有退路；你将空腹赶路。",
+        "flags": [
+          "protected_witness"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 3,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      "turn": {
+        "day": 5,
+        "nodeId": "d5_h_ledger",
+        "choiceId": "d5_h_ledger_2",
+        "mode": "full",
+        "stat_change": {
+          "Freedom": 3
+        },
+        "primary": "Freedom",
+        "text": "准备终止分配意志，让各地自行承压。",
+        "consequence": "强制神谕可能终结；协调能力也将消失。",
+        "flags": [
+          "prepared_deicide"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 3,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 0,
+            "People": 1
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 6,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 3,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 1,
+            "Church": 1,
+            "Demons": 1,
+            "Companions": 1,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_h_guard",
+          "choiceId": "d7_h_guard_4",
+          "mode": "full",
+          "stat_change": {
+            "Freedom": 3
+          },
+          "primary": "Freedom",
+          "text": "拒绝任何职务，回村照料幸存的邻人。",
+          "consequence": "你保有一段普通生活；世界的修复不会因此完成。",
+          "flags": [
+            "chose_ordinary_life"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 9,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 0,
+              "Freedom": 3,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 1,
+              "Dragons": 0,
+              "People": 2
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 9,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 0,
+              "Freedom": 6,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 1,
+              "Church": 1,
+              "Demons": 1,
+              "Companions": 1,
+              "Dragons": 0,
+              "People": 2
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_2",
+        "d3_c_ledger_4",
+        "d4_h_guard_1",
+        "d5_h_ledger_2",
+        "d6_h_revolt_2",
+        "d7_h_guard_4"
+      ]
+    },
+    "faithful_to_heretic": {
+      "early": {
+        "day": 1,
+        "nodeId": "d1_start",
+        "choiceId": "d1_start_2",
+        "mode": "full",
+        "stat_change": {
+          "Faith": 3
+        },
+        "primary": "Faith",
+        "text": "去圣辉教会，核对预言中被抹去的人名。",
+        "consequence": "你得到抄经人的席位；教会登记了你的家乡。",
+        "flags": [
+          "sought_prophecy"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 3,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_h_oath",
+        "choiceId": "d6_h_oath_3",
+        "mode": "full",
+        "stat_change": {
+          "Freedom": 3
+        },
+        "primary": "Freedom",
+        "text": "拆除神谕强制回路，将信仰留给个人。",
+        "consequence": "神谕不能再征用人；各教区必须自己决定。",
+        "flags": [
+          "oracle_unbound"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 15,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 4,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 15,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 4,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_h_revolt",
+          "choiceId": "d7_h_revolt_2",
+          "mode": "full",
+          "stat_change": {
+            "Freedom": 3
+          },
+          "primary": "Freedom",
+          "text": "断开强制神谕，与两族共同维护余下的封印。",
+          "consequence": "奴役接口被关闭；维护成本由社会承担。",
+          "flags": [
+            "killed_oracle"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 0,
+              "Reason": 0,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 15,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 4,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 0
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 0,
+              "Reason": 0,
+              "Mercy": 0,
+              "Ambition": 0,
+              "Faith": 15,
+              "Freedom": 6,
+              "Sacrifice": 0,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 4,
+              "Demons": 1,
+              "Companions": 0,
+              "Dragons": 0,
+              "People": 0
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_2",
+        "d2_h_1",
+        "d3_h_oath_1",
+        "d4_h_oath_1",
+        "d5_h_oath_1",
+        "d6_h_oath_3",
+        "d7_h_revolt_2"
+      ]
+    },
+    "cruel_to_redeemed": {
+      "early": {
+        "day": 4,
+        "nodeId": "d4_w_revolt",
+        "choiceId": "d4_w_revolt_4",
+        "mode": "full",
+        "stat_change": {
+          "Corruption": 3
+        },
+        "primary": "Corruption",
+        "text": "用炉芯吸收黑潮试样，亲身查清代价。",
+        "consequence": "你取得难以复制的数据；欲望开始带有别人的声音。",
+        "flags": [
+          "absorbed_abyss"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 2,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 3
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 3,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_w_revolt",
+        "choiceId": "d6_w_revolt_3",
+        "mode": "full",
+        "stat_change": {
+          "Mercy": 3
+        },
+        "primary": "Mercy",
+        "text": "向受害者交还控制权，接受被永久封禁。",
+        "consequence": "伤害有了制止方式；你的行动受限。",
+        "flags": [
+          "accepted_restraint"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": -1,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 8
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": -1,
+            "Dragons": 4,
+            "People": -2
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 6,
+            "Reason": 0,
+            "Mercy": 2,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 8
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": -1,
+            "Dragons": 4,
+            "People": -1
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_h_guard",
+          "choiceId": "d7_h_guard_1",
+          "mode": "full",
+          "stat_change": {
+            "Mercy": 3
+          },
+          "primary": "Mercy",
+          "text": "接下医院的终身守护契约，拒绝军事征用。",
+          "consequence": "伤者有了中立家园；守护并不等于没有敌人。",
+          "flags": [
+            "protected_hospital"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 0,
+              "Mercy": 2,
+              "Ambition": 0,
+              "Faith": 0,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 8
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": -1,
+              "Dragons": 4,
+              "People": -1
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 0,
+              "Mercy": 5,
+              "Ambition": 0,
+              "Faith": 0,
+              "Freedom": 3,
+              "Sacrifice": 0,
+              "Corruption": 8
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": -1,
+              "Dragons": 4,
+              "People": -1
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_3",
+        "d2_w_1",
+        "d3_w_oath_3",
+        "d4_w_revolt_4",
+        "d5_w_revolt_1",
+        "d6_w_revolt_3",
+        "d7_h_guard_1"
+      ]
+    },
+    "ash_to_restraint": {
+      "early": {
+        "day": 3,
+        "nodeId": "d3_w_revolt",
+        "choiceId": "d3_w_revolt_4",
+        "mode": "full",
+        "stat_change": {
+          "Corruption": 3
+        },
+        "primary": "Corruption",
+        "text": "吞入炉芯灰烬，以自身替代燃料。",
+        "consequence": "力量留在你体内；你开始听见陌生人的愿望。",
+        "flags": [
+          "ate_ash"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 1,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 3
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 2,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_h_guard",
+        "choiceId": "d6_h_guard_1",
+        "mode": "full",
+        "stat_change": {
+          "Sacrifice": 3
+        },
+        "primary": "Sacrifice",
+        "text": "留下维持灯与呼吸机，让医师只管救治。",
+        "consequence": "重伤者继续得到照料；你进入最后撤离批次。",
+        "flags": [
+          "kept_hospital_light"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 0,
+            "Freedom": 6,
+            "Sacrifice": 0,
+            "Corruption": 3
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 1,
+            "Companions": 0,
+            "Dragons": 2,
+            "People": 1
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 3,
+            "Mercy": 0,
+            "Ambition": 3,
+            "Faith": 0,
+            "Freedom": 6,
+            "Sacrifice": 3,
+            "Corruption": 3
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 1,
+            "Companions": 1,
+            "Dragons": 2,
+            "People": 2
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_h_guard",
+          "choiceId": "d7_h_guard_3",
+          "mode": "full",
+          "stat_change": {
+            "Sacrifice": 3
+          },
+          "primary": "Sacrifice",
+          "text": "留在最后一盏灯下，以生命维持重症屏障。",
+          "consequence": "重症者等到撤离；你在灯熄后死去。",
+          "flags": [
+            "sacrificed_self"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 0,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 0,
+              "Freedom": 6,
+              "Sacrifice": 3,
+              "Corruption": 3
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 0,
+              "Demons": 1,
+              "Companions": 1,
+              "Dragons": 2,
+              "People": 2
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 0,
+              "Reason": 3,
+              "Mercy": 0,
+              "Ambition": 3,
+              "Faith": 0,
+              "Freedom": 6,
+              "Sacrifice": 6,
+              "Corruption": 3
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 0,
+              "Demons": 1,
+              "Companions": 2,
+              "Dragons": 2,
+              "People": 2
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_3",
+        "d2_w_3",
+        "d3_w_revolt_4",
+        "d4_w_revolt_1",
+        "d5_h_revolt_1",
+        "d6_h_guard_1",
+        "d7_h_guard_3"
+      ]
+    },
+    "coward_to_martyr": {
+      "early": {
+        "day": 2,
+        "nodeId": "d2_v",
+        "choiceId": "d2_v_3",
+        "mode": "full",
+        "stat_change": {
+          "Freedom": 3
+        },
+        "primary": "Freedom",
+        "text": "带家人从山路撤离，把工具留给村长。",
+        "consequence": "家人离开交战区；其他村民仍在等待。",
+        "flags": [
+          "fled_village"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 6,
+        "nodeId": "d6_v_guard",
+        "choiceId": "d6_v_guard_2",
+        "mode": "full",
+        "stat_change": {
+          "Sacrifice": 3
+        },
+        "primary": "Sacrifice",
+        "text": "把最后的船位留给家人，转身去守闸。",
+        "consequence": "家人有机会安全抵岸；你放弃同行。",
+        "flags": [
+          "final_rearguard"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 6,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 6,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 0,
+            "People": 3
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 6,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 6,
+            "Sacrifice": 3,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 3,
+            "Dragons": 0,
+            "People": 3
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 7,
+          "nodeId": "d7_c_guard",
+          "choiceId": "d7_c_guard_2",
+          "mode": "full",
+          "stat_change": {
+            "Sacrifice": 3
+          },
+          "primary": "Sacrifice",
+          "text": "留下守住山口，让同行者全部先走。",
+          "consequence": "队伍脱离追来的黑潮；你没有走出山口。",
+          "flags": [
+            "sacrificed_self"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 0,
+              "Mercy": 6,
+              "Ambition": 0,
+              "Faith": 0,
+              "Freedom": 6,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 3,
+              "Dragons": 0,
+              "People": 3
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 0,
+              "Mercy": 6,
+              "Ambition": 0,
+              "Faith": 0,
+              "Freedom": 6,
+              "Sacrifice": 6,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 4,
+              "Dragons": 0,
+              "People": 3
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_4",
+        "d2_v_3",
+        "d3_v_revolt_1",
+        "d4_v_oath_1",
+        "d5_v_ledger_1",
+        "d6_v_guard_2",
+        "d7_c_guard_2"
+      ]
+    },
+    "coward_to_brave": {
+      "early": {
+        "day": 2,
+        "nodeId": "d2_v",
+        "choiceId": "d2_v_3",
+        "mode": "full",
+        "stat_change": {
+          "Freedom": 3
+        },
+        "primary": "Freedom",
+        "text": "带家人从山路撤离，把工具留给村长。",
+        "consequence": "家人离开交战区；其他村民仍在等待。",
+        "flags": [
+          "fled_village"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      "turn": {
+        "day": 3,
+        "nodeId": "d3_v_revolt",
+        "choiceId": "d3_v_revolt_1",
+        "mode": "full",
+        "stat_change": {
+          "Courage": 3
+        },
+        "primary": "Courage",
+        "text": "送家人到哨站后折返桥头。",
+        "consequence": "家人安全；你必须在黑夜独自赶路。",
+        "flags": [
+          "returned_after_flight"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 3,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      "late": [
+        {
+          "day": 6,
+          "nodeId": "d6_v_revolt",
+          "choiceId": "d6_v_revolt_2",
+          "mode": "full",
+          "stat_change": {
+            "Courage": 3
+          },
+          "primary": "Courage",
+          "text": "请守卫接纳孩子，自己回去守最后的路。",
+          "consequence": "孩子进入城墙；你放弃到手的安全。",
+          "flags": [
+            "returned_final_time"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 3,
+              "Reason": 0,
+              "Mercy": 3,
+              "Ambition": 0,
+              "Faith": 0,
+              "Freedom": 6,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 3,
+              "Dragons": 0,
+              "People": 2
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 0,
+              "Mercy": 3,
+              "Ambition": 0,
+              "Faith": 0,
+              "Freedom": 6,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 4,
+              "Dragons": 0,
+              "People": 2
+            }
+          }
+        },
+        {
+          "day": 7,
+          "nodeId": "d7_c_guard",
+          "choiceId": "d7_c_guard_1",
+          "mode": "full",
+          "stat_change": {
+            "Courage": 3
+          },
+          "primary": "Courage",
+          "text": "带最后一队伤者穿过山口，然后放下武器。",
+          "consequence": "这一队人活着抵达；你无法保证远处的城。",
+          "flags": [
+            "escorted_last"
+          ],
+          "before": {
+            "stats": {
+              "Courage": 6,
+              "Reason": 0,
+              "Mercy": 3,
+              "Ambition": 0,
+              "Faith": 0,
+              "Freedom": 6,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 4,
+              "Dragons": 0,
+              "People": 2
+            }
+          },
+          "after": {
+            "stats": {
+              "Courage": 9,
+              "Reason": 0,
+              "Mercy": 3,
+              "Ambition": 0,
+              "Faith": 0,
+              "Freedom": 6,
+              "Sacrifice": 3,
+              "Corruption": 0
+            },
+            "relations": {
+              "Kingdom": 0,
+              "Church": 0,
+              "Demons": 0,
+              "Companions": 4,
+              "Dragons": 0,
+              "People": 2
+            }
+          }
+        }
+      ],
+      "choiceIds": [
+        "d1_start_4",
+        "d2_v_3",
+        "d3_v_revolt_1",
+        "d4_v_oath_4",
+        "d5_v_guard_2",
+        "d6_v_revolt_2",
+        "d7_c_guard_1"
+      ]
+    }
+  },
+  "errors": [],
+  "truthWitnesses": {
+    "truth_common_people_cost": {
+      "source": "d3_c_oath",
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1"
+      ]
+    },
+    "truth_kingdom_succession": {
+      "source": "d4_c_oath",
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1"
+      ]
+    },
+    "truth_container_system": {
+      "source": "d4_c_oath",
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1"
+      ]
+    },
+    "truth_goddess_origin": {
+      "source": "d6_h_oath",
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_1",
+        "d5_h_oath_1"
+      ]
+    },
+    "truth_hero_identity": {
+      "source": "d7_h_revolt",
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_1",
+        "d5_h_oath_1",
+        "d6_h_oath_3"
+      ]
+    },
+    "truth_church_edit": {
+      "source": "d6_h_revolt_4",
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_1",
+        "d5_h_oath_3",
+        "d6_h_revolt_4"
+      ]
+    },
+    "truth_dragon_network": {
+      "source": "d6_c_ledger",
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_1",
+        "d4_c_oath_3",
+        "d5_c_revolt_1"
+      ]
+    },
+    "truth_abyss_function": {
+      "source": "d5_w_ledger",
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_1",
+        "d3_c_oath_2",
+        "d4_h_ledger_3"
+      ]
+    },
+    "truth_demon_history": {
+      "source": "d4_h_guard",
+      "choiceIds": [
+        "d1_start_1",
+        "d2_c_2",
+        "d3_c_ledger_4"
+      ]
+    },
+    "truth_sword_nature": {
+      "source": "d4_w_oath",
+      "choiceIds": [
+        "d1_start_2",
+        "d2_h_1",
+        "d3_h_oath_4"
+      ]
+    }
+  },
+  "day4KnowledgeSets": {
+    "d4_c_oath": [
+      "truth_common_people_cost",
+      "truth_kingdom_succession",
+      "truth_container_system"
+    ],
+    "d4_h_ledger": [
+      "truth_abyss_function",
+      "truth_hero_identity",
+      "truth_church_edit",
+      "truth_container_system"
+    ],
+    "d4_c_revolt": [
+      "truth_common_people_cost"
+    ],
+    "d4_v_ledger": [
+      "truth_common_people_cost",
+      "truth_dragon_network"
+    ],
+    "d4_h_guard": [
+      "truth_common_people_cost",
+      "truth_demon_history"
+    ],
+    "d4_h_oath": [
+      "truth_church_edit"
+    ],
+    "d4_c_guard": [
+      "truth_common_people_cost",
+      "truth_demon_history",
+      "truth_hero_identity"
+    ],
+    "d4_c_ledger": [
+      "truth_common_people_cost",
+      "truth_kingdom_succession"
+    ],
+    "d4_h_revolt": [
+      "truth_common_people_cost",
+      "truth_demon_history",
+      "truth_hero_identity",
+      "truth_container_system"
+    ],
+    "d4_w_ledger": [
+      "truth_common_people_cost",
+      "truth_abyss_function",
+      "truth_dragon_network"
+    ],
+    "d4_v_guard": [
+      "truth_common_people_cost"
+    ],
+    "d4_w_oath": [
+      "truth_sword_nature"
+    ],
+    "d4_v_revolt": [
+      "truth_common_people_cost"
+    ],
+    "d4_w_guard": [
+      "truth_common_people_cost",
+      "truth_demon_history"
+    ],
+    "d4_w_revolt": [
+      "truth_demon_history",
+      "truth_common_people_cost"
+    ],
+    "d4_v_oath": [
+      "truth_common_people_cost",
+      "truth_demon_history"
+    ]
+  },
+  "crimeRedemptionPaths": 2,
+  "sameLocationContrasts": {
+    "d7_c_ledger_1": {
+      "nodeId": "d7_c_ledger",
+      "routes": [
+        [
+          "d1_start_3",
+          "d2_w_2",
+          "d3_w_ledger_3",
+          "d4_h_ledger_1",
+          "d5_c_revolt_1",
+          "d6_c_ledger_1"
+        ],
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_3",
+          "d5_c_revolt_1",
+          "d6_c_ledger_1"
+        ]
+      ],
+      "menus": [
+        [
+          "按公开模型分流，保存所有失误记录。",
+          "把账目交给共同议会，自己留守水闸。",
+          "接管国库与维修权，以统一预算重建王国。",
+          "保全原始账簿，带幸存者离开无法再守的城。"
+        ],
+        [
+          "按已核实的局部线路稳住出口，护送维修队撤离。",
+          "把账目交给共同议会，自己留守水闸。",
+          "接管国库与维修权，以统一预算重建王国。",
+          "保全原始账簿，带幸存者离开无法再守的城。"
+        ]
+      ]
+    },
+    "d7_h_ledger_1": {
+      "nodeId": "d7_h_ledger",
+      "routes": [
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_1",
+          "d5_h_oath_1",
+          "d6_h_oath_2"
+        ],
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_1",
+          "d5_h_oath_3",
+          "d6_h_revolt_4"
+        ]
+      ],
+      "menus": [
+        [
+          "永久停用强制神谕核心，保存其计算档案。",
+          "成立独立记忆馆，陪证人离开封印城。",
+          "保留仪式，接管教会并开放所有原始档案。",
+          "把自己的记忆接入缓冲层，为维修队争到时间。"
+        ],
+        [
+          "封住已经辨清的本地征用接口，把未知线路留给复核者。",
+          "成立独立记忆馆，陪证人离开封印城。",
+          "保留仪式，接管教会并开放所有原始档案。",
+          "把自己的记忆接入缓冲层，为维修队争到时间。"
+        ]
+      ]
+    },
+    "d7_h_revolt_2": {
+      "nodeId": "d7_h_revolt",
+      "routes": [
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_1",
+          "d5_h_oath_1",
+          "d6_h_oath_3"
+        ],
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_4",
+          "d5_c_guard_2",
+          "d6_c_guard_1"
+        ]
+      ],
+      "menus": [
+        [
+          "接替艾德里安，公开承认魔王是一份职责。",
+          "断开强制神谕，与两族共同维护余下的封印。",
+          "先续接止痛管，陪医师寻找他能够安全停止的时刻。",
+          "带走他的证词，护送病房里的平民离城。"
+        ],
+        [
+          "接替艾德里安，公开承认魔王是一份职责。",
+          "封住已经辨清的本地征用接口，把未知线路留给复核者。",
+          "先续接止痛管，陪医师寻找他能够安全停止的时刻。",
+          "带走他的证词，护送病房里的平民离城。"
+        ]
+      ]
+    },
+    "d7_h_revolt_3": {
+      "nodeId": "d7_h_revolt",
+      "routes": [
+        [
+          "d1_start_1",
+          "d2_c_4",
+          "d3_c_guard_3",
+          "d4_w_ledger_4",
+          "d5_w_revolt_2",
+          "d6_c_guard_1"
+        ],
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_1",
+          "d5_h_oath_1",
+          "d6_h_oath_3"
+        ]
+      ],
+      "menus": [
+        [
+          "接替艾德里安，公开承认魔王是一份职责。",
+          "封住已经辨清的本地征用接口，把未知线路留给复核者。",
+          "尊重他的停止请求，将余压导入预留缓冲。",
+          "带走他的证词，护送病房里的平民离城。"
+        ],
+        [
+          "接替艾德里安，公开承认魔王是一份职责。",
+          "断开强制神谕，与两族共同维护余下的封印。",
+          "先续接止痛管，陪医师寻找他能够安全停止的时刻。",
+          "带走他的证词，护送病房里的平民离城。"
+        ]
+      ]
+    },
+    "d7_w_oath_3": {
+      "nodeId": "d7_w_oath",
+      "routes": [
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_2",
+          "d4_h_ledger_3",
+          "d5_w_ledger_1",
+          "d6_w_ledger_2"
+        ],
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_1",
+          "d5_h_oath_1",
+          "d6_h_oath_4"
+        ]
+      ],
+      "menus": [
+        [
+          "坐进承压椅，接下有期限的魔王职责。",
+          "站在外环承担第一轮黑潮，掩护所有值守者退后。",
+          "以承压训练稳定峰值，再把维护交给共同守望队。",
+          "将封印外门改成共同哨所，与龙族轮值。"
+        ],
+        [
+          "坐进承压椅，接下有期限的魔王职责。",
+          "站在外环承担第一轮黑潮，掩护所有值守者退后。",
+          "按已核实的局部线路稳住出口，护送维修队撤离。",
+          "将封印外门改成共同哨所，与龙族轮值。"
+        ]
+      ]
+    },
+    "d7_w_ledger_1": {
+      "nodeId": "d7_w_ledger",
+      "routes": [
+        [
+          "d1_start_1",
+          "d2_c_4",
+          "d3_c_guard_3",
+          "d4_w_ledger_1",
+          "d5_w_guard_2",
+          "d6_w_oath_2"
+        ],
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_1",
+          "d5_h_oath_2",
+          "d6_h_ledger_2"
+        ]
+      ],
+      "menus": [
+        [
+          "启动经现场复核的分流，把灾难峰值引向空域。",
+          "封住已经辨清的本地征用接口，把未知线路留给复核者。",
+          "把最后的过载引进自己，保住维修人员。",
+          "保存开源图纸，踏上寻找失联节点的道路。"
+        ],
+        [
+          "按已核实的局部线路稳住出口，护送维修队撤离。",
+          "拆除强制分配中枢，让接口从此只能自愿接入。",
+          "把最后的过载引进自己，保住维修人员。",
+          "保存开源图纸，踏上寻找失联节点的道路。"
+        ]
+      ]
+    },
+    "d7_w_ledger_2": {
+      "nodeId": "d7_w_ledger",
+      "routes": [
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_1",
+          "d5_h_oath_2",
+          "d6_h_ledger_2"
+        ],
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_1",
+          "d5_h_oath_4",
+          "d6_w_oath_2"
+        ]
+      ],
+      "menus": [
+        [
+          "按已核实的局部线路稳住出口，护送维修队撤离。",
+          "拆除强制分配中枢，让接口从此只能自愿接入。",
+          "把最后的过载引进自己，保住维修人员。",
+          "保存开源图纸，踏上寻找失联节点的道路。"
+        ],
+        [
+          "按已核实的局部线路稳住出口，护送维修队撤离。",
+          "封住已经辨清的本地征用接口，把未知线路留给复核者。",
+          "把最后的过载引进自己，保住维修人员。",
+          "保存开源图纸，踏上寻找失联节点的道路。"
+        ]
+      ]
+    },
+    "d7_w_guard_1": {
+      "nodeId": "d7_w_guard",
+      "routes": [
+        [
+          "d1_start_1",
+          "d2_c_4",
+          "d3_c_guard_3",
+          "d4_w_ledger_2",
+          "d5_w_oath_3",
+          "d6_w_guard_1"
+        ],
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_1",
+          "d5_h_oath_4",
+          "d6_w_oath_3"
+        ]
+      ],
+      "menus": [
+        [
+          "成为两族照护人的一员，守护龙巢与周边村庄。",
+          "把龙巢护盾留给病人，自己守住破损外墙。",
+          "与龙族签公开轮值约，接下第一期容器职责。",
+          "放下看守权，护送幼龙与孩子去新的栖地。"
+        ],
+        [
+          "把孩子交给已有的共同照护人，先回营地照顾相识的住户。",
+          "把龙巢护盾留给病人，自己守住破损外墙。",
+          "与龙族签公开轮值约，接下第一期容器职责。",
+          "放下看守权，护送幼龙与孩子去新的栖地。"
+        ]
+      ]
+    },
+    "d7_v_oath_1": {
+      "nodeId": "d7_v_oath",
+      "routes": [
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_2",
+          "d4_h_ledger_3",
+          "d5_w_ledger_1",
+          "d6_w_ledger_3"
+        ],
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_1",
+          "d5_h_oath_4",
+          "d6_w_oath_4"
+        ]
+      ],
+      "menus": [
+        [
+          "签下共同维护协议，亲自参加第一轮承压。",
+          "归还代表徽记，以邻居身份开始重建。",
+          "接受限期执政职位，把交权日期刻在印玺上。",
+          "拒绝王位，带民兵守到最后一名撤离者过桥。"
+        ],
+        [
+          "签下本地共同守桥协议，从第一班夜岗开始。",
+          "归还代表徽记，以邻居身份开始重建。",
+          "接受限期执政职位，把交权日期刻在印玺上。",
+          "拒绝王位，带民兵守到最后一名撤离者过桥。"
+        ]
+      ]
+    },
+    "d7_v_ledger_1": {
+      "nodeId": "d7_v_ledger",
+      "routes": [
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_2",
+          "d4_h_ledger_3",
+          "d5_w_ledger_1",
+          "d6_w_ledger_1"
+        ],
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_2",
+          "d5_c_ledger_2",
+          "d6_v_ledger_1"
+        ]
+      ],
+      "menus": [
+        [
+          "接通自愿分压网络，把开关留在每个居民手中。",
+          "不冒险扩大系统，完成最后一轮渡运。",
+          "把船位让给同伴，自己留在闸底扳住手轮。",
+          "保存水路与维修图，带证人去安全领。"
+        ],
+        [
+          "维持本地木闸和轮值，只接回已经确认的一段水路。",
+          "不冒险扩大系统，完成最后一轮渡运。",
+          "把船位让给同伴，自己留在闸底扳住手轮。",
+          "保存水路与维修图，带证人去安全领。"
+        ]
+      ]
+    },
+    "d7_v_guard_3": {
+      "nodeId": "d7_v_guard",
+      "routes": [
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_3",
+          "d4_c_revolt_1",
+          "d5_h_guard_3",
+          "d6_v_guard_1"
+        ],
+        [
+          "d1_start_1",
+          "d2_c_1",
+          "d3_c_oath_1",
+          "d4_c_oath_1",
+          "d5_h_oath_3",
+          "d6_h_revolt_3"
+        ]
+      ],
+      "menus": [
+        [
+          "留在故乡，照顾活下来的人并承认自己的限度。",
+          "沿河撑船，把汤和药送给还未过岸的人。",
+          "守在外堤，让村里的人安睡第一夜。",
+          "将龙族与人类留下的孩子一起养大。"
+        ],
+        [
+          "留在故乡，照顾活下来的人并承认自己的限度。",
+          "沿河撑船，把汤和药送给还未过岸的人。",
+          "与邻人排好三班守夜，先守住最靠近的堤口。",
+          "将龙族与人类留下的孩子一起养大。"
+        ]
+      ]
+    },
+    "d7_w_oath_sword_2": {
+      "nodeId": "d7_w_oath_sword",
+      "routes": [
+        [
+          "d1_start_3",
+          "d2_w_1",
+          "d3_w_oath_1",
+          "d4_w_oath_1",
+          "d5_c_guard_1",
+          "d6_h_ledger_4"
+        ],
+        [
+          "d1_start_3",
+          "d2_w_1",
+          "d3_w_oath_1",
+          "d4_w_oath_1",
+          "d5_c_guard_4",
+          "d6_w_guard_4"
+        ]
+      ],
+      "menus": [
+        [
+          "将黎明化为导流针，自愿接替旧容器。",
+          "用黎明切断神谕征用接口，保留人工维护回路。",
+          "将黎明举作停火信号，护送两族伤者离开。",
+          "折断黎明释放一次屏障，自己守住崩裂缺口。"
+        ],
+        [
+          "将黎明化为导流针，自愿接替旧容器。",
+          "封住已经辨清的本地征用接口，把未知线路留给复核者。",
+          "将黎明举作停火信号，护送两族伤者离开。",
+          "折断黎明释放一次屏障，自己守住崩裂缺口。"
+        ]
+      ]
+    }
+  },
+  "playthroughs": {
+    "A": {
+      "days": [
+        {
+          "view": {
+            "day": 1,
+            "title": "第七声钟响之前",
+            "location": "故乡岔路",
+            "scene": "召集令钉在家门上，雨水洇黑了“勇者”两个字。七天后，封印将崩塌。送信人留下王国的赏格，又把教会的祝福念了一遍，便催马去了下一家。\n\n村长托马蹲下来，把修桥的锤子塞进工具箱。河上的木板昨夜冲走了三块，村里已经有人把行李搬到岸边。他没有劝你留下，也没有替你收拾远行的包袱。\n\n天亮后，王都、圣堂和旧林各有一班同行的人。工具箱放在第四条路上。",
+            "echo": null,
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d1_start_1",
+                "text": "带着故乡的粮单，响应王都召集。"
+              },
+              {
+                "id": "d1_start_2",
+                "text": "去圣辉教会，核对预言中被抹去的人名。"
+              },
+              {
+                "id": "d1_start_3",
+                "text": "进入精灵旧林，寻找黎明留下的剑痕。"
+              },
+              {
+                "id": "d1_start_4",
+                "text": "拒绝召集，留下修复故乡的渡桥。"
+              }
+            ]
+          },
+          "truths": []
+        },
+        {
+          "view": {
+            "day": 2,
+            "title": "粮单与冠冕",
+            "location": "王都",
+            "scene": "城门外的粮车排到了桥头。骑士玛伦替你作保，守卫才肯收下故乡的粮单。书吏把它压进一摞阵亡通知，纸角露出的村名正被雨水慢慢泡开。\n\n摄政莱娅许诺今天发粮。她指向广场空着的台阶：那里需要一个接受封号的人。账房里，三座村庄已经从运输表上划去，改成了“暂缓”。门外有人端着空碗等答复。",
+            "echo": "你得到入城凭证；村里的青壮少了一个。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d2_c_1",
+                "text": "签下征召誓书，换取故乡的粮车。"
+              },
+              {
+                "id": "d2_c_2",
+                "text": "留下核对军粮账，暂缓出征。"
+              },
+              {
+                "id": "d2_c_3",
+                "text": "当众读出被放弃的村名，逼王庭答复。"
+              },
+              {
+                "id": "d2_c_4",
+                "text": "拿担保书护送难民，放弃受封。"
+              }
+            ]
+          },
+          "truths": []
+        },
+        {
+          "view": {
+            "day": 3,
+            "title": "账外的冬粮",
+            "location": "王庭",
+            "scene": "奥伦打开地窖，里面没有金子，只有发霉的空粮袋。他把运输账摊在膝上，一项项指给你看：伪造的军粮去了一座不在王国名册里的麻风村。\n\n同一批车也替人运军情。奥伦收过钱，账上留下了收款人的缩写，却不肯说谁雇了车。门边等领药的妇人不认识那些字母，只认得每旬会来的车铃。",
+            "echo": "找到虚报数字；玛伦独自赶往前线。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d3_c_ledger_1",
+                "text": "封存全部账目，要求公开听证。"
+              },
+              {
+                "id": "d3_c_ledger_2",
+                "text": "保留救济支出，只追查军情买家。"
+              },
+              {
+                "id": "d3_c_ledger_3",
+                "text": "接管运输线，用情报收入养活病人。"
+              },
+              {
+                "id": "d3_c_ledger_4",
+                "text": "送出自己的行粮，再押奥伦去教会作证。"
+              }
+            ]
+          },
+          "truths": [
+            "truth_common_people_cost"
+          ]
+        },
+        {
+          "view": {
+            "day": 4,
+            "title": "七百年的同一个人",
+            "location": "教会",
+            "scene": "修女医师伊芙把勇者名册与病历并排放好。第一份签名是艾德里安，末页送药回执仍是同一个名字。画像上的冠饰被改过，耳后的伤疤没有。\n\n装订线里夹着删去的交接记录，写明活人被接入封印，却没有提供替代方法。你可以抄走原件，也可以去问那个仍在签收药物的人。伊芙包好一只药箱，放在书旁。",
+            "echo": "追查方向变窄；你必须替部分假账担责。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d4_h_ledger_1",
+                "text": "公布完整原件，连同各方删改痕迹。"
+              },
+              {
+                "id": "d4_h_ledger_2",
+                "text": "将原件交给艾德里安，请他确认自己的意愿。"
+              },
+              {
+                "id": "d4_h_ledger_3",
+                "text": "先研究他的病历，寻找容器以外的承压方式。"
+              },
+              {
+                "id": "d4_h_ledger_4",
+                "text": "封存原件，换取教会为伤员开仓。"
+              }
+            ]
+          },
+          "truths": [
+            "truth_common_people_cost",
+            "truth_hero_identity",
+            "truth_church_edit",
+            "truth_container_system"
+          ]
+        },
+        {
+          "view": {
+            "day": 5,
+            "title": "停火的刀鞘",
+            "location": "教会",
+            "scene": "魔族将领瓦尔在停火书上添了“胜利”二字。道路可以今夜开放，平民的名字却要列在他的军旗之下。魔族信使妮娅把改过的纸递回来，问失去家的人什么时候投过票。\n\n外面第一辆运伤者的车已经套好马。再拖下去，夜里的口令就会更换。瓦尔扣押粮车的收据压在桌角，他看见了，却仍握着自己的笔。",
+            "echo": "旧勇者重新成为能回答的人；你必须进入魔王城。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d5_h_revolt_1",
+                "text": "签临时停火，只承认通行而不承认胜利。"
+              },
+              {
+                "id": "d5_h_revolt_2",
+                "text": "邀请两族平民代表另签救援公约。"
+              },
+              {
+                "id": "d5_h_revolt_3",
+                "text": "公开瓦尔扣押粮车的证据，逼其退让。"
+              },
+              {
+                "id": "d5_h_revolt_4",
+                "text": "用自己作为停火人质，换取无条件通道。"
+              }
+            ]
+          },
+          "truths": [
+            "truth_common_people_cost",
+            "truth_hero_identity",
+            "truth_church_edit",
+            "truth_container_system"
+          ]
+        },
+        {
+          "view": {
+            "day": 6,
+            "title": "没有英雄的会议",
+            "location": "边境",
+            "scene": "议事会没有等你到场才开始。有人争论分流，有人点撤离人数，一个孩子抱着种子袋，坐在空椅上打瞌睡。\n\n托马给你挪出普通的一张椅子。地图上有守望网的值岗点，也有尚未确认的工程支路。军队送来可以立即生效的指挥令，压在议事记录旁，末尾没有交权日期，送信人还在门口等着回执。",
+            "echo": "平民获得独立声音；军事保护有所减弱。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d6_v_oath_1",
+                "text": "支持可撤回的共同承压协议，接受少数人离开。"
+              },
+              {
+                "id": "d6_v_oath_2",
+                "text": "把指挥交给受训者，自己守住会议后的道路。"
+              },
+              {
+                "id": "d6_v_oath_3",
+                "text": "为种子与儿童保留第一批船位。"
+              },
+              {
+                "id": "d6_v_oath_4",
+                "text": "请求临时独裁到日落，用效率赌信任。"
+              }
+            ]
+          },
+          "truths": [
+            "truth_common_people_cost",
+            "truth_hero_identity",
+            "truth_church_edit",
+            "truth_container_system"
+          ]
+        },
+        {
+          "view": {
+            "day": 7,
+            "title": "第七碗汤",
+            "location": "边境",
+            "scene": "远处的光没能照清是谁的旗。邻人送来种子，孩子用布塞住门缝，一锅汤煮开后，屋里终于不再只听见外堤的水声。\n\n渡船靠岸送来两族留下的孩子，同行的照护人问村里能否再添几个床位。河边还有人未过岸，外堤也还缺守夜者。托马数完碗，把最后一只洗净，放在灶台边。屋外的脚步在门槛前停了下来。",
+            "echo": "灾后生活有了起点；部分战斗物资被留下。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d7_v_guard_1",
+                "text": "留在故乡，照顾活下来的人并承认自己的限度。"
+              },
+              {
+                "id": "d7_v_guard_2",
+                "text": "沿河撑船，把汤和药送给还未过岸的人。"
+              },
+              {
+                "id": "d7_v_guard_3",
+                "text": "与邻人排好三班守夜，先守住最靠近的堤口。"
+              },
+              {
+                "id": "d7_v_guard_4",
+                "text": "将龙族与人类留下的孩子一起养大。"
+              }
+            ]
+          },
+          "truths": [
+            "truth_common_people_cost",
+            "truth_hero_identity",
+            "truth_church_edit",
+            "truth_container_system"
+          ]
+        }
+      ],
+      "ending": {
+        "endingId": "ordinary_Mercy",
+        "title": "仍肯分汤的普通人",
+        "summary": "从“带着故乡的粮单，响应王都召集。”开始，你最终选择了“留在故乡，照顾活下来的人并承认自己的限度。”",
+        "role": "ordinary",
+        "kind": "normal",
+        "dominant": "Mercy",
+        "arcs": [],
+        "crimes": [],
+        "violent": [],
+        "evidence": [
+          {
+            "day": 1,
+            "text": "带着故乡的粮单，响应王都召集。",
+            "consequence": "你得到入城凭证；村里的青壮少了一个。"
+          },
+          {
+            "day": 2,
+            "text": "留下核对军粮账，暂缓出征。",
+            "consequence": "找到虚报数字；玛伦独自赶往前线。"
+          },
+          {
+            "day": 3,
+            "text": "保留救济支出，只追查军情买家。",
+            "consequence": "追查方向变窄；你必须替部分假账担责。"
+          },
+          {
+            "day": 4,
+            "text": "将原件交给艾德里安，请他确认自己的意愿。",
+            "consequence": "旧勇者重新成为能回答的人；你必须进入魔王城。"
+          },
+          {
+            "day": 5,
+            "text": "邀请两族平民代表另签救援公约。",
+            "consequence": "平民获得独立声音；军事保护有所减弱。"
+          },
+          {
+            "day": 6,
+            "text": "为种子与儿童保留第一批船位。",
+            "consequence": "灾后生活有了起点；部分战斗物资被留下。"
+          },
+          {
+            "day": 7,
+            "text": "留在故乡，照顾活下来的人并承认自己的限度。",
+            "consequence": "日常重新开始；失去的人不会因此回来。"
+          }
+        ],
+        "status": {
+          "dragon": "alive",
+          "previousHero": "supported",
+          "player": "alive"
+        },
+        "reason": "前六日主要行动倾向与最终身份相结合。",
+        "metNPCs": [
+          "npc_10",
+          "npc_01",
+          "npc_02",
+          "npc_11",
+          "npc_04",
+          "npc_13",
+          "npc_05",
+          "npc_07"
+        ],
+        "relations": {
+          "Kingdom": 1,
+          "Church": 1,
+          "Demons": 1,
+          "Companions": 0,
+          "Dragons": 0,
+          "People": 2
+        },
+        "epilogue": {
+          "number": "S09",
+          "title": "最后的普通人",
+          "main": "第八天，有人来借锅，也有人来问缺不缺种子。门口没有授勋的队伍。\n\n日常重新开始；失去的人不会因此回来。",
+          "npc": "莱娅继续清点撤离名单，仍要为王庭签过的命令作答。\n\n玛伦的护送仍被记下，她承认过的旧罪也没有撤档。\n\n伊芙把救治簿与追责材料分开保存，缺药的条目仍未划掉。\n\n妮娅保管自己的证词，下一次是否公开坐标仍由她回答。\n\n瓦尔没有因你的结局自动交权，军方与平民的利益仍需分别谈判。\n\n托马收起村里的工具，按留下的人手重新安排轮值。\n\n奥伦的救济账与情报款仍可分别查验，他不能只拿出其中一本。\n\n艾德里安仍由留守队支撑；本局的局部救援没有自动结束他的职责。",
+          "world": "近处的生活重新开始，封印与远方的修复交由其他人继续，并没有消失。",
+          "self": "今天要做的事可以写在一张很短的纸上。旧日的后果仍会沿路送来。\n\n第一日，你选择了“带着故乡的粮单，响应王都召集。”第3日，又选择了“保留救济支出，只追查军情买家。”这些动作保留在下面的七日记录中。",
+          "last": "第八天，水还没有烧开。",
+          "npcIds": [
+            "npc_10",
+            "npc_01",
+            "npc_02",
+            "npc_11",
+            "npc_04",
+            "npc_13",
+            "npc_05",
+            "npc_07"
+          ]
+        },
+        "badges": {
+          "zeroDirectKill": true,
+          "allNamedAlive": true,
+          "swordless": true,
+          "independent": true
+        }
+      },
+      "save": {
+        "schemaVersion": 2,
+        "meta": {
+          "completedRuns": 0
+        },
+        "choiceIds": [
+          "d1_start_1",
+          "d2_c_2",
+          "d3_c_ledger_2",
+          "d4_h_ledger_2",
+          "d5_h_revolt_2",
+          "d6_v_oath_3",
+          "d7_v_guard_1"
+        ]
+      }
+    },
+    "B": {
+      "days": [
+        {
+          "view": {
+            "day": 1,
+            "title": "第七声钟响之前",
+            "location": "故乡岔路",
+            "scene": "召集令钉在家门上，雨水洇黑了“勇者”两个字。七天后，封印将崩塌。送信人留下王国的赏格，又把教会的祝福念了一遍，便催马去了下一家。\n\n村长托马蹲下来，把修桥的锤子塞进工具箱。河上的木板昨夜冲走了三块，村里已经有人把行李搬到岸边。他没有劝你留下，也没有替你收拾远行的包袱。\n\n天亮后，王都、圣堂和旧林各有一班同行的人。工具箱放在第四条路上。",
+            "echo": null,
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d1_start_1",
+                "text": "带着故乡的粮单，响应王都召集。"
+              },
+              {
+                "id": "d1_start_2",
+                "text": "去圣辉教会，核对预言中被抹去的人名。"
+              },
+              {
+                "id": "d1_start_3",
+                "text": "进入精灵旧林，寻找黎明留下的剑痕。"
+              },
+              {
+                "id": "d1_start_4",
+                "text": "拒绝召集，留下修复故乡的渡桥。"
+              }
+            ]
+          },
+          "truths": []
+        },
+        {
+          "view": {
+            "day": 2,
+            "title": "桥只够过一辆车",
+            "location": "故乡渡口",
+            "scene": "河水从桥墩缺口里冲过去，一辆车停在桥头，后面的车再也挪不动。村长托马把锤子递来，问明早能让几辆过去。\n\n驻军要拆桥挡住斥候，船工却还在往桥下搬病人。魔族孩子魔族信使妮娅拿来一张湿透的上游图，守卫看见她的角，先把图推了回去。她没有走，蹲在岸边，用石子重新摆出决堤的位置。\n\n车上的老人敲了敲栏板。他还没来得及问，去的是哪一岸。",
+            "echo": "老人今晚仍有人照看；召集令上你的名字被划去。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d2_v_1",
+                "text": "接受临时民兵印，带人守住桥头。"
+              },
+              {
+                "id": "d2_v_2",
+                "text": "征用自己的屋梁，加固渡船并登记乘客。"
+              },
+              {
+                "id": "d2_v_3",
+                "text": "带家人从山路撤离，把工具留给村长。"
+              },
+              {
+                "id": "d2_v_4",
+                "text": "留下照看走不了的人，让年轻人先走。"
+              }
+            ]
+          },
+          "truths": [
+            "truth_common_people_cost"
+          ]
+        },
+        {
+          "view": {
+            "day": 3,
+            "title": "山路朝着身后",
+            "location": "安全领与城外营地",
+            "scene": "安全领的烽火已经能看见了。家人在前面数着最后几级石阶，身后却传来桥钟，比约好的时刻早了三个时辰。\n\n巡队停下来问是否有消息要带回去。你们剩的口粮装在同一只袋子里，离哨站还有一段路。家人攥着你的袖口，没有拉你往哪边走。第二声钟响时，巡队开始收紧马鞍。",
+            "echo": "家人离开交战区；其他村民仍在等待。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d3_v_revolt_1",
+                "text": "送家人到哨站后折返桥头。"
+              },
+              {
+                "id": "d3_v_revolt_2",
+                "text": "把口粮托给巡队，继续带家人前行。"
+              },
+              {
+                "id": "d3_v_revolt_3",
+                "text": "向教会报告钟声，请求开放避难所。"
+              },
+              {
+                "id": "d3_v_revolt_4",
+                "text": "去最近的龙井引水，为村庄争一夜。"
+              }
+            ]
+          },
+          "truths": [
+            "truth_common_people_cost"
+          ]
+        },
+        {
+          "view": {
+            "day": 4,
+            "title": "安全领的关卡",
+            "location": "安全领与城外营地",
+            "scene": "安全领的守卫翻了两遍你的行李，要你交出沿路证词和旧友名单。他说查清谁与战争有关，才好放真正的平民进去。\n\n墙内的灯亮着，墙外的孩子拿湿柴生火。守卫把入城章放在桌角，等你补写名字。你能听见故乡方向断续的钟声，却看不到那边发生了什么。空白纸被风吹到了你的鞋旁。",
+            "echo": "家人不再涉险；你只能间接帮助故乡。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d4_v_revolt_1",
+                "text": "拒交旧友名单，在城外建立流民营。"
+              },
+              {
+                "id": "d4_v_revolt_2",
+                "text": "把灾情交给守卫，只保留无辜者的姓名。"
+              },
+              {
+                "id": "d4_v_revolt_3",
+                "text": "把入城名额让给孩子，返回渡口。"
+              },
+              {
+                "id": "d4_v_revolt_4",
+                "text": "接受临时劳役，以自己的工时换营地口粮。"
+              }
+            ]
+          },
+          "truths": [
+            "truth_common_people_cost"
+          ]
+        },
+        {
+          "view": {
+            "day": 5,
+            "title": "自由的边界",
+            "location": "安全领与城外营地",
+            "scene": "城外营地借不到仓房，粮食仍装在每家的袋子里。一户人白天拒绝分粮，夜里抱来发烧的孩子，要借最后一包药。\n\n有人把白天的争执又说了一遍，孩子却已咳得接不上气。你的口粮放在锅旁，吃完这一份，明天便得再找来源。远处王都的运输灯还亮着，回去的人需要先通过军队的盘查。",
+            "echo": "朋友免遭追查；你失去城墙保护。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d5_v_revolt_1",
+                "text": "允许拒绝分粮，同时公开所有求助与回应。"
+              },
+              {
+                "id": "d5_v_revolt_2",
+                "text": "建立最低互助契约，参加者共同分配。"
+              },
+              {
+                "id": "d5_v_revolt_3",
+                "text": "把自己的份额交出去，不要求对方签字。"
+              },
+              {
+                "id": "d5_v_revolt_4",
+                "text": "返回王都争取物资，接受被通缉的风险。"
+              }
+            ]
+          },
+          "truths": [
+            "truth_common_people_cost"
+          ]
+        },
+        {
+          "view": {
+            "day": 6,
+            "title": "你不必成为传说",
+            "location": "临时灶与末班渡口",
+            "scene": "撤离的人在临时灶边相聚，家人也赶到了这里。托马拿回一把修好的旧钥匙，放在桌上；如果房子已经不在，钥匙仍开得了留下的那只工具箱。\n\n最后一碗汤正要分下去，船工来喊末班船。山闸传来缺人的消息，孩子们围着种子、病历和行李，等大人告诉他们该带走哪一件。锅底已经刮得发亮。",
+            "echo": "孩子今晚吃饱；你没有余粮应对明天。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d6_v_guard_1",
+                "text": "留在家与邻人之间，守好最后一盏灯。"
+              },
+              {
+                "id": "d6_v_guard_2",
+                "text": "把最后的船位留给家人，转身去守闸。"
+              },
+              {
+                "id": "d6_v_guard_3",
+                "text": "将种子、病历和钥匙分别交给三个孩子。"
+              },
+              {
+                "id": "d6_v_guard_4",
+                "text": "拒绝任何封号，只以邻居身份参加共同承压。"
+              }
+            ]
+          },
+          "truths": [
+            "truth_common_people_cost"
+          ]
+        },
+        {
+          "view": {
+            "day": 7,
+            "title": "路的尽头还有人",
+            "location": "撤离山路",
+            "scene": "最后一队伤者停在山口。骑士玛伦把盾靠在路边，替走不动的人重新绑好担架。前方能到新的边界，身后的黑潮正在越过废弃的岗楼。\n\n这里没有城墙。守到所有人离开的人，将很难再追上队伍。玛伦把余下的绷带分开，一份挂在前行的车上，一份留在火盆旁。远处又有人喊，少了一辆车。",
+            "echo": "家人有机会安全抵岸；你放弃同行。",
+            "memory": null,
+            "reaction": null,
+            "choices": [
+              {
+                "id": "d7_c_guard_1",
+                "text": "带最后一队伤者穿过山口，然后放下武器。"
+              },
+              {
+                "id": "d7_c_guard_2",
+                "text": "留下守住山口，让同行者全部先走。"
+              },
+              {
+                "id": "d7_c_guard_3",
+                "text": "驻守新的边界，让这里永远接纳后来者。"
+              },
+              {
+                "id": "d7_c_guard_4",
+                "text": "将指挥交给玛伦，独自寻找失联的村庄。"
+              }
+            ]
+          },
+          "truths": [
+            "truth_common_people_cost"
+          ]
+        }
+      ],
+      "ending": {
+        "endingId": "arc_coward_to_martyr",
+        "title": "逃过一次，留下到最后",
+        "summary": "你的道路出现了转向：逃过一次，留下到最后；七日的旧事仍一并保留。",
+        "role": "martyr",
+        "kind": "growth",
+        "dominant": "Freedom",
+        "arcs": [
+          "coward_to_martyr",
+          "free_to_responsible"
+        ],
+        "crimes": [],
+        "violent": [],
+        "evidence": [
+          {
+            "day": 1,
+            "text": "拒绝召集，留下修复故乡的渡桥。",
+            "consequence": "老人今晚仍有人照看；召集令上你的名字被划去。"
+          },
+          {
+            "day": 2,
+            "text": "带家人从山路撤离，把工具留给村长。",
+            "consequence": "家人离开交战区；其他村民仍在等待。"
+          },
+          {
+            "day": 3,
+            "text": "把口粮托给巡队，继续带家人前行。",
+            "consequence": "家人不再涉险；你只能间接帮助故乡。"
+          },
+          {
+            "day": 4,
+            "text": "拒交旧友名单，在城外建立流民营。",
+            "consequence": "朋友免遭追查；你失去城墙保护。"
+          },
+          {
+            "day": 5,
+            "text": "把自己的份额交出去，不要求对方签字。",
+            "consequence": "孩子今晚吃饱；你没有余粮应对明天。"
+          },
+          {
+            "day": 6,
+            "text": "把最后的船位留给家人，转身去守闸。",
+            "consequence": "家人有机会安全抵岸；你放弃同行。"
+          },
+          {
+            "day": 7,
+            "text": "留下守住山口，让同行者全部先走。",
+            "consequence": "队伍脱离追来的黑潮；你没有走出山口。"
+          }
+        ],
+        "status": {
+          "dragon": "alive",
+          "previousHero": "supported",
+          "player": "dead"
+        },
+        "reason": "早期与后期行动发生可核对的转变。",
+        "metNPCs": [
+          "npc_10",
+          "npc_05",
+          "npc_02"
+        ],
+        "relations": {
+          "Kingdom": 0,
+          "Church": 0,
+          "Demons": 0,
+          "Companions": 6,
+          "Dragons": 0,
+          "People": 1
+        },
+        "epilogue": {
+          "number": "S23",
+          "title": "逃过一次，留下到最后",
+          "main": "撤离记录留着两次方向不同的箭头。最后一次，箭头停在你留下的位置，其他人的名字继续到了岸边。\n\n队伍脱离追来的黑潮；你没有走出山口。",
+          "npc": "玛伦的护送仍被记下，她承认过的旧罪也没有撤档。\n\n妮娅保管自己的证词，下一次是否公开坐标仍由她回答。\n\n托马收起村里的工具，按留下的人手重新安排轮值。",
+          "world": "被掩护者活了下来。你的死亡不构成命令，不能要求其他离开过的人照此偿还。",
+          "self": "未能继续的一生留在记录之外，没有人知道每一处原本会通往哪里。\n\n第一日，你选择了“拒绝召集，留下修复故乡的渡桥。”第3日，又选择了“把口粮托给巡队，继续带家人前行。”这些动作保留在下面的七日记录中。",
+          "last": "最后一班点名，少了一声回答。",
+          "npcIds": [
+            "npc_10",
+            "npc_05",
+            "npc_02"
+          ]
+        },
+        "badges": {
+          "zeroDirectKill": true,
+          "allNamedAlive": false,
+          "swordless": true,
+          "independent": true
+        }
+      },
+      "save": {
+        "schemaVersion": 2,
+        "meta": {
+          "completedRuns": 0
+        },
+        "choiceIds": [
+          "d1_start_4",
+          "d2_v_3",
+          "d3_v_revolt_2",
+          "d4_v_revolt_1",
+          "d5_v_revolt_3",
+          "d6_v_guard_2",
+          "d7_c_guard_2"
+        ]
+      }
+    }
+  }
+}

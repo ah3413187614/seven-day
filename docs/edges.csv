@@ -285,7 +285,7 @@ d7_c_ledger,d7_c_ledger_3,END:king
 d7_c_ledger,d7_c_ledger_4,END:witness
 d7_c_revolt,d7_c_revolt_1,END:tyrant
 d7_c_revolt,d7_c_revolt_2,END:hero
-d7_c_revolt,d7_c_revolt_3,END:godslayer
+d7_c_revolt,d7_c_revolt_3,END:witness
 d7_c_revolt,d7_c_revolt_4,END:king
 d7_c_guard,d7_c_guard_1,END:hero
 d7_c_guard,d7_c_guard_2,END:martyr
@@ -352,6 +352,6 @@ d7_c_oath_judgment,d7_c_oath_judgment_2,END:hero
 d7_c_oath_judgment,d7_c_oath_judgment_3,END:witness
 d7_c_oath_judgment,d7_c_oath_judgment_4,END:tyrant
 d7_h_oath_dissent,d7_h_oath_dissent_1,END:pontiff
-d7_h_oath_dissent,d7_h_oath_dissent_2,END:godslayer
+d7_h_oath_dissent,d7_h_oath_dissent_2,END:hero
 d7_h_oath_dissent,d7_h_oath_dissent_3,END:witness
 d7_h_oath_dissent,d7_h_oath_dissent_4,END:vessel

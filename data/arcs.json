@@ -2,7 +2,7 @@
   "arcs": [
     {
       "arc_id": "coward_to_brave",
-      "title": "最初的懦夫，最后的勇者",
+      "title": "曾经离开，后来折返的人",
       "early": "Freedom",
       "late": "Courage",
       "roles": [
@@ -29,11 +29,18 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "selfish_to_selfless",
-      "title": "终于把自己放在最后的人",
+      "title": "从争取掌控到承担代价",
       "early": "Ambition",
       "late": "Sacrifice",
       "roles": [
@@ -55,7 +62,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "faithful_to_heretic",
@@ -67,7 +81,10 @@
         "hero",
         "witness"
       ],
-      "early_flags_any": [],
+      "early_flags_any": [
+        "sought_prophecy",
+        "obeyed_church"
+      ],
       "late_flags_any": [],
       "priority": 75,
       "early_days": [
@@ -81,11 +98,18 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "hero_to_tyrant",
-      "title": "让众人跪下的旧日勇者",
+      "title": "曾敢前行，如今令人跪下",
       "early": "Courage",
       "late": "Ambition",
       "roles": [
@@ -110,7 +134,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "merciful_to_cruel",
@@ -138,11 +169,18 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "cruel_to_redeemed",
-      "title": "把刀交给受害者的人",
+      "title": "交出危险力量的人",
       "early": "Corruption",
       "late": "Mercy",
       "roles": [
@@ -163,7 +201,8 @@
       "early_days": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "late_days": [
         5,
@@ -171,7 +210,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "follower_to_leader",
@@ -182,7 +228,10 @@
         "king",
         "pontiff"
       ],
-      "early_flags_any": [],
+      "early_flags_any": [
+        "obeyed_kingdom",
+        "obeyed_church"
+      ],
       "late_flags_any": [],
       "priority": 60,
       "early_days": [
@@ -196,7 +245,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "idealistic_to_pragmatic",
@@ -222,7 +278,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "pragmatic_to_idealistic",
@@ -251,11 +314,18 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "human_supremacist_to_peacemaker",
-      "title": "越过仇恨的守望者",
+      "title": "从军令走向共同守望",
       "early": "Courage",
       "late": "Mercy",
       "roles": [
@@ -264,8 +334,8 @@
         "hero"
       ],
       "early_flags_any": [
-        "disarmed_armies",
-        "requisitioned_horses"
+        "requisitioned_horses",
+        "formed_militia"
       ],
       "late_flags_any": [
         "civilian_pact",
@@ -284,7 +354,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "coward_to_martyr",
@@ -311,11 +388,18 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "hero_to_demon_king",
-      "title": "勇者成为魔王的那一天",
+      "title": "从迎险到接替的人",
       "early": "Courage",
       "late": "Sacrifice",
       "roles": [
@@ -335,7 +419,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "believer_to_inquirer",
@@ -360,11 +451,18 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "conqueror_to_keeper",
-      "title": "终于学会守护的征服者",
+      "title": "从争取掌控到照料他人",
       "early": "Ambition",
       "late": "Mercy",
       "roles": [
@@ -386,7 +484,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "free_to_responsible",
@@ -412,7 +517,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "martyr_to_selfowner",
@@ -438,7 +550,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "scholar_to_actor",
@@ -464,7 +583,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "soldier_to_healer",
@@ -476,7 +602,10 @@
         "guardian",
         "ferryman"
       ],
-      "early_flags_any": [],
+      "early_flags_any": [
+        "formed_militia",
+        "requisitioned_horses"
+      ],
       "late_flags_any": [],
       "priority": 60,
       "early_days": [
@@ -490,11 +619,18 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "healer_to_ruler",
-      "title": "带着药箱登上王座的人",
+      "title": "曾经照料别人，如今掌权的人",
       "early": "Mercy",
       "late": "Ambition",
       "roles": [
@@ -515,11 +651,18 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "ruler_to_neighbor",
-      "title": "归还印玺的邻人",
+      "title": "放下掌控，另择道路的人",
       "early": "Ambition",
       "late": "Freedom",
       "roles": [
@@ -541,7 +684,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "skeptic_to_oathkeeper",
@@ -567,7 +717,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "oathkeeper_to_free",
@@ -593,7 +750,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "ash_to_restraint",
@@ -619,7 +783,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "arc_id": "kindness_to_boundary",
@@ -645,7 +816,14 @@
         7
       ],
       "early_min": 1,
-      "late_min": 2
+      "late_min": 2,
+      "pivot_required": true,
+      "pivot_days": [
+        3,
+        4,
+        5,
+        6
+      ]
     }
   ]
 }

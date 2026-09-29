@@ -575,13 +575,6 @@
       "isViolent": false
     },
     {
-      "id": "learned_truth",
-      "description": "第四日得到多方可核对的容器证据",
-      "irreversible": true,
-      "isCrime": false,
-      "isViolent": false
-    },
-    {
       "id": "confessed_lie",
       "description": "向广场承认真相，也承认你曾服从。",
       "irreversible": true,
@@ -1684,7 +1677,7 @@
       "id": "claimed_abyss",
       "description": "吸尽周围恐惧，独占封印核心。",
       "irreversible": true,
-      "isCrime": false,
+      "isCrime": true,
       "isViolent": false
     },
     {
@@ -2005,6 +1998,97 @@
     {
       "id": "submitted_to_victims",
       "description": "交出印玺，先完成受害者要求的撤离任务。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "held_succession_record",
+      "description": "扣下诏书，召集工匠寻找替代方案。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "published_original_record",
+      "description": "公布完整原件，连同各方删改痕迹。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "limited_power",
+      "description": "接受同伴对承压器的否决权，先不用圣剑作保证。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "tested_scale_lattice",
+      "description": "用脱落鳞片试接阵列，记录仍缺少的剑身数据。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "partial_load",
+      "description": "只启动已有签名的试验支路，留下全网待检记录。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "oracle_audit",
+      "description": "封存这座圣堂的征用令，请证人核对总核心来源。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "requested_channel_audit",
+      "description": "请工程队先辨认备用管道，自己维持原有接口。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "local_rescue",
+      "description": "按已核实的局部线路稳住出口，护送维修队撤离。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "isolated_local_oracle",
+      "description": "封住已经辨清的本地征用接口，把未知线路留给复核者。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "supported_previous_hero",
+      "description": "先续接止痛管，陪医师寻找他能够安全停止的时刻。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "assisted_existing_carers",
+      "description": "把孩子交给已有的共同照护人，先回营地照顾相识的住户。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "local_shared_watch",
+      "description": "维持本地木闸和轮值，只接回已经确认的一段水路。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_local_shift",
+      "description": "与邻人排好三班守夜，先守住最靠近的堤口。",
       "irreversible": true,
       "isCrime": false,
       "isViolent": false

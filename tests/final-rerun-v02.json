@@ -1,0 +1,13 @@
+{
+  "completedAtUTC": "2026-09-29T01:01:46.441113+00:00",
+  "version": "0.2",
+  "commandsPassed": [
+    "node tests/exhaustive.cjs",
+    "node tests/evidence-v02.cjs",
+    "node tests/random.cjs 100000",
+    "python3 scripts/pack.py",
+    "node tests/package.cjs"
+  ],
+  "browser": "blocked: missing Chromium",
+  "sourceChanges": "No gameplay changes in final rerun; reproducible packaging script added."
+}

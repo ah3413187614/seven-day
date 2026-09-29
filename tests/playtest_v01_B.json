@@ -1,0 +1,478 @@
+{
+  "state": {
+    "schemaVersion": 1,
+    "nodeId": null,
+    "day": 7,
+    "stats": {
+      "Courage": 0,
+      "Reason": 0,
+      "Mercy": 6,
+      "Ambition": 0,
+      "Faith": 0,
+      "Freedom": 9,
+      "Sacrifice": 6,
+      "Corruption": 0
+    },
+    "relations": {
+      "Kingdom": 0,
+      "Church": 0,
+      "Demons": 0,
+      "Companions": 6,
+      "Dragons": 0,
+      "People": 1
+    },
+    "flags": [
+      "refused_summons",
+      "fled_village",
+      "kept_fleeing",
+      "learned_truth",
+      "refused_informant",
+      "unconditional_aid",
+      "final_rearguard",
+      "sacrificed_self"
+    ],
+    "history": [
+      {
+        "day": 1,
+        "nodeId": "d1_start",
+        "choiceId": "d1_start_4",
+        "primary": "Mercy",
+        "text": "拒绝召集，留下修复故乡的渡桥。",
+        "consequence": "老人今晚仍有人照看；召集令上你的名字被划去。",
+        "flags": [
+          "refused_summons"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 0,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      {
+        "day": 2,
+        "nodeId": "d2_v",
+        "choiceId": "d2_v_3",
+        "primary": "Freedom",
+        "text": "带家人从山路撤离，把工具留给村长。",
+        "consequence": "家人离开交战区；其他村民仍在等待。",
+        "flags": [
+          "fled_village"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 0,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 0,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      {
+        "day": 3,
+        "nodeId": "d3_v_revolt",
+        "choiceId": "d3_v_revolt_2",
+        "primary": "Freedom",
+        "text": "把口粮托给巡队，继续带家人前行。",
+        "consequence": "家人不再涉险；你只能间接帮助故乡。",
+        "flags": [
+          "kept_fleeing"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 3,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 1,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 6,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 2,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      {
+        "day": 4,
+        "nodeId": "d4_v_revolt",
+        "choiceId": "d4_v_revolt_1",
+        "primary": "Freedom",
+        "text": "拒交旧友名单，在城外建立流民营。",
+        "consequence": "朋友免遭追查；你失去城墙保护。",
+        "flags": [
+          "refused_informant"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 6,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 2,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 9,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 3,
+            "Dragons": 0,
+            "People": 0
+          }
+        }
+      },
+      {
+        "day": 5,
+        "nodeId": "d5_v_revolt",
+        "choiceId": "d5_v_revolt_3",
+        "primary": "Mercy",
+        "text": "把自己的份额交出去，不要求对方签字。",
+        "consequence": "孩子今晚吃饱；你没有余粮应对明天。",
+        "flags": [
+          "unconditional_aid"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 3,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 9,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 3,
+            "Dragons": 0,
+            "People": 0
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 6,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 9,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 3,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      {
+        "day": 6,
+        "nodeId": "d6_v_guard",
+        "choiceId": "d6_v_guard_2",
+        "primary": "Sacrifice",
+        "text": "把最后的船位留给家人，转身去守闸。",
+        "consequence": "家人有机会安全抵岸；你放弃同行。",
+        "flags": [
+          "final_rearguard"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 6,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 9,
+            "Sacrifice": 0,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 3,
+            "Dragons": 0,
+            "People": 1
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 6,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 9,
+            "Sacrifice": 3,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 5,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      },
+      {
+        "day": 7,
+        "nodeId": "d7_c_guard",
+        "choiceId": "d7_c_guard_2",
+        "primary": "Sacrifice",
+        "text": "留下守住山口，让同行者全部先走。",
+        "consequence": "队伍脱离追来的黑潮；你没有走出山口。",
+        "flags": [
+          "sacrificed_self"
+        ],
+        "before": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 6,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 9,
+            "Sacrifice": 3,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 5,
+            "Dragons": 0,
+            "People": 1
+          }
+        },
+        "after": {
+          "stats": {
+            "Courage": 0,
+            "Reason": 0,
+            "Mercy": 6,
+            "Ambition": 0,
+            "Faith": 0,
+            "Freedom": 9,
+            "Sacrifice": 6,
+            "Corruption": 0
+          },
+          "relations": {
+            "Kingdom": 0,
+            "Church": 0,
+            "Demons": 0,
+            "Companions": 6,
+            "Dragons": 0,
+            "People": 1
+          }
+        }
+      }
+    ],
+    "finished": true,
+    "role": "martyr",
+    "meta": {
+      "completedRuns": 1
+    }
+  },
+  "ending": {
+    "endingId": "arc_coward_to_martyr",
+    "title": "逃过一次，留下到最后",
+    "role": "martyr",
+    "kind": "growth",
+    "dominant": "Freedom",
+    "arcs": [
+      "coward_to_martyr",
+      "free_to_responsible"
+    ],
+    "crimes": [],
+    "violent": [],
+    "evidence": [
+      {
+        "day": 1,
+        "text": "拒绝召集，留下修复故乡的渡桥。",
+        "consequence": "老人今晚仍有人照看；召集令上你的名字被划去。"
+      },
+      {
+        "day": 2,
+        "text": "带家人从山路撤离，把工具留给村长。",
+        "consequence": "家人离开交战区；其他村民仍在等待。"
+      },
+      {
+        "day": 3,
+        "text": "把口粮托给巡队，继续带家人前行。",
+        "consequence": "家人不再涉险；你只能间接帮助故乡。"
+      },
+      {
+        "day": 4,
+        "text": "拒交旧友名单，在城外建立流民营。",
+        "consequence": "朋友免遭追查；你失去城墙保护。"
+      },
+      {
+        "day": 5,
+        "text": "把自己的份额交出去，不要求对方签字。",
+        "consequence": "孩子今晚吃饱；你没有余粮应对明天。"
+      },
+      {
+        "day": 6,
+        "text": "把最后的船位留给家人，转身去守闸。",
+        "consequence": "家人有机会安全抵岸；你放弃同行。"
+      },
+      {
+        "day": 7,
+        "text": "留下守住山口，让同行者全部先走。",
+        "consequence": "队伍脱离追来的黑潮；你没有走出山口。"
+      }
+    ],
+    "status": {
+      "dragon": "alive",
+      "previousHero": "supported",
+      "player": "dead"
+    },
+    "reason": "早期与后期行动发生可核对的转变。",
+    "relations": {
+      "Kingdom": 0,
+      "Church": 0,
+      "Demons": 0,
+      "Companions": 6,
+      "Dragons": 0,
+      "People": 1
+    },
+    "epilogue": {
+      "number": "S23",
+      "title": "逃过一次，留下到最后",
+      "main": "安全领的门曾在你面前开过。最后守在缺口时，你仍然想起那扇门，以及门后可能拥有的一生。你并没有不再想活。",
+      "npc": "龙族仍保留自己的立场，没有因你的终局身份自动与你和解。\n\n艾德里安仍由留守队支撑；你的局部救援没有自动解决容器的长期困境。\n\n同行者各自回到需要他们的地方；他们仍有拒绝你下一次请求的权利。",
+      "world": "船抵岸了，家人得到确切的明天。你的死亡并不证明第一次逃走的人都必须如此偿还。",
+      "self": "你没能回去解释全部选择，只把最后一条路留给了别人。",
+      "last": "你终于留下，不是因为逃过的人只能去死，而是那一刻你仍有选择。"
+    },
+    "badges": {
+      "zeroDirectKill": true,
+      "allNamedAlive": false,
+      "swordless": true,
+      "independent": true
+    }
+  }
+}

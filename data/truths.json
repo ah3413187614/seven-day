@@ -1,0 +1,52 @@
+{
+  "truth_hero_identity": {
+    "id": "truth_hero_identity",
+    "name": "旧勇者的姓名",
+    "description": "艾德里安与被称作魔王的承压者是同一人。"
+  },
+  "truth_abyss_function": {
+    "id": "truth_abyss_function",
+    "name": "回流的方向",
+    "description": "深渊积存被抽离的痛苦，封印压住回流而非消灭敌人。"
+  },
+  "truth_container_system": {
+    "id": "truth_container_system",
+    "name": "活体承压",
+    "description": "容器是仍有意愿的活人；停止与交接需要替代承压。"
+  },
+  "truth_church_edit": {
+    "id": "truth_church_edit",
+    "name": "删改的原件",
+    "description": "教会删去了姓名或撤回同意的记录。"
+  },
+  "truth_kingdom_succession": {
+    "id": "truth_kingdom_succession",
+    "name": "王国的继任账",
+    "description": "王庭知情并持续为候选人与现任容器调拨资源。"
+  },
+  "truth_dragon_network": {
+    "id": "truth_dragon_network",
+    "name": "龙骨泄压网",
+    "description": "龙骨与古渠构成支路，出口和风险必须现场核对。"
+  },
+  "truth_demon_history": {
+    "id": "truth_demon_history",
+    "name": "另一方的战史",
+    "description": "魔族也有平民与受害记录，军方不等于全部族人。"
+  },
+  "truth_common_people_cost": {
+    "id": "truth_common_people_cost",
+    "name": "被转移的代价",
+    "description": "工程与战争的代价落在具体住户身上。"
+  },
+  "truth_sword_nature": {
+    "id": "truth_sword_nature",
+    "name": "剑不作判决",
+    "description": "黎明回应愿付生命的意志，不能证明善恶。"
+  },
+  "truth_goddess_origin": {
+    "id": "truth_goddess_origin",
+    "name": "曙母的权限来源",
+    "description": "古代分配意志取得强制征用权限；神性仍未证实。"
+  }
+}

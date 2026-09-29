@@ -1,0 +1,49 @@
+{
+  "passed": false,
+  "status": "blocked",
+  "reason": "Error: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║",
+  "viewports": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "status": "not_run"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "status": "not_run"
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "status": "not_run"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "status": "not_run"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "status": "not_run"
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "status": "not_run"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "status": "not_run"
+    }
+  ],
+  "checksNotRun": [
+    "真实布局与横向溢出",
+    "七日屏幕与长尾声截图",
+    "键盘焦点与遮罩",
+    "读屏",
+    "系统导入导出"
+  ]
+}
