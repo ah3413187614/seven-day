@@ -25,3 +25,7 @@
 ## Edge `Illegal invocation` 修复
 
 用户本机报告 `fadeIn` 处 `TypeError: Illegal invocation`。默认计时器原先直接引用 `globalThis.setInterval/clearInterval`，在部分 Edge 环境中脱离宿主调用失败。现在默认适配器以 `root.setInterval(...)` 和 `root.clearInterval(...)` 调用，测试注入接口保持不变。检查音频模块未拆取 `audio.play/pause` 或其他宿主方法。播放 Promise 链增加最终 catch；`TypeError` 保留真实诊断，绝不冒充浏览器 autoplay 拒绝。新回归使用要求正确 `this` 的宿主计时器运行 `fadeIn`，并对打包 HTML 运行 autoplay 与竞态测试。当前执行环境仍无可用浏览器，无法声称 Edge 实际扬声器已验证；用户应以此版 HTML 本机重试。
+
+## 当前曲目更新（2026-09-29）
+
+五段WAV已改为24秒循环，含主题旋律、和声与后半段变化；`tests/audio_quality_v03.py`检测采样、24秒时长、轨间RMS一致性、峰值和前后半段不完全重复。实测RMS均约-16.2dBFS，峰值约0.58–0.63。新玩家默认音量40%，旧profile音量与开关不迁移。无法在当前环境真人试听或验证手机扬声器；主观好听和长时间阅读舒适度仍待测试。SFX仍只有接口。

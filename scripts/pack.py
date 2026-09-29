@@ -10,15 +10,18 @@ endings=json.loads((R/'data/endings.json').read_text())
 for e in endings['rules']:e['reachable']=e['ending_id'] not in missing
 (R/'data/endings.json').write_text(json.dumps(endings,ensure_ascii=False,indent=2),encoding='utf-8')
 uri=lambda p,m:'data:'+m+';base64,'+base64.b64encode(p.read_bytes()).decode('ascii')
-assets={'endingPremium':{}}
+assets={'endingPremium':{},'scenes':{}}
 for e in d['endings']:
  if e['artType']!='premium':continue
  key=e['artKey']
- file=R/'assets/endings/premium'/f'{key}.svg'
- if file.is_file():assets['endingPremium'][key]=uri(file,'image/svg+xml')
+ for suffix,mime in [('jpg','image/jpeg'),('svg','image/svg+xml')]:
+  file=R/'assets/endings/premium'/f'{key}.{suffix}'
+  if file.is_file():assets['endingPremium'][key]=uri(file,mime);break
+for file in sorted((R/'assets/scenes').glob('*.jpg')):
+ assets['scenes'][file.stem]=uri(file,'image/jpeg')
 audio={key:uri(R/'assets/audio/bgm'/f'{key}.wav','audio/wav') for key in ['title','normal','tension','final_day','ending']}
 header='<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1518"><title>第七日的勇者</title><style>'
 data_script='globalThis.GAME_DATA='+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+';globalThis.GAME_ASSETS='+json.dumps(assets,ensure_ascii=False)+';globalThis.GAME_AUDIO='+json.dumps(audio)+';globalThis.GAME_SFX={};'
 html=header+(R/'src/style.css').read_text()+'</style></head><body><div id="app" class="shell"></div><noscript>需要启用 JavaScript 才能游玩。</noscript><script>'+data_script+'</script>'+''.join('<script>'+(R/'src'/name).read_text()+'</script>' for name in ['engine.js','journal.js','audio.js','ui.js'])+'</body></html>'
 (R/'dist/SeventhDay.html').write_text(html,encoding='utf-8')
-print('Built offline text-first HTML with optional premium art and 5 embedded BGM loops.')
+print('Built offline HTML with scene art, premium art and 5 embedded BGM loops.')

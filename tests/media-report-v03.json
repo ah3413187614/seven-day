@@ -3,7 +3,8 @@
   "retainedPixelCharacterData": 14,
   "pixelEndingCategories": 0,
   "premiumDataEntries": 8,
-  "premiumImages": 0,
+  "premiumImages": 8,
+  "sceneImages": 7,
   "bgmStates": 5,
   "checks": [
     "audio requires explicit activation after enabled preference",

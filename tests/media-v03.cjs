@@ -22,11 +22,11 @@ assert.equal(troubled.pending,true);assert.equal(troubled.enabled,true);assert.e
 const sfx=M.createSfx({});assert.deepEqual(sfx.keys,['choice','page','bell','sword','ending_reveal']);assert.equal(sfx.play('choice'),false);assert.equal(sfx.play('unknown'),false);
 assert.equal(D.characters.length,14);assert.ok(D.characters.every(c=>fs.existsSync(`assets/characters/pixel/${c.spriteKey}.svg`)));
 for(const n of Object.values(D.story.nodes))assert.ok(['normal','tension','final_day'].includes(n.musicKey)&&n.characterIds.every(id=>D.characters.some(c=>c.character_id===id)));
-assert.equal(D.endings.filter(e=>e.artType==='premium').length,8);
+assert.equal(D.endings.filter(e=>e.artType==='premium').length,8);assert.ok(D.endings.filter(e=>e.artType==='premium').every(e=>fs.existsSync(`assets/endings/premium/${e.artKey}.jpg`)));assert.equal(fs.readdirSync('assets/scenes').filter(n=>n.endsWith('.jpg')).length,7);
 assert.ok(D.endings.filter(e=>e.artType!=='premium').every(e=>e.artType==='none'&&e.artKey===null));
 for(const key of ['title','normal','tension','final_day','ending']){const f=fs.readFileSync(`assets/audio/bgm/${key}.wav`);assert.equal(f.toString('ascii',0,4),'RIFF');assert.ok(f.length>300000);}
 const ui=fs.readFileSync('src/ui.js','utf8');assert.ok(!ui.includes('character-gallery')&&!ui.includes('pixel-sprite')&&!ui.includes('art-awaiting'));
 const css=fs.readFileSync('src/style.css','utf8');for(const n of [430,350])assert.ok(css.includes(`max-width:${n}px`));
-fs.writeFileSync('tests/media-report-v03.json',JSON.stringify({passed:true,retainedPixelCharacterData:14,pixelEndingCategories:0,premiumDataEntries:8,premiumImages:0,bgmStates:5,checks:['audio requires explicit activation after enabled preference','five BGM keys crossfade without overlapping old tracks','media error retains code and message with retry state','pauses on hidden','silent until first gesture','premium keys resolve; ordinary endings have no large art','offline audio embedded in package','320px and 430px CSS rules present'],browserVisualQA:'not verified'},null,2));
+fs.writeFileSync('tests/media-report-v03.json',JSON.stringify({passed:true,retainedPixelCharacterData:14,pixelEndingCategories:0,premiumDataEntries:8,premiumImages:8,sceneImages:7,bgmStates:5,checks:['audio requires explicit activation after enabled preference','five BGM keys crossfade without overlapping old tracks','media error retains code and message with retry state','pauses on hidden','silent until first gesture','premium keys resolve; ordinary endings have no large art','offline audio embedded in package','320px and 430px CSS rules present'],browserVisualQA:'not verified'},null,2));
 console.log('Media/data regression passed');
 })().catch(e=>{console.error(e);process.exitCode=1;});

@@ -471,3 +471,12 @@ SCENES['d7_h_oath_dissent']=SCENES['d7_h_oath_dissent'].replace('要关闭总核
 SCENES['d3_h_oath']=SCENES['d3_h_oath'].replace('伊芙摸过纸上的凸点，说这是心跳。','伊芙摸过纸上的凸点，说这是心跳。卷边注明“活体承压”，每次脉冲都与心跳同步。')
 SCENES['d3_h_ledger']=SCENES['d3_h_ledger'].replace('门外有人来收异端证据。','页码跳过两处，删文批条盖着教会印。门外有人来收异端证据。')
 SCENES['d4_v_ledger']=SCENES['d4_v_ledger'].replace('两岸住户围着图，','渠中露出的龙骨接头连着山腹支路。两岸住户围着图，')
+# V0.3 local arrival repairs. Each line applies to one route, without changing choices or gates.
+SCENES['d2_c']='你带着粮单赶了一夜路。'+SCENES['d2_c']
+SCENES['d2_h']='你带着缺页的预言抄本抵达圣堂。'+SCENES['d2_h']
+SCENES['d2_w']='你循着剑痕走进旧林。'+SCENES['d2_w']
+SCENES['d2_v']='你留下修桥，天亮时河水又涨了一截。'+SCENES['d2_v']
+SCENES['d3_c_guard']=SCENES['d3_c_guard'].replace('妮娅认出哥哥的笔迹，','随车求援的魔族孩子妮娅认出哥哥的笔迹，')
+SCENES['d3_v_guard']=SCENES['d3_v_guard'].replace('老人把炉边的位置让给了萨德。','你留守的屋里多了一名腿伤的魔族工兵。老人把炉边的位置让给了萨德。')
+SCENES['d4_w_revolt']=SCENES['d4_w_revolt'].replace('妮娅把平民的粮票铺到地图上，','赶来传消息的魔族孩子妮娅把平民的粮票铺到地图上，')
+SCENES['d5_c_guard']=SCENES['d5_c_guard'].replace('瓦尔的停火条件里写着交人，','魔族将领瓦尔送来的停火条件里写着交人，')

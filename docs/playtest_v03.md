@@ -25,3 +25,7 @@
 ### Edge竞态补丁
 
 `tests/audio-race-v03.cjs`通过受控pending Promise验证同曲目单次启动、早切曲不暂停未settle实例、退场后才暂停、关声时相同处理、AbortError不进入autoplay错误通道、下一手势可恢复。`tests/autoplay-v03.cjs`在实际打包HTML的模拟DOM中执行pointerdown→click→render和开场→第一日切轨，并检查无早期pause。`tests/media-v03.cjs`重新验证五首切轨和错误字段。真实Edge音频输出仍未在本环境实测。
+
+## 插画/音乐补充回归
+
+源码重新生成数据后，首周目与NG+各16,384路径、89节点、356行动、24弧光、166跨模式可达称号保持一致。权限专项16,384终态通过；Journey/Recall、音频竞态、autoplay、实际HTML模拟DOM通过。24秒五轨静态声学测试通过，Android内置资源同步及静态语法检查通过。真实浏览器与APK构建未在此环境完成；波形检查不能证明主观音质。

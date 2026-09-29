@@ -9,7 +9,7 @@ for src,dst in [('CHANGELOG_V0.3.md','CHANGELOG_V0.3.md'),('docs/CODEX_HANDOFF.m
 hashfile=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 m={'version':'0.3.0-final','builtAtUTC':datetime.datetime.now(datetime.timezone.utc).isoformat(),'firstPaths':a['runs']['first']['paths'],'ngPaths':a['runs']['replay']['paths'],'reachableEndings':166,'browserQA':'blocked; 7 viewports not run','randomTest':'V0.2 historical only; engine unchanged','sha256':{}}
 for p in sorted(R.rglob('*')):
- if p.is_file() and p.suffix in ['.js','.css','.json','.py','.html','.cjs','.svg','.wav'] and not any(x in p.parts for x in ['archive','__pycache__']) and p.name!='final-build-manifest.json':m['sha256'][str(p.relative_to(R))]=hashfile(p)
+ if p.is_file() and p.suffix in ['.js','.css','.json','.py','.html','.cjs','.svg','.wav','.jpg'] and not any(x in p.parts for x in ['archive','__pycache__']) and p.name!='final-build-manifest.json':m['sha256'][str(p.relative_to(R))]=hashfile(p)
 (R/'tests/final-build-manifest.json').write_text(json.dumps(m,ensure_ascii=False,indent=2))
 zpath=W/'SeventhDay_Project_V0.3.zip'
 with zipfile.ZipFile(zpath,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:

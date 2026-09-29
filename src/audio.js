@@ -2,7 +2,7 @@
 (function(root){
 'use strict';
 function createAudio(urls,AudioCtor=root.Audio,timers={setInterval:(...args)=>root.setInterval(...args),clearInterval:id=>root.clearInterval(id)},onError=()=>{},onStatus=()=>{}){
- let enabled=false,activated=false,volume=.27,key=null,current=null,previous=null,fade=null,hidden=false,lastError=null,lastInterruption=null;
+ let enabled=false,activated=false,volume=.40,key=null,current=null,previous=null,fade=null,hidden=false,lastError=null,lastInterruption=null;
  const clamp=x=>Math.max(0,Math.min(1,Number(x)||0));
  function stopFade(){if(fade!==null){timers.clearInterval(fade);fade=null;}}
  // A pending play() owns its Audio instance until the Promise settles. Muting it

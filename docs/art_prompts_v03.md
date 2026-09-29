@@ -22,3 +22,7 @@
 ## 后续资产接入约定
 
 真实插画完成、取得制作与使用权后，以同名文件置入 `assets/endings/premium/`；目前pack支持SVG原生内嵌。若采用PNG/WebP，应在pack的受控mime映射中扩展并验证离线构建。像素角色若重绘，保持14个稳定spriteKey，不改人物或剧情ID；不得把道具视觉当作玩家未得到的证据。
+
+## 本轮实际接入（2026-09-29）
+
+8个现有Premium `artKey`均有对应JPG：轮回终结、遗忘守护、清醒疯子、懦夫到殉道、勇者到暴君、仁慈容器、仁慈暴君、无剑勇者。新增卷首`title`，以及`border_bridge`、`kingdom`、`church`、`demon_camp`、`dragon_woods`、`abyss`六幅地点图。统一提示词：dark medieval fantasy, painterly oil and ink, muted blue-green charcoal, restrained old gold, no text, no pixel art。由内置图像生成工具分别制作，保存为JPEG并在单文件HTML内嵌。早期“尚未制作”的说明为历史状态，以本节为准。
