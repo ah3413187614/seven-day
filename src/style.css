@@ -39,3 +39,18 @@ button.ending-card:hover,button.ending-card:focus-visible{border-color:var(--gol
 .topbar{gap:14px}.nav{gap:3px;flex-wrap:wrap;justify-content:flex-end}.nav button{border-color:transparent;background:transparent;border-radius:2px;padding:8px 9px;color:#c0cec6}.nav button:hover,.nav button:focus-visible{background:#d6ba7c12;border-color:#d6ba7c44}.nav [data-action=audio]{color:var(--gold);border-color:#d6ba7c44}.settings{position:relative;color:#bac8c0;font-size:12px}.settings summary{cursor:pointer;list-style:none;padding:8px 9px;min-height:44px;display:grid;place-items:center}.settings summary::-webkit-details-marker{display:none}.settings summary:hover{color:var(--gold)}.settings[open] .volume-control{position:absolute;z-index:4;right:0;top:43px;background:#16272a;border:1px solid var(--line);padding:12px;box-shadow:0 12px 30px #0008;min-width:180px}.hero-art img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border:1px solid var(--line);box-shadow:0 15px 50px #0007}.scene-art{margin:0 auto 17px;max-width:72ch;overflow:hidden;border:1px solid #ac976046;background:#122326}.scene-art img{display:block;width:100%;height:clamp(135px,19vw,210px);object-fit:cover}.scene p:first-child::first-letter{color:#876b3f}.scene p{color:var(--ink)}
 @media(max-width:760px){.hero-art{display:block;max-width:100%;margin:8px 0}.hero-art img{max-height:190px}.hero-art .art-note{display:none}.scene-art img{height:125px}.nav{justify-content:flex-start;width:100%}.nav button{flex:0 1 auto;padding:8px 10px}}
 @media(max-width:430px){.nav{display:flex;gap:2px 4px}.nav button{width:auto;flex:1 1 28%;font-size:11px;min-width:0}.settings{flex:1 1 28%;text-align:center}.settings[open] .volume-control{right:0}.hero{padding:25px 0}.hero-art img{max-height:140px}.scene-art img{height:105px}}
+/* V0.4 location environments. The text panel stays solid and calm. */
+.game{position:relative;isolation:isolate;--place-accent:#b99768;--place-paper:#eee7d7}
+.game::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(90deg,#081318e8,#081318b2 50%,#081318e8),var(--place-art);background-size:cover;background-position:center;opacity:.67}
+.game>*{position:relative;z-index:1}
+.game.place-border_bridge{--place-accent:#c7a879;--place-paper:#e9e1ce}
+.game.place-kingdom{--place-accent:#b3c6d6;--place-paper:#ebe8dd}
+.game.place-church{--place-accent:#c9b9d2;--place-paper:#eee9e2}
+.game.place-demon_camp{--place-accent:#d0a181;--place-paper:#e8dfd3}
+.game.place-dragon_woods{--place-accent:#b1bfa4;--place-paper:#e5e5d9}
+.game.place-abyss{--place-accent:#a6bbce;--place-paper:#e2e6e5}
+.game .chapter-title,.game .dayline .eyebrow{color:var(--place-accent)}
+.game .scene-art{border-color:color-mix(in srgb,var(--place-accent) 60%,transparent);box-shadow:0 9px 28px #0007}
+.game .scene{background:linear-gradient(115deg,#fff6,var(--place-paper) 32%,var(--place-paper) 72%,#b8ad9555),repeating-linear-gradient(0deg,#665c4010 0 1px,transparent 1px 8px);background-color:var(--place-paper);border:1px solid #b1a88c66;border-top:2px solid var(--place-accent);border-radius:6px 4px 8px 5px;box-shadow:0 10px 42px #0005,0 0 0 5px #d6caad0b}
+.game .echo-panel{border-color:var(--place-accent)}.nav [aria-current=page]{color:var(--gold);background:#d6ba7c12;border-bottom:1px solid var(--gold)}
+@media(max-width:760px){.game::before{background-position:center top;opacity:.50}.game .scene{box-shadow:0 8px 25px #0004}}

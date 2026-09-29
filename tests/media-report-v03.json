@@ -5,15 +5,15 @@
   "premiumDataEntries": 8,
   "premiumImages": 8,
   "sceneImages": 7,
-  "bgmStates": 5,
+  "bgmStates": 8,
   "checks": [
     "audio requires explicit activation after enabled preference",
-    "five BGM keys crossfade without overlapping old tracks",
+    "BGM keys crossfade without overlapping old tracks",
     "media error retains code and message with retry state",
     "pauses on hidden",
     "silent until first gesture",
     "premium keys resolve; ordinary endings have no large art",
-    "offline audio embedded in package",
+    "offline Ogg audio embedded in package",
     "320px and 430px CSS rules present"
   ],
   "browserVisualQA": "not verified"

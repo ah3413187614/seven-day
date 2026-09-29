@@ -480,3 +480,4 @@ SCENES['d3_c_guard']=SCENES['d3_c_guard'].replace('妮娅认出哥哥的笔迹�
 SCENES['d3_v_guard']=SCENES['d3_v_guard'].replace('老人把炉边的位置让给了萨德。','你留守的屋里多了一名腿伤的魔族工兵。老人把炉边的位置让给了萨德。')
 SCENES['d4_w_revolt']=SCENES['d4_w_revolt'].replace('妮娅把平民的粮票铺到地图上，','赶来传消息的魔族孩子妮娅把平民的粮票铺到地图上，')
 SCENES['d5_c_guard']=SCENES['d5_c_guard'].replace('瓦尔的停火条件里写着交人，','魔族将领瓦尔送来的停火条件里写着交人，')
+SCENES['d3_v_ledger']=SCENES['d3_v_ledger'].replace('托马称完最后一袋粮，','你家的屋梁已经钉进渡船，船工用布包住新接的木头。托马称完最后一袋粮，')

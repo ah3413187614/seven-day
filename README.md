@@ -1,19 +1,15 @@
 # 《第七日的勇者》
 
-**Dark Fantasy Interactive Narrative** · 当前最新版 **V0.3**
+**Dark Fantasy Interactive Narrative · 当前开发版 V0.4**
 
-七天选择结构，每天四个行动。**Yesterday's choice determines today's options.** 昨日的决定改变今日能做什么，七日共同决定结局。
+七天选择结构，每天四个行动。**Yesterday's choice determines today's options.** 七日的行动、已知真相和关系共同影响终局。直接打开根目录 `SeventhDay.html` 即可离线游玩。
 
-下载并直接打开根目录的 `SeventhDay.html` 即可离线游玩。Android APK 在规划中；仓库的 `android/` 是包装工程，当前没有已验证的 APK 成品。
+V0.4 采用文字、地点环境、少量纹章、八首离线 BGM 和八幅特殊结局插画；普通结局以文字呈现，不使用日常像素人物。通关后可在命运图鉴回看结局，旅程档案保留已完成的路线。旧版存档和图鉴资料沿用同一存储键。
 
-历史版本：[`v0.1.0`](../../tree/v0.1.0)、[`v0.2.0`](../../tree/v0.2.0)、[`v0.3.0`](../../tree/v0.3.0)。各 tag 保留对应时期的文件；V0.1 的变更记录是归档补录。
+Android 工程在 `android/`，使用本地网页资产。当前工作环境未构建新版 APK；GitHub Actions 工作流可在推送后手动触发 debug 构建。调试签名包与正式上架签名不同。
 
-# 第七日的勇者 · V0.3 封板版
+从源码构建并验收：`python scripts/release_v04.py`。它按顺序生成数据、运行回归、构建网页、同步 Android 资产并打包完整项目。音频母版在 `assets/audio/bgm/*.wav`，交付压缩格式在 `assets/audio/bgm/ogg/`；若修改配乐，先执行 `python scripts/generate_bgm.py`，再按 `ffmpeg -i 输入.wav -c:a libvorbis -q:a 4 输出.ogg` 逐轨重制，最后运行发布脚本。需要 Python、NumPy、Node.js；音频解码测试需要 FFmpeg。
 
-直接打开根目录的 `SeventhDay.html` 离线游玩。七天、每天四个可执行选择，昨日行为改变今日处境与最终称号。通关后的图鉴可回看完整结局；旅程档案保存最近40局，每个已解锁称号另保留一次完整代表记录。
+89 个节点、356 个行动、24 条可验证人物弧光；首周目与 NG+ 各 16,384 条路径，合计 166 个可达称号。自动测试不能替代真实 Chrome/Edge 视觉和设备试听。详见 `CHANGELOG_V0.4.md` 与 `docs/CODEX_HANDOFF.md`。
 
-本体以文字、UI、BGM和极少量纹章呈现。剧情中不显示像素人物；首次相遇时有简洁NPC身份标签。普通Ending没有大型插画。8个Premium称号保留高质量插画接口，目前尚无正式图片，缺图时自然呈现文字结局。BGM有5段原创程序合成原型；新玩家默认愿意听，但首次明确交互后才播放。玩家主动关闭的音乐设置不会被重开。
-
-项目HTML内嵌文字、UI、音频和实际使用的资源，不依赖CDN、服务器或远程字体。WebView包装尚未实测，不宣称APK已制作。Chrome/Edge真实视觉、真机触控、音频听感、真人盲测仍待验证。路径存档JSON导出只包括本局，不包括全档案。V0.2旧图鉴题名保留；旧版没有记录的完整历史无法凭空恢复。
-
-89节点、356行动、24弧光、10真相、166可达称号。构建与回归命令见 `docs/CODEX_HANDOFF.md`；封板状态和测试边界见 `docs/playtest_v03.md`、`docs/visual_qa_v03.md`、`docs/audio_system_v03.md`。
+历史标签：[`v0.1.0`](../../tree/v0.1.0)、[`v0.2.0`](../../tree/v0.2.0)、[`v0.3.0`](../../tree/v0.3.0)。V0.4 当前为后续提交，不改写历史标签。

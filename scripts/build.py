@@ -142,6 +142,7 @@ dump('data/arcs.json',{'arcs':arcs})
 dump('data/flags.json',{'flags':list(flags.values())})
 dump('data/epilogues.json',{'packets':packets})
 bundle={'story':{'start':'d1_start','nodes':nodes},'choices':choices,'characters':characters,'endings':endings,'roles':{k:{'name':v[0],'world':v[1]} for k,v in ROLES.items()},'arcs':arcs,'flags':flags,'packets':packets,'stats':dict(zip(STATS,STAT_CN)),'variants':variants,'truths':{'truth_'+k:{'id':'truth_'+k,'name':v[0],'description':v[1]} for k,v in TRUTHS.items()},'reactions':REACTIONS}
+bundle['proseVariants']=json.loads((ROOT/'data/prose_variants.json').read_text(encoding='utf-8'))
 dump('data/truths.json',bundle['truths'])
 dump('data/bundle.json',bundle)
 # Generated reference docs are data-derived; editable authoring source stays under scripts/.

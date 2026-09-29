@@ -2,8 +2,8 @@
   "staticChecksPassed": true,
   "apkBuilt": false,
   "deviceTested": false,
-  "sourceSha256": "d624afe4262f181c0a5a93f60f2575b9522aec927aa132abd0f5f231e7d0431c",
-  "assetSha256": "f43d6dfdf9cf652ae617e7ff95f2e161bd7ad7a9b3874023bc1113c82cef6502",
-  "assetBytes": 14420577,
+  "sourceSha256": "ccd3994a05e0e76834274de862dd0a4af9fd4a200177668d9c134859484d3b99",
+  "assetSha256": "555ef8dfce62bae72254de955f7bd3e3901212c24b8e4dad4e6ec418125b0113",
+  "assetBytes": 9100597,
   "notes": "Android toolchain unavailable in this workspace."
 }

@@ -18,7 +18,7 @@ import java.io.ByteArrayInputStream;
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 
-/** Offline WebView shell for the exact V0.3 game HTML. No INTERNET permission. */
+/** Offline WebView shell for the exact V0.4 game HTML. No INTERNET permission. */
 public final class MainActivity extends Activity {
     private static final String GAME_URL = "https://appassets.androidplatform.net/assets/SeventhDay.html";
     private static final int PICK_SAVE = 101;

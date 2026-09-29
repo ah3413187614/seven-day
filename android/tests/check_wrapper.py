@@ -7,7 +7,7 @@ ASSET = (ROOT / 'app/src/main/assets/SeventhDay.html').read_text(encoding='utf-8
 HOOK = "if(globalThis.AndroidBridge){AndroidBridge.saveJson(JSON.stringify(E.exportSave(state),null,2));return;}"
 assert ASSET.count(HOOK) == 1
 assert ASSET.replace(HOOK, '') == SOURCE, 'The asset must differ solely by export hook.'
-assert len(re.findall(r'<script>', ASSET)) == 5
+assert len(re.findall(r'<script>', ASSET)) == 6
 assert 'GAME_AUDIO=' in ASSET and 'GAME_SFX={}' in ASSET
 assert '<script src=' not in ASSET and 'https://' not in ASSET
 java = (ROOT / 'app/src/main/java/com/seventhday/game/MainActivity.java').read_text()

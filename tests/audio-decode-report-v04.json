@@ -1,0 +1,50 @@
+{
+  "title": {
+    "duration": 72.0,
+    "rmsDbFS": -16.47,
+    "peak": 0.587,
+    "bytes": 160077
+  },
+  "home": {
+    "duration": 72.0,
+    "rmsDbFS": -16.47,
+    "peak": 0.573,
+    "bytes": 176090
+  },
+  "normal": {
+    "duration": 72.0,
+    "rmsDbFS": -16.47,
+    "peak": 0.583,
+    "bytes": 164864
+  },
+  "explore": {
+    "duration": 72.0,
+    "rmsDbFS": -16.47,
+    "peak": 0.599,
+    "bytes": 167515
+  },
+  "tension": {
+    "duration": 72.0,
+    "rmsDbFS": -16.48,
+    "peak": 0.548,
+    "bytes": 149336
+  },
+  "final_day": {
+    "duration": 72.0,
+    "rmsDbFS": -16.47,
+    "peak": 0.563,
+    "bytes": 156721
+  },
+  "ending": {
+    "duration": 72.0,
+    "rmsDbFS": -16.47,
+    "peak": 0.553,
+    "bytes": 170778
+  },
+  "ending_dark": {
+    "duration": 72.0,
+    "rmsDbFS": -16.48,
+    "peak": 0.569,
+    "bytes": 151298
+  }
+}

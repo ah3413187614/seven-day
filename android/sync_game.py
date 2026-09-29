@@ -13,5 +13,5 @@ if html.count(before) != 1:
 asset = html.replace(before, after)
 ASSET.parent.mkdir(parents=True, exist_ok=True)
 ASSET.write_text(asset, encoding='utf-8')
-print('V0.3 source SHA-256:', hashlib.sha256(SOURCE.read_bytes()).hexdigest())
+print('V0.4 source SHA-256:', hashlib.sha256(SOURCE.read_bytes()).hexdigest())
 print('Android asset SHA-256:', hashlib.sha256(ASSET.read_bytes()).hexdigest())

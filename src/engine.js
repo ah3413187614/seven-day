@@ -127,10 +127,8 @@ function createEngine(data){
     const dead=state.flags.includes('killed_dragon');
     const livingText=t=>dead?t.replaceAll('阿瑟兰','遗誓使').replaceAll('古龙','龙族代表'):t;
     if(dead&&n.node_id!=='d7_w_guard_dragon_debt')scene=livingText(scene);
-    for(const encounter of state.encounterLog.filter(x=>x.day===state.day)){
-      const c=data.characters.find(c=>c.character_id===encounter.id),short=c.name.split('·')[0];
-      if(scene.includes(short)&&!scene.includes(c.introduction))scene=scene.replace(short,c.introduction);
-    }
+    // Identity appears in the first-encounter label. Replacing a bare name in
+    // authored prose could double an existing descriptor (e.g. 魔族孩子魔族信使妮娅).
     const memory=state.meta.completedRuns>0&&state.day===4?'门轴轻响了两下。你在声音停下之前，抬头看了一眼。':null;
     const reaction=last?.flags.map(f=>data.reactions[f]).find(r=>r&&state.metNPCs.includes(r[0]));
     return {day:n.day,title:n.title,location:n.location,scene,echo:last?.consequence||null,memory,reaction:reaction?.[1]||null,choices:n.choices.map(id=>{const c=resolveChoice(state,id);return {id,text:livingText(c.text)};})};

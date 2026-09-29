@@ -6,7 +6,7 @@ function normalize(p){p.saveVersion=3;p.journeys=Array.isArray(p.journeys)?p.jou
 function record(p,state,ending,runId,now=new Date().toISOString()){
  normalize(p);
  if(p.journeys.some(j=>j.runId===runId))return;
- const j={runId,endingId:ending.endingId,endingTitle:ending.title,choiceIds:state.history.map(h=>h.choiceId),nodeIds:state.history.map(h=>h.nodeId),completedAt:now,version:'0.3.0',snapshot:copy(ending)};
+ const j={runId,endingId:ending.endingId,endingTitle:ending.title,choiceIds:state.history.map(h=>h.choiceId),nodeIds:state.history.map(h=>h.nodeId),completedAt:now,version:'0.4.0',snapshot:copy(ending)};
  p.journeys.push(j);p.journeys=p.journeys.slice(-40);
  p.collection[ending.endingId]??={title:ending.title,role:ending.role,firstSeen:now.slice(0,10)};
  // Keep one complete historical representative even after the recent archive rolls over.

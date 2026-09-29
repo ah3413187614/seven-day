@@ -1,6 +1,6 @@
 {
   "name": "hero-of-the-seventh-dawn",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "description": "七日四选一、数据驱动的离线西幻文字冒险",
   "scripts": {
