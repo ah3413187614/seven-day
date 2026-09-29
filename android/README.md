@@ -1,5 +1,7 @@
 # 第七日的勇者 V0.4 · Android 封装工程
 
+启动图标使用 `assets/branding/launcher-icon.png` 为原图，Android 各密度资源位于 `app/src/main/res/mipmap-*/ic_launcher.png`。图标为本项目原创生成素材；修改图标后须重新运行 APK 构建，旧 APK 不会自动更新。
+
 这是以最终 `SeventhDay.html` 为内容的原生 Android WebView 外壳，不增加剧情或玩法。当前仓库**不含已构建 APK**：本次执行环境没有 Android SDK、Gradle、aapt/d8 或可用下载通道，不能真实编译与真机验收。
 
 ## 在已有 Android Studio 的电脑生成安装包
