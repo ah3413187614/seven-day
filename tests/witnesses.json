@@ -1,0 +1,2186 @@
+{
+  "pontiff_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_1",
+      "d6_h_oath_1",
+      "d7_h_oath_1"
+    ],
+    "title": "守望信仰的教会领袖"
+  },
+  "vessel_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_1",
+      "d6_h_oath_1",
+      "d7_h_oath_2"
+    ],
+    "title": "守誓的魔王"
+  },
+  "savior_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_1",
+      "d6_h_oath_1",
+      "d7_h_oath_3"
+    ],
+    "title": "守誓的救世主"
+  },
+  "hero_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_1",
+      "d6_h_oath_1",
+      "d7_h_oath_4"
+    ],
+    "title": "守誓的勇者"
+  },
+  "arc_believer_to_inquirer": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_1",
+      "d6_h_oath_2",
+      "d7_h_ledger_1"
+    ],
+    "title": "向神明追问的人"
+  },
+  "witness_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_1",
+      "d6_h_oath_2",
+      "d7_h_ledger_2"
+    ],
+    "title": "守约的见证者"
+  },
+  "martyr_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_1",
+      "d6_h_oath_2",
+      "d7_h_ledger_4"
+    ],
+    "title": "守约的殉道者"
+  },
+  "arc_faithful_to_heretic": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_1",
+      "d6_h_oath_3",
+      "d7_h_revolt_2"
+    ],
+    "title": "背叛神谕的守誓者"
+  },
+  "guardian_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_1",
+      "d6_h_oath_4",
+      "d7_w_oath_4"
+    ],
+    "title": "守约的守护者"
+  },
+  "vessel_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_1",
+      "d7_h_revolt_1"
+    ],
+    "title": "迎战黑潮的魔王"
+  },
+  "arc_idealistic_to_pragmatic": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_1",
+      "d7_h_revolt_3"
+    ],
+    "title": "学会计算代价的勇者"
+  },
+  "witness_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_1",
+      "d7_h_revolt_4"
+    ],
+    "title": "不肯噤声的见证者"
+  },
+  "martyr_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_2",
+      "d7_w_ledger_3"
+    ],
+    "title": "迎向终夜的殉道者"
+  },
+  "wanderer_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_2",
+      "d7_w_ledger_4"
+    ],
+    "title": "逆风的远行者"
+  },
+  "blood_king": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_3",
+      "d7_c_oath_judgment_1"
+    ],
+    "title": "以他人代价加冕的国王"
+  },
+  "blood_hero": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_3",
+      "d7_c_oath_judgment_2"
+    ],
+    "title": "有瑕疵的勇者"
+  },
+  "blood_witness": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_3",
+      "d7_c_oath_judgment_3"
+    ],
+    "title": "也在证词之中的见证者"
+  },
+  "arc_hero_to_tyrant": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_3",
+      "d7_c_oath_judgment_4"
+    ],
+    "title": "让众人跪下的旧日勇者"
+  },
+  "guardian_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_4",
+      "d7_w_oath_4"
+    ],
+    "title": "持灯迎风的守护者"
+  },
+  "savior_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_1",
+      "d7_w_oath_3"
+    ],
+    "title": "迎向黑潮的救世主"
+  },
+  "arc_soldier_to_healer": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_1",
+      "d7_w_oath_4"
+    ],
+    "title": "放下军令的照护者"
+  },
+  "ferryman_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_2",
+      "d7_h_guard_2"
+    ],
+    "title": "逆流的摆渡人"
+  },
+  "arc_oathkeeper_to_free": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_2",
+      "d7_h_guard_4"
+    ],
+    "title": "把誓言还给人的守望者"
+  },
+  "godslayer_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_4",
+      "d7_h_ledger_1"
+    ],
+    "title": "仍然祈祷的弑神者"
+  },
+  "godslayer_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_4",
+      "d6_w_oath_2",
+      "d7_w_ledger_2"
+    ],
+    "title": "直面神谕的弑神者"
+  },
+  "dragonkeeper_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_4",
+      "d6_w_oath_3",
+      "d7_w_guard_1"
+    ],
+    "title": "迎着龙焰的养龙人"
+  },
+  "special_forgotten": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_4",
+      "d6_w_oath_3",
+      "d7_w_guard_2"
+    ],
+    "title": "被世界遗忘的守护者"
+  },
+  "arc_hero_to_demon_king": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_4",
+      "d6_w_oath_3",
+      "d7_w_guard_3"
+    ],
+    "title": "勇者成为魔王的那一天"
+  },
+  "ordinary_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_4",
+      "d6_w_oath_4",
+      "d7_v_oath_2"
+    ],
+    "title": "敢于回家的普通人"
+  },
+  "king_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_4",
+      "d6_w_oath_4",
+      "d7_v_oath_3"
+    ],
+    "title": "走在军阵之前的国王"
+  },
+  "hero_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_1",
+      "d5_h_oath_4",
+      "d6_w_oath_4",
+      "d7_v_oath_4"
+    ],
+    "title": "无畏的勇者"
+  },
+  "blood_pontiff": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_2",
+      "d5_c_ledger_1",
+      "d6_c_oath_1",
+      "d7_h_oath_1"
+    ],
+    "title": "仍须受审的教会领袖"
+  },
+  "blood_vessel": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_2",
+      "d5_c_ledger_1",
+      "d6_c_oath_1",
+      "d7_h_oath_2"
+    ],
+    "title": "背负罪责的魔王"
+  },
+  "blood_savior": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_2",
+      "d5_c_ledger_1",
+      "d6_c_oath_1",
+      "d7_h_oath_3"
+    ],
+    "title": "染血的救世主"
+  },
+  "blood_godslayer": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_2",
+      "d5_c_ledger_1",
+      "d6_c_oath_2",
+      "d7_w_ledger_2"
+    ],
+    "title": "不能自赦的弑神者"
+  },
+  "blood_martyr": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_2",
+      "d5_c_ledger_1",
+      "d6_c_oath_2",
+      "d7_w_ledger_3"
+    ],
+    "title": "不能以死抵罪的殉道者"
+  },
+  "blood_wanderer": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_2",
+      "d5_c_ledger_1",
+      "d6_c_oath_2",
+      "d7_w_ledger_4"
+    ],
+    "title": "带着欠债远行的人"
+  },
+  "blood_guardian": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_2",
+      "d5_c_ledger_1",
+      "d6_c_oath_4",
+      "d7_c_guard_3"
+    ],
+    "title": "欠着名字的守护者"
+  },
+  "arc_human_supremacist_to_peacemaker": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_2",
+      "d5_c_ledger_2",
+      "d6_v_ledger_4",
+      "d7_h_guard_1"
+    ],
+    "title": "越过仇恨的守望者"
+  },
+  "pontiff_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_2",
+      "d5_c_ledger_4",
+      "d6_c_revolt_1",
+      "d7_h_ledger_3"
+    ],
+    "title": "敢于受审的教会领袖"
+  },
+  "tyrant_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_2",
+      "d5_c_ledger_4",
+      "d6_c_revolt_2",
+      "d7_c_revolt_1"
+    ],
+    "title": "亲赴前线的暴君"
+  },
+  "arc_follower_to_leader": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_3",
+      "d5_c_revolt_2",
+      "d6_c_oath_3",
+      "d7_c_oath_1"
+    ],
+    "title": "终于自己签名的领袖"
+  },
+  "savior_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_3",
+      "d5_c_revolt_3",
+      "d6_v_oath_1",
+      "d7_v_ledger_1"
+    ],
+    "title": "不肯跪下的救世主"
+  },
+  "ferryman_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_3",
+      "d5_c_revolt_3",
+      "d6_v_oath_1",
+      "d7_v_ledger_2"
+    ],
+    "title": "拆掉关卡的摆渡人"
+  },
+  "martyr_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_3",
+      "d5_c_revolt_3",
+      "d6_v_oath_1",
+      "d7_v_ledger_3"
+    ],
+    "title": "自愿赴死的殉道者"
+  },
+  "exile_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_1",
+      "d4_c_oath_4",
+      "d5_c_guard_3",
+      "d6_v_revolt_1",
+      "d7_v_revolt_2"
+    ],
+    "title": "敢于承认离开的流亡者"
+  },
+  "king_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_1",
+      "d6_c_ledger_1",
+      "d7_c_ledger_3"
+    ],
+    "title": "理智的国王"
+  },
+  "vessel_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_1",
+      "d6_c_ledger_3",
+      "d7_w_oath_1"
+    ],
+    "title": "理智的魔王"
+  },
+  "martyr_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_1",
+      "d6_c_ledger_3",
+      "d7_w_oath_2"
+    ],
+    "title": "清醒的殉道者"
+  },
+  "guardian_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_1",
+      "d6_c_ledger_3",
+      "d7_w_oath_4"
+    ],
+    "title": "谨慎的守护者"
+  },
+  "ferryman_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_1",
+      "d6_c_ledger_4",
+      "d7_v_guard_2"
+    ],
+    "title": "算清载重的摆渡人"
+  },
+  "dragonkeeper_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_1",
+      "d6_c_ledger_4",
+      "d7_v_guard_4"
+    ],
+    "title": "懂得边界的养龙人"
+  },
+  "arc_skeptic_to_oathkeeper": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_2",
+      "d6_c_oath_1",
+      "d7_h_oath_1"
+    ],
+    "title": "质疑之后仍愿守约的人"
+  },
+  "godslayer_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_2",
+      "d6_c_oath_2",
+      "d7_w_ledger_2"
+    ],
+    "title": "理智的弑神者"
+  },
+  "wanderer_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_2",
+      "d6_c_oath_2",
+      "d7_w_ledger_4"
+    ],
+    "title": "带着地图的远行者"
+  },
+  "vessel_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_2",
+      "d6_c_oath_3",
+      "d7_c_oath_2"
+    ],
+    "title": "自选王座的魔王"
+  },
+  "savior_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_2",
+      "d6_c_oath_3",
+      "d7_c_oath_3"
+    ],
+    "title": "执掌黎明的救世主"
+  },
+  "hero_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_2",
+      "d6_c_oath_3",
+      "d7_c_oath_4"
+    ],
+    "title": "渴望冠冕的勇者"
+  },
+  "hero_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_3",
+      "d6_v_oath_2",
+      "d7_c_guard_1"
+    ],
+    "title": "不受册封的勇者"
+  },
+  "guardian_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_3",
+      "d6_v_oath_2",
+      "d7_c_guard_3"
+    ],
+    "title": "没有主人的守护者"
+  },
+  "wanderer_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_3",
+      "d6_v_oath_2",
+      "d7_c_guard_4"
+    ],
+    "title": "无拘的远行者"
+  },
+  "vessel_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_3",
+      "d6_v_oath_4",
+      "d7_c_oath_2"
+    ],
+    "title": "拒绝旧律的魔王"
+  },
+  "witness_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_4",
+      "d6_h_guard_2",
+      "d7_v_ledger_4"
+    ],
+    "title": "核对每个名字的见证者"
+  },
+  "dragonkeeper_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_4",
+      "d6_h_guard_3",
+      "d7_v_guard_4"
+    ],
+    "title": "温柔的养龙人"
+  },
+  "king_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_1",
+      "d5_c_revolt_4",
+      "d6_h_guard_4",
+      "d7_v_oath_3"
+    ],
+    "title": "打碎旧枷的国王"
+  },
+  "ordinary_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_1",
+      "d6_h_guard_1",
+      "d7_h_guard_4"
+    ],
+    "title": "知道限度的普通人"
+  },
+  "savior_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_1",
+      "d6_h_guard_4",
+      "d7_v_oath_1"
+    ],
+    "title": "理智的救世主"
+  },
+  "hero_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_1",
+      "d6_h_guard_4",
+      "d7_v_oath_4"
+    ],
+    "title": "清醒的勇者"
+  },
+  "savior_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_2",
+      "d6_v_oath_1",
+      "d7_v_ledger_1"
+    ],
+    "title": "仁慈的救世主"
+  },
+  "martyr_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_2",
+      "d6_v_oath_1",
+      "d7_v_ledger_3"
+    ],
+    "title": "温柔的殉道者"
+  },
+  "hero_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_2",
+      "d6_v_oath_2",
+      "d7_c_guard_1"
+    ],
+    "title": "温柔的勇者"
+  },
+  "wanderer_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_2",
+      "d6_v_oath_2",
+      "d7_c_guard_4"
+    ],
+    "title": "沿路点灯的远行者"
+  },
+  "vessel_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_2",
+      "d6_v_oath_4",
+      "d7_c_oath_2"
+    ],
+    "title": "仁慈的魔王"
+  },
+  "arc_scholar_to_actor": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_3",
+      "d6_c_revolt_4",
+      "d7_c_guard_1"
+    ],
+    "title": "从书页走入风暴的人"
+  },
+  "guardian_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_4",
+      "d6_w_guard_1",
+      "d7_w_guard_2"
+    ],
+    "title": "温柔的守护者"
+  },
+  "ordinary_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_4",
+      "d6_w_guard_3",
+      "d7_v_guard_1"
+    ],
+    "title": "把位置让出的普通人"
+  },
+  "ferryman_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_4",
+      "d6_w_guard_3",
+      "d7_v_guard_2"
+    ],
+    "title": "留在最后一班的摆渡人"
+  },
+  "guardian_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_4",
+      "d6_w_guard_3",
+      "d7_v_guard_3"
+    ],
+    "title": "不眠的守护者"
+  },
+  "dragonkeeper_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_4",
+      "d6_w_guard_3",
+      "d7_v_guard_4"
+    ],
+    "title": "替幼龙守夜的养龙人"
+  },
+  "tyrant_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_3",
+      "d5_w_ledger_1",
+      "d6_w_ledger_4",
+      "d7_w_revolt_1"
+    ],
+    "title": "清醒的暴君"
+  },
+  "special_clear_mad": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_3",
+      "d5_w_ledger_1",
+      "d6_w_ledger_4",
+      "d7_w_revolt_4"
+    ],
+    "title": "清醒的疯子"
+  },
+  "hero_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_4",
+      "d5_h_guard_2",
+      "d6_v_oath_2",
+      "d7_c_guard_1"
+    ],
+    "title": "把归途让出的勇者"
+  },
+  "martyr_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_4",
+      "d5_h_guard_2",
+      "d6_v_oath_2",
+      "d7_c_guard_2"
+    ],
+    "title": "燃尽的殉道者"
+  },
+  "wanderer_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_4",
+      "d5_h_guard_2",
+      "d6_v_oath_2",
+      "d7_c_guard_4"
+    ],
+    "title": "把家留给别人的远行者"
+  },
+  "savior_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_4",
+      "d5_h_guard_3",
+      "d6_v_guard_4",
+      "d7_v_oath_1"
+    ],
+    "title": "燃尽自己的救世主"
+  },
+  "king_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_4",
+      "d5_h_guard_3",
+      "d6_v_guard_4",
+      "d7_v_oath_3"
+    ],
+    "title": "先缴代价的国王"
+  },
+  "witness_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_3",
+      "d4_c_revolt_1",
+      "d5_h_guard_1",
+      "d6_h_ledger_1",
+      "d7_h_revolt_4"
+    ],
+    "title": "不属于赢家的见证者"
+  },
+  "arc_free_to_responsible": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_3",
+      "d4_c_revolt_1",
+      "d5_h_guard_1",
+      "d6_h_ledger_4",
+      "d7_w_oath_2"
+    ],
+    "title": "自愿留下的无主之人"
+  },
+  "ferryman_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_3",
+      "d4_c_revolt_1",
+      "d5_h_guard_3",
+      "d6_v_guard_1",
+      "d7_v_guard_2"
+    ],
+    "title": "不问来处的摆渡人"
+  },
+  "ordinary_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_3",
+      "d4_c_revolt_1",
+      "d5_h_guard_3",
+      "d6_v_guard_4",
+      "d7_v_oath_2"
+    ],
+    "title": "拒绝册封的普通人"
+  },
+  "guardian_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_3",
+      "d4_c_revolt_2",
+      "d5_c_oath_2",
+      "d6_c_ledger_1",
+      "d7_c_ledger_2"
+    ],
+    "title": "渴望改变世界的守护者"
+  },
+  "witness_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_3",
+      "d4_c_revolt_2",
+      "d5_c_oath_2",
+      "d6_c_ledger_1",
+      "d7_c_ledger_4"
+    ],
+    "title": "争夺解释权的见证者"
+  },
+  "ferryman_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_3",
+      "d4_c_revolt_2",
+      "d5_c_oath_2",
+      "d6_c_ledger_4",
+      "d7_v_guard_2"
+    ],
+    "title": "想改变两岸的摆渡人"
+  },
+  "dragonkeeper_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_3",
+      "d4_c_revolt_2",
+      "d5_c_oath_2",
+      "d6_c_ledger_4",
+      "d7_v_guard_4"
+    ],
+    "title": "想重写契约的养龙人"
+  },
+  "exile_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_3",
+      "d4_c_revolt_4",
+      "d5_v_revolt_1",
+      "d6_v_revolt_1",
+      "d7_v_revolt_2"
+    ],
+    "title": "不再受命的流亡者"
+  },
+  "dragonkeeper_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_3",
+      "d4_c_revolt_4",
+      "d5_v_revolt_2",
+      "d6_v_oath_3",
+      "d7_v_guard_4"
+    ],
+    "title": "不设笼子的养龙人"
+  },
+  "arc_kindness_to_boundary": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_4",
+      "d4_v_ledger_1",
+      "d5_v_ledger_1",
+      "d6_v_guard_3",
+      "d7_v_ledger_1"
+    ],
+    "title": "温柔终于有了边界"
+  },
+  "witness_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_4",
+      "d4_v_ledger_1",
+      "d5_v_ledger_1",
+      "d6_v_guard_3",
+      "d7_v_ledger_4"
+    ],
+    "title": "为伤者留名的见证者"
+  },
+  "king_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_4",
+      "d4_v_ledger_1",
+      "d5_v_ledger_1",
+      "d6_v_guard_4",
+      "d7_v_oath_3"
+    ],
+    "title": "仁慈的国王"
+  },
+  "arc_merciful_to_cruel": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_4",
+      "d4_v_ledger_1",
+      "d5_v_ledger_2",
+      "d6_w_ledger_4",
+      "d7_w_revolt_1"
+    ],
+    "title": "曾经温柔的刽子手"
+  },
+  "ordinary_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_4",
+      "d4_v_ledger_2",
+      "d5_v_oath_2",
+      "d6_v_ledger_4",
+      "d7_h_guard_4"
+    ],
+    "title": "仍肯分汤的普通人"
+  },
+  "vessel_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_4",
+      "d4_v_ledger_3",
+      "d5_w_ledger_1",
+      "d6_w_ledger_2",
+      "d7_w_oath_1"
+    ],
+    "title": "替世人受苦的魔王"
+  },
+  "failed_Courage": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_4",
+      "d4_v_ledger_3",
+      "d5_w_ledger_1",
+      "d6_w_ledger_4",
+      "d7_w_revolt_4"
+    ],
+    "title": "迎向极限的失控者"
+  },
+  "witness_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_4",
+      "d4_v_ledger_3",
+      "d5_w_ledger_3",
+      "d6_w_guard_2",
+      "d7_v_ledger_4"
+    ],
+    "title": "以血保卷的见证者"
+  },
+  "vessel_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_4",
+      "d4_v_ledger_3",
+      "d5_w_ledger_4",
+      "d6_w_revolt_2",
+      "d7_w_revolt_2"
+    ],
+    "title": "与深渊共生的魔王"
+  },
+  "hero_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_4",
+      "d4_v_ledger_3",
+      "d5_w_ledger_4",
+      "d6_w_revolt_2",
+      "d7_w_revolt_3"
+    ],
+    "title": "带着黑纹的勇者"
+  },
+  "failed_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_4",
+      "d4_v_ledger_3",
+      "d5_w_ledger_4",
+      "d6_w_revolt_2",
+      "d7_w_revolt_4"
+    ],
+    "title": "深渊吞没的人"
+  },
+  "arc_pragmatic_to_idealistic": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_2",
+      "d3_c_ledger_1",
+      "d4_c_revolt_2",
+      "d5_c_oath_1",
+      "d6_h_oath_1",
+      "d7_h_oath_1"
+    ],
+    "title": "算尽得失之后仍然相信的人"
+  },
+  "godslayer_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_2",
+      "d3_c_ledger_1",
+      "d4_c_revolt_2",
+      "d5_c_oath_1",
+      "d6_h_oath_3",
+      "d7_h_revolt_2"
+    ],
+    "title": "拒绝天命的弑神者"
+  },
+  "pontiff_Reason": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_2",
+      "d3_c_ledger_2",
+      "d4_h_ledger_2",
+      "d5_h_revolt_3",
+      "d6_c_revolt_1",
+      "d7_h_ledger_3"
+    ],
+    "title": "质询神谕的教会领袖"
+  },
+  "arc_selfish_to_selfless": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_2",
+      "d3_c_ledger_3",
+      "d4_c_oath_1",
+      "d5_h_oath_1",
+      "d6_h_oath_4",
+      "d7_w_oath_2"
+    ],
+    "title": "终于把自己放在最后的人"
+  },
+  "arc_conqueror_to_keeper": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_2",
+      "d3_c_ledger_3",
+      "d4_c_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_1",
+      "d7_w_oath_4"
+    ],
+    "title": "终于学会守护的征服者"
+  },
+  "arc_ruler_to_neighbor": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_2",
+      "d3_c_ledger_3",
+      "d4_c_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_2",
+      "d7_h_guard_4"
+    ],
+    "title": "归还印玺的邻人"
+  },
+  "king_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_2",
+      "d3_c_ledger_3",
+      "d4_c_oath_3",
+      "d5_c_revolt_2",
+      "d6_c_oath_3",
+      "d7_c_oath_1"
+    ],
+    "title": "握紧印玺的国王"
+  },
+  "martyr_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_2",
+      "d3_c_ledger_3",
+      "d4_c_oath_3",
+      "d5_c_revolt_2",
+      "d6_c_oath_4",
+      "d7_c_guard_2"
+    ],
+    "title": "未及加冕的殉道者"
+  },
+  "wanderer_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_2",
+      "d3_c_ledger_3",
+      "d4_c_oath_3",
+      "d5_c_revolt_2",
+      "d6_c_oath_4",
+      "d7_c_guard_4"
+    ],
+    "title": "寻找新王国的远行者"
+  },
+  "arc_martyr_to_selfowner": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_2",
+      "d3_c_ledger_4",
+      "d4_h_guard_1",
+      "d5_h_ledger_2",
+      "d6_h_revolt_2",
+      "d7_h_guard_4"
+    ],
+    "title": "终于把自己也算作一个人"
+  },
+  "pontiff_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_3",
+      "d3_c_revolt_1",
+      "d4_h_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_4",
+      "d7_h_ledger_3"
+    ],
+    "title": "允许离开的教会领袖"
+  },
+  "godslayer_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_3",
+      "d3_c_revolt_1",
+      "d4_h_oath_1",
+      "d5_h_oath_4",
+      "d6_w_oath_2",
+      "d7_w_ledger_2"
+    ],
+    "title": "替人承痛的弑神者"
+  },
+  "tyrant_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_3",
+      "d3_c_revolt_1",
+      "d4_h_oath_3",
+      "d5_w_ledger_4",
+      "d6_w_revolt_2",
+      "d7_w_revolt_1"
+    ],
+    "title": "深渊的暴君"
+  },
+  "pontiff_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_3",
+      "d3_c_revolt_1",
+      "d4_h_oath_4",
+      "d5_w_oath_1",
+      "d6_h_oath_1",
+      "d7_h_oath_1"
+    ],
+    "title": "走下祭坛的教会领袖"
+  },
+  "tyrant_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_3",
+      "d3_c_revolt_1",
+      "d4_h_oath_4",
+      "d5_w_oath_2",
+      "d6_w_ledger_4",
+      "d7_w_revolt_1"
+    ],
+    "title": "把自我也献祭的暴君"
+  },
+  "failed_Sacrifice": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_3",
+      "d3_c_revolt_1",
+      "d4_h_oath_4",
+      "d5_w_oath_2",
+      "d6_w_ledger_4",
+      "d7_w_revolt_4"
+    ],
+    "title": "耗尽自身的失控者"
+  },
+  "pontiff_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_3",
+      "d3_c_revolt_2",
+      "d4_c_revolt_2",
+      "d5_c_oath_1",
+      "d6_h_oath_1",
+      "d7_h_oath_1"
+    ],
+    "title": "重塑圣座的教会领袖"
+  },
+  "godslayer_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_3",
+      "d3_c_revolt_2",
+      "d4_c_revolt_2",
+      "d5_c_oath_1",
+      "d6_h_oath_2",
+      "d7_h_ledger_1"
+    ],
+    "title": "夺走神权的弑神者"
+  },
+  "special_never_drew": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_3",
+      "d3_c_revolt_3",
+      "d4_c_guard_1",
+      "d5_v_ledger_1",
+      "d6_v_guard_2",
+      "d7_c_guard_1"
+    ],
+    "title": "从未拔剑的勇者"
+  },
+  "failed_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_3",
+      "d3_c_revolt_3",
+      "d4_c_guard_1",
+      "d5_v_ledger_2",
+      "d6_w_ledger_4",
+      "d7_w_revolt_4"
+    ],
+    "title": "仍想救人的失控者"
+  },
+  "arc_healer_to_ruler": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_3",
+      "d3_c_revolt_3",
+      "d4_c_guard_1",
+      "d5_v_ledger_3",
+      "d6_v_oath_4",
+      "d7_c_oath_1"
+    ],
+    "title": "带着药箱登上王座的人"
+  },
+  "blood_ferryman": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_4",
+      "d3_c_guard_2",
+      "d4_c_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_2",
+      "d7_h_guard_2"
+    ],
+    "title": "曾经拒渡的摆渡人"
+  },
+  "blood_ordinary": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_4",
+      "d3_c_guard_2",
+      "d4_c_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_2",
+      "d7_h_guard_4"
+    ],
+    "title": "不能洗去过去的普通人"
+  },
+  "blood_dragonkeeper": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_4",
+      "d3_c_guard_2",
+      "d4_c_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_3",
+      "d7_v_guard_4"
+    ],
+    "title": "欠人类一场道歉的养龙人"
+  },
+  "blood_exile": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_4",
+      "d3_c_guard_2",
+      "d4_c_oath_4",
+      "d5_c_guard_3",
+      "d6_v_revolt_1",
+      "d7_v_revolt_2"
+    ],
+    "title": "仍被旧债追赶的流亡者"
+  },
+  "blood_failed": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_4",
+      "d3_c_guard_3",
+      "d4_w_ledger_4",
+      "d5_w_revolt_1",
+      "d6_w_revolt_2",
+      "d7_w_revolt_4"
+    ],
+    "title": "把别人也拖入深渊的人"
+  },
+  "wanderer_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_2",
+      "d2_h_1",
+      "d3_h_oath_1",
+      "d4_h_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_2",
+      "d7_w_ledger_4"
+    ],
+    "title": "携誓远行的人"
+  },
+  "tyrant_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_2",
+      "d2_h_1",
+      "d3_h_oath_1",
+      "d4_h_oath_1",
+      "d5_h_oath_2",
+      "d6_h_ledger_3",
+      "d7_c_oath_judgment_4"
+    ],
+    "title": "以誓为枷的暴君"
+  },
+  "ferryman_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_2",
+      "d2_h_1",
+      "d3_h_oath_1",
+      "d4_h_oath_1",
+      "d5_h_oath_3",
+      "d6_h_revolt_2",
+      "d7_h_guard_2"
+    ],
+    "title": "守约的摆渡人"
+  },
+  "dragonkeeper_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_2",
+      "d2_h_1",
+      "d3_h_oath_1",
+      "d4_h_oath_1",
+      "d5_h_oath_4",
+      "d6_w_oath_3",
+      "d7_w_guard_1"
+    ],
+    "title": "守约的养龙人"
+  },
+  "ordinary_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_2",
+      "d2_h_1",
+      "d3_h_oath_1",
+      "d4_h_oath_1",
+      "d5_h_oath_4",
+      "d6_w_oath_4",
+      "d7_v_oath_2"
+    ],
+    "title": "仍然祈祷的普通人"
+  },
+  "king_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_2",
+      "d2_h_1",
+      "d3_h_oath_1",
+      "d4_h_oath_1",
+      "d5_h_oath_4",
+      "d6_w_oath_4",
+      "d7_v_oath_3"
+    ],
+    "title": "守约的国王"
+  },
+  "failed_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_2",
+      "d2_h_1",
+      "d3_h_oath_1",
+      "d4_h_oath_3",
+      "d5_w_ledger_1",
+      "d6_w_ledger_4",
+      "d7_w_revolt_4"
+    ],
+    "title": "误信承诺的失控者"
+  },
+  "tyrant_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_2",
+      "d2_h_3",
+      "d3_h_revolt_1",
+      "d4_c_ledger_3",
+      "d5_h_guard_1",
+      "d6_h_ledger_3",
+      "d7_c_oath_judgment_4"
+    ],
+    "title": "只解放自己的暴君"
+  },
+  "godslayer_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_2",
+      "d2_h_3",
+      "d3_h_revolt_2",
+      "d4_h_guard_4",
+      "d5_c_guard_2",
+      "d6_c_guard_1",
+      "d7_h_revolt_2"
+    ],
+    "title": "为众生停机的弑神者"
+  },
+  "exile_Faith": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_2",
+      "d2_h_4",
+      "d3_h_guard_3",
+      "d4_h_guard_4",
+      "d5_c_guard_3",
+      "d6_v_revolt_1",
+      "d7_v_revolt_2"
+    ],
+    "title": "带着祷词的流亡者"
+  },
+  "special_gods_blade": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_1",
+      "d3_w_oath_1",
+      "d4_w_oath_2",
+      "d5_w_oath_1",
+      "d6_h_oath_1",
+      "d7_h_oath_4"
+    ],
+    "title": "神明的利剑"
+  },
+  "failed_Freedom": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_1",
+      "d3_w_oath_2",
+      "d4_c_guard_4",
+      "d5_w_oath_2",
+      "d6_w_ledger_4",
+      "d7_w_revolt_4"
+    ],
+    "title": "拒绝边界的失控者"
+  },
+  "special_ash_restrained": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_1",
+      "d3_w_oath_3",
+      "d4_w_revolt_4",
+      "d5_w_revolt_4",
+      "d6_w_guard_1",
+      "d7_w_guard_3"
+    ],
+    "title": "清醒地封住深渊的人"
+  },
+  "special_swordless": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_2",
+      "d3_w_ledger_1",
+      "d4_c_revolt_1",
+      "d5_h_guard_2",
+      "d6_v_oath_2",
+      "d7_c_guard_1"
+    ],
+    "title": "没有圣剑的勇者"
+  },
+  "tyrant_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_1",
+      "d4_w_guard_1",
+      "d5_h_guard_1",
+      "d6_h_ledger_3",
+      "d7_c_oath_judgment_4"
+    ],
+    "title": "独占冠冕的暴君"
+  },
+  "ordinary_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_2",
+      "d4_c_oath_4",
+      "d5_c_guard_4",
+      "d6_w_guard_3",
+      "d7_v_guard_1"
+    ],
+    "title": "怀抱未竟野心的普通人"
+  },
+  "arc_ash_to_restraint": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_1",
+      "d5_h_revolt_1",
+      "d6_h_guard_1",
+      "d7_h_guard_3"
+    ],
+    "title": "让深渊止于自己的人"
+  },
+  "exile_Ambition": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_3",
+      "d5_c_guard_4",
+      "d6_w_guard_1",
+      "d7_w_guard_dragon_debt_3"
+    ],
+    "title": "怀抱旧梦的流亡者"
+  },
+  "arc_cruel_to_redeemed": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_4",
+      "d5_w_revolt_1",
+      "d6_w_revolt_3",
+      "d7_h_guard_1"
+    ],
+    "title": "把刀交给受害者的人"
+  },
+  "godslayer_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_4",
+      "d5_w_revolt_2",
+      "d6_c_guard_1",
+      "d7_h_revolt_2"
+    ],
+    "title": "以黑潮弑神的人"
+  },
+  "savior_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_4",
+      "d5_w_revolt_2",
+      "d6_c_guard_1",
+      "d7_h_revolt_3"
+    ],
+    "title": "借深渊之力的救世主"
+  },
+  "witness_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_4",
+      "d5_w_revolt_2",
+      "d6_c_guard_1",
+      "d7_h_revolt_4"
+    ],
+    "title": "记下自身堕落的见证者"
+  },
+  "wanderer_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_4",
+      "d5_w_revolt_2",
+      "d6_c_guard_2",
+      "d7_c_guard_4"
+    ],
+    "title": "带着黑纹的远行者"
+  },
+  "ferryman_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_4",
+      "d5_w_revolt_2",
+      "d6_c_guard_4",
+      "d7_v_ledger_2"
+    ],
+    "title": "渡过黑潮的摆渡人"
+  },
+  "martyr_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_4",
+      "d5_w_revolt_2",
+      "d6_c_guard_4",
+      "d7_v_ledger_3"
+    ],
+    "title": "封住自身深渊的殉道者"
+  },
+  "ordinary_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_4",
+      "d5_w_revolt_4",
+      "d6_w_guard_3",
+      "d7_v_guard_1"
+    ],
+    "title": "学着克制的普通人"
+  },
+  "dragonkeeper_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_4",
+      "d5_w_revolt_4",
+      "d6_w_guard_3",
+      "d7_v_guard_4"
+    ],
+    "title": "教龙克制深渊的人"
+  },
+  "guardian_Corruption": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_3",
+      "d3_w_revolt_4",
+      "d4_w_revolt_4",
+      "d5_w_revolt_4",
+      "d6_w_guard_4",
+      "d7_w_oath_4"
+    ],
+    "title": "身负黑潮的守护者"
+  },
+  "tyrant_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_3",
+      "d2_w_4",
+      "d3_w_guard_2",
+      "d4_w_guard_1",
+      "d5_h_guard_1",
+      "d6_h_ledger_3",
+      "d7_c_oath_judgment_4"
+    ],
+    "title": "温柔的暴君"
+  },
+  "special_last_ordinary": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_4",
+      "d2_v_1",
+      "d3_v_oath_1",
+      "d4_c_guard_1",
+      "d5_v_ledger_1",
+      "d6_v_guard_4",
+      "d7_v_oath_2"
+    ],
+    "title": "最后的普通人"
+  },
+  "pontiff_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_4",
+      "d2_v_1",
+      "d3_v_oath_1",
+      "d4_c_guard_2",
+      "d5_h_revolt_3",
+      "d6_c_revolt_1",
+      "d7_h_ledger_3"
+    ],
+    "title": "敞开院门的教会领袖"
+  },
+  "exile_Mercy": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_4",
+      "d2_v_2",
+      "d3_v_ledger_3",
+      "d4_c_oath_4",
+      "d5_c_guard_3",
+      "d6_v_revolt_1",
+      "d7_v_revolt_2"
+    ],
+    "title": "仍然施援的流亡者"
+  },
+  "arc_coward_to_martyr": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_4",
+      "d2_v_3",
+      "d3_v_revolt_1",
+      "d4_v_oath_1",
+      "d5_v_ledger_1",
+      "d6_v_guard_2",
+      "d7_c_guard_2"
+    ],
+    "title": "逃过一次，留下到最后"
+  },
+  "arc_coward_to_brave": {
+    "completedRuns": 0,
+    "choiceIds": [
+      "d1_start_4",
+      "d2_v_3",
+      "d3_v_revolt_1",
+      "d4_v_oath_4",
+      "d5_v_guard_2",
+      "d6_v_revolt_2",
+      "d7_c_guard_1"
+    ],
+    "title": "最初的懦夫，最后的勇者"
+  },
+  "special_cycle_ended": {
+    "completedRuns": 1,
+    "choiceIds": [
+      "d1_start_1",
+      "d2_c_1",
+      "d3_c_oath_2",
+      "d4_h_ledger_3",
+      "d5_w_ledger_1",
+      "d6_w_ledger_1",
+      "d7_v_ledger_1"
+    ],
+    "title": "终结轮回的人"
+  }
+}

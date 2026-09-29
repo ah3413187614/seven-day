@@ -1,0 +1,2013 @@
+{
+  "flags": [
+    {
+      "id": "answered_summons",
+      "description": "带着故乡的粮单，响应王都召集。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "sought_prophecy",
+      "description": "去圣辉教会，核对预言中被抹去的人名。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "entered_forest",
+      "description": "进入精灵旧林，寻找黎明留下的剑痕。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "refused_summons",
+      "description": "拒绝召集，留下修复故乡的渡桥。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "obeyed_kingdom",
+      "description": "签下征召誓书，换取故乡的粮车。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "audited_grain",
+      "description": "留下核对军粮账，暂缓出征。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "challenged_crown",
+      "description": "当众读出被放弃的村名，逼王庭答复。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "escorted_refugees",
+      "description": "拿担保书护送难民，放弃受封。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "obeyed_church",
+      "description": "接下夜祷誓约，以服从换取进入钟楼。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "read_forbidden",
+      "description": "替修女抄完病历，交换被删的书页。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "saved_demon_child",
+      "description": "把魔族信使带到广场，要求公开审理。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "opened_shelter",
+      "description": "关上收容所大门，同时收留两族伤兵。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "took_holy_sword",
+      "description": "以性命作证，拔出圣剑黎明。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "refused_holy_sword",
+      "description": "放下剑柄，测绘祭坛下的古代管道。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "stole_furnace",
+      "description": "夺走猎人的熔炉芯，用它打开禁林。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "protected_egg",
+      "description": "先转移龙卵，把寻剑的时间让出去。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "formed_militia",
+      "description": "接受临时民兵印，带人守住桥头。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "built_ferry",
+      "description": "征用自己的屋梁，加固渡船并登记乘客。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "fled_village",
+      "description": "带家人从山路撤离，把工具留给村长。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "stayed_with_weak",
+      "description": "留下照看走不了的人，让年轻人先走。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "requisitioned_horses",
+      "description": "签征马令，亲自跟随粮队承担责问。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_writ",
+      "description": "把王令交给修女，请她核查征用名单。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "burned_order",
+      "description": "烧掉征用单，让每户自行决定是否出马。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "paid_transport",
+      "description": "用自己的军饷雇船，不让士兵进村。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "published_accounts",
+      "description": "封存全部账目，要求公开听证。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "separated_accounts",
+      "description": "保留救济支出，只追查军情买家。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "lied_for_power",
+      "description": "接管运输线，用情报收入养活病人。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "protected_witness",
+      "description": "送出自己的行粮，再押奥伦去教会作证。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_sentence",
+      "description": "陪工匠入狱，用自己换一场正式听证。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "seized_bell",
+      "description": "抢占钟楼，迫使摄政交出粮仓钥匙。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "deescalated_square",
+      "description": "带人退出广场，把听证搬到难民营。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "lied_for_good",
+      "description": "接受密谈，用不公开账目换三日粮食。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "killed_demon_child",
+      "description": "按军法处死持图者，立即转移防线。",
+      "irreversible": true,
+      "isCrime": true,
+      "isViolent": true
+    },
+    {
+      "id": "verified_warning",
+      "description": "跟少年绕往上游，亲自验证洪水消息。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "split_convoy",
+      "description": "让玛伦押人，自己带老弱走另一条路。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "published_measurement",
+      "description": "只公布心跳数据，暂不解释它属于谁。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "rejected_church",
+      "description": "拒绝宣读，把原卷交给魔族学者。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_burden",
+      "description": "请求守在仪表旁，分担一次封印脉冲。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "cross_checked_records",
+      "description": "把病历交给王庭工匠，要求盲审。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "hid_records",
+      "description": "将病历藏入自己的衣衬，独自查旧林。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shielded_eve",
+      "description": "签名承认抄本归你，保护伊芙留下。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "blackmailed_clergy",
+      "description": "以病历要挟执事，换取封印室钥匙。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "open_testimony",
+      "description": "保留完整证词，允许双方观察员到场。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "respected_witness",
+      "description": "让妮娅自己决定，并陪她承担后果。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "escorted_nia",
+      "description": "拒绝军方条件，护送妮娅回魔族营地。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "saved_officer",
+      "description": "先救军官，换取医院的通行口令。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "saved_engineer",
+      "description": "先救工兵，请他带伤员走地下渠道。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_medicine",
+      "description": "稀释药物同时施救，接受两人的风险。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "gave_blood",
+      "description": "献出自己的血，把整瓶药留作术后急救。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "bound_dragon_pact",
+      "description": "立下供粮契约，请古龙担保双方停手。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "fed_prisoner",
+      "description": "交出自己的口粮，让盗粮者去王庭作证。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "stopped_lynching",
+      "description": "拔剑砍断猎人的武器，禁止私刑。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "questioned_sword",
+      "description": "把剑暂寄祭坛，去查为何供粮中断。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "cut_palace_heat",
+      "description": "停王宫暖炉，进入主检修道。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "borrowed_egg_heat",
+      "description": "借龙卵的余温供能，请龙族观察维修。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "measured_abyss",
+      "description": "请求教会熄灭圣灯，记录一次完整波形。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "life_powered_machine",
+      "description": "用自己的生命火种启动旧机器。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "returned_heat",
+      "description": "归还一半炉芯，凭残余力量继续前进。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "traded_furnace",
+      "description": "把炉芯献给王庭，换一队合法护卫。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_power",
+      "description": "邀请猎人入伙，让他共同决定炉芯用途。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "ate_ash",
+      "description": "吞入炉芯灰烬，以自身替代燃料。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "negotiated_dragon",
+      "description": "要求龙族先保护人类村庄，再谈孵化。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "warmed_egg",
+      "description": "以自己的体温守卵，给村庄争取时间。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "sought_third_heat",
+      "description": "拒绝预设牺牲，寻找另一处地热口。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "conditional_oath",
+      "description": "答应缔约，但保留公开违约的权利。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "rescued_wounded",
+      "description": "先接伤者，要求王国交出撤退地图。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "traded_water_map",
+      "description": "先接侦察兵，交换下游全部水源坐标。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "built_two_crossings",
+      "description": "带民兵分拆桥板，同时搭两条索道。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "disarmed_armies",
+      "description": "要求两军缴械混编，再一起过桥。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "led_forest_evacuation",
+      "description": "按伤情安排上船，自己带其余人走禁林。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "dumped_supplies",
+      "description": "留下粮袋腾位置，渡河后向王庭求粮。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "issued_village_debt",
+      "description": "征用驻军快艇，以村庄债券作抵押。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "stayed_to_build",
+      "description": "留在岸上修第二条船，请托马领队。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "returned_after_flight",
+      "description": "送家人到哨站后折返桥头。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "kept_fleeing",
+      "description": "把口粮托给巡队，继续带家人前行。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "requested_sanctuary",
+      "description": "向教会报告钟声，请求开放避难所。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "diverted_flood",
+      "description": "去最近的龙井引水，为村庄争一夜。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "sheltered_sad",
+      "description": "把萨德藏在地窖，请他帮忙修桥。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "secured_trial",
+      "description": "要求巡队签下不处决保证，再移交伤兵。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "defended_home",
+      "description": "以民兵代表身份拒绝搜屋。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "drew_pursuit",
+      "description": "随伤兵一起离开，把追兵引向旧林。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "accepted_training",
+      "description": "接受候选容器的训练，要求撤离名单公开。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "learned_truth",
+      "description": "第四日得到多方可核对的容器证据",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "confessed_lie",
+      "description": "向广场承认真相，也承认你曾服从。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "evacuated_north",
+      "description": "先用王令迁走北岸居民，再追究王庭。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "maintained_medicine",
+      "description": "保留药路，向王庭索要容器维修预算。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "carried_medicine",
+      "description": "带一箱止痛药去见所谓魔王。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "distributed_evidence",
+      "description": "复制运单交给各地医师，再毁掉原件坐标。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "discovered_abyss",
+      "description": "沿药路追踪深渊入口，亲自测量失控速度。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "protected_clergy",
+      "description": "挡住追打教士的人，承认运动已经伤人。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "controlled_press",
+      "description": "接管印坊，所有传单先经你批准。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "held_public_hearing",
+      "description": "让教皇公开回应原件，接受双向质询。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "founded_free_camp",
+      "description": "带着愿同行的人离城，建立无王令的避难营。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "cancelled_hunt",
+      "description": "取消讨伐护送，把伤员送往渡口。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "trusted_maren",
+      "description": "告诉玛伦真相，请她自愿带队护送药品。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "held_outer_gate",
+      "description": "独自去替伤员守住封印外门。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "reformed_oath",
+      "description": "继续守誓，但要求誓词写明容器的同意权。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "faith_broken",
+      "description": "拒绝替不明声音作证，将传声管公开封存。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "studied_oracle",
+      "description": "让学者、龙族与祭司共同辨认声音。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "tested_burden",
+      "description": "接替教皇承受一次回流，确认他是否说谎。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "met_previous_hero",
+      "description": "将原件交给艾德里安，请他确认自己的意愿。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "researched_lattice",
+      "description": "先研究他的病历，寻找容器以外的承压方式。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "bargained_archive",
+      "description": "封存原件，换取教会为伤员开仓。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "reconciled_hero",
+      "description": "陪他拒绝瓦尔的战争誓书。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "received_memory",
+      "description": "接受他的一次记忆灌注，亲历首次封印。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "challenged_warlord",
+      "description": "把瓦尔叫进来，要求他也为战争承担容器风险。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "separated_care_trial",
+      "description": "建立共同病历，救治与追责分别进行。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "listed_missing",
+      "description": "请双方先互相指认失踪平民，寻找活人。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "refused_forced_peace",
+      "description": "允许伤者拒绝和解，保证他们都能离院。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "assumed_reparation",
+      "description": "替医院签下赔偿债，让双方先释放人质。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "limited_sword",
+      "description": "给自己的用剑权加上同伴否决条款。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "learned_containment",
+      "description": "要求古龙教你承压，而不学习杀戮。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "rejected_chosen",
+      "description": "将剑的性质告诉公众，拒绝天选者身份。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "tested_sword_lattice",
+      "description": "把剑接入测量阵列，验证它能否分散黑潮。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "exposed_dragon_role",
+      "description": "以测量证据要求龙族共同承担压力。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "kept_dragon_secret",
+      "description": "保留墓地秘密，交换完整的维修图。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "tested_empty_channel",
+      "description": "把骨管接到无人荒原，做小规模试排。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "took_dragon_bone",
+      "description": "拆取一段龙骨制造自己的承压器。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "rejected_war_bargain",
+      "description": "拒绝两份交易，公布营地中的平民名单。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "spared_dragon",
+      "description": "只取古龙脱落的鳞，放弃完整龙晶。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "killed_dragon",
+      "description": "伏击古龙夺晶，将其余力量交给撤离队。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": true
+    },
+    {
+      "id": "absorbed_abyss",
+      "description": "用炉芯吸收黑潮试样，亲身查清代价。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "dragon_accountability",
+      "description": "要求公开道歉，把幼龙留在中立医院。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "raised_dragon",
+      "description": "教幼龙自己道歉，拒绝替它决定一生。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "became_hostage",
+      "description": "让幼龙返回族群，自己留作赔偿人质。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_command",
+      "description": "成立轮值议事会，交出永久指挥权。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "temporary_command",
+      "description": "接受战时指挥，写下七日后的交权日期。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "mixed_guard",
+      "description": "训练两族伤兵守护撤离队。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "held_floodgate",
+      "description": "亲自守在洪水缺口，让议事会继续开会。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "mapped_all_villages",
+      "description": "先登记所有空白村，再动工修渠。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "river_assembly",
+      "description": "向两岸居民说明代价，让他们共同表决。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "gave_farmland",
+      "description": "挖新旁路，让自己的农田承担第一轮排水。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "rescued_stayers",
+      "description": "请求教会接纳拒迁的老人，逐户陪同搬走。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "refused_informant",
+      "description": "拒交旧友名单，在城外建立流民营。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "edited_border_report",
+      "description": "把灾情交给守卫，只保留无辜者的姓名。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "returned_for_others",
+      "description": "把入城名额让给孩子，返回渡口。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "worked_for_refugees",
+      "description": "接受临时劳役，以自己的工时换营地口粮。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "recorded_memory",
+      "description": "把记忆写给教会，要求他们派人来解释。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "kept_daily_life",
+      "description": "留在村里修门、做饭，组织彼此照料。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "sought_previous_hero",
+      "description": "循记忆找到旧渠，亲自去见艾德里安。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "offered_burden",
+      "description": "把家钥匙交给托马，承诺替故乡承担下一次脉冲。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "accepted_crown",
+      "description": "接印，保留继任制度并增设志愿见证。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "refused_crown",
+      "description": "拒绝王冠，邀请莱娅以个人身份共同守门。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "sacrificed_innocent",
+      "description": "按模型关闭外环，抢救更多中央居民。",
+      "irreversible": true,
+      "isCrime": true,
+      "isViolent": true
+    },
+    {
+      "id": "delayed_seal",
+      "description": "先撤空外环再关闭，接受中央失守风险。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "absorbed_overflow",
+      "description": "把自己的承压器接进外环，替模型补上缺口。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "published_uncertainty",
+      "description": "公布模型误差，让各街区自行选择支路。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "supervised_official",
+      "description": "留任旧官员，由受害者监督每日配给。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "centralized_power",
+      "description": "撤掉所有旧官员，亲自统管粮仓。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "abolished_privilege",
+      "description": "让各营地轮派分粮员，放弃支持者特权。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "repaired_movement_harm",
+      "description": "先补给被抢过的家庭，自己人最后领取。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "submitted_maren",
+      "description": "交她受双方共同审判，暂停她的指挥权。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "forgave_traitor",
+      "description": "保她继续护送，但记录罪行并承诺战后追责。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "protected_companion",
+      "description": "拒绝用一个人换停火，护送她离开军队。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "took_maren_post",
+      "description": "替她接下最危险的闸门，让她去受审。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "accepted_crosier",
+      "description": "接权杖，宣布一切承压必须出于知情同意。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "decentralized_church",
+      "description": "拆分教皇职权，交给医师与地方教区。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "destroyed_candidate_list",
+      "description": "烧掉强制候选名单，请信徒自行离开。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "replaced_pope",
+      "description": "请瑟文留下照料信徒，由你参加承压。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "edited_mother_protocol",
+      "description": "保留分配意志，只删去强制征用权限。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "prepared_deicide",
+      "description": "准备终止分配意志，让各地自行承压。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "claimed_oracle",
+      "description": "接替它发布命令，让损失由自己决定。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "stopped_extraction",
+      "description": "把回流疼痛传给自己，先叫停无同意抽取。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "limited_truce",
+      "description": "签临时停火，只承认通行而不承认胜利。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "civilian_pact",
+      "description": "邀请两族平民代表另签救援公约。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "exposed_var",
+      "description": "公开瓦尔扣押粮车的证据，逼其退让。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "truce_hostage",
+      "description": "用自己作为停火人质，换取无条件通道。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "founded_testimony_archive",
+      "description": "建立证词档案，让医院只负责救治。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "neutral_sanctuary",
+      "description": "把医院改为跨族避难区，请所有军队缴械。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "sold_home_for_medicine",
+      "description": "让伊芙带伤员先走，自己抵押房产买药。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "open_medicine_inventory",
+      "description": "将库存公开，由各病区共同分配。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "promised_succession",
+      "description": "答应在第七日接替他，留下正式同意书。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "asked_hero_wait",
+      "description": "请求他再坚持两夜，争取验证分流方案。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "relieved_hero",
+      "description": "尊重他立即停下的权利，亲自接住第一轮回流。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "called_volunteers",
+      "description": "拒绝继任制度，邀请所有知情者参加自愿分压。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "lattice_validated",
+      "description": "完成小规模试验，保留失败时的容器接口。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "open_lattice",
+      "description": "公开图纸，让各城决定是否接入。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shielded_test",
+      "description": "用自己的承压器保护试验区居民。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "overclocked_lattice",
+      "description": "删去安全限幅，换取一夜完成的全功率试验。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "fed_on_fear",
+      "description": "接受恐惧供能，要求它不得吞噬同伴。",
+      "irreversible": true,
+      "isCrime": true,
+      "isViolent": false
+    },
+    {
+      "id": "surrendered_power",
+      "description": "交出承压器，请同伴限制你的力量。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "consensual_power",
+      "description": "把供能规则公之于众，只接受自愿贡献。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "broke_corruption",
+      "description": "在无人的地穴自断回路，承担反噬。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "evacuated_children",
+      "description": "拒绝特权，让两族孩子都先撤出试验区。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "dragon_priority",
+      "description": "同意保护幼龙，换取古龙立即承压。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_dragon_care",
+      "description": "请求古龙把保护权交给两族共同照护会。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "exchanged_watch",
+      "description": "自己留下守卵，请古龙去救河岸居民。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "protected_refusal",
+      "description": "允许拒绝者撤离，余下的人自愿组队。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "trained_volunteers",
+      "description": "按技能分工，只让受训者靠近封印。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "gave_up_seat",
+      "description": "把代表席让给两族轮值，自己承担夜班。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "forced_volunteers",
+      "description": "以战时必要为由强制征集承压人员。",
+      "irreversible": true,
+      "isCrime": true,
+      "isViolent": false
+    },
+    {
+      "id": "people_before_tools",
+      "description": "先送住户，让萨德在安全处等待。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "tools_before_people",
+      "description": "先送铜线，留下自己陪住户等回程。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "broke_tollgate",
+      "description": "拆掉渡口收费门，制成临时第二艘船。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "worked_underwater",
+      "description": "请萨德主导手工修闸，自己承担水下工位。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "kept_open_camp",
+      "description": "允许拒绝分粮，同时公开所有求助与回应。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "mutual_aid_contract",
+      "description": "建立最低互助契约，参加者共同分配。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "unconditional_aid",
+      "description": "把自己的份额交出去，不要求对方签字。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "returned_for_supply",
+      "description": "返回王都争取物资，接受被通缉的风险。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "trusted_specialists",
+      "description": "留下修井，把研究交给懂它的人。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "told_family_truth",
+      "description": "带家人一起参加撤离，不再替他们隐瞒危险。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "left_key_home",
+      "description": "请托马照看家人，自己去守最后一道闸。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_care",
+      "description": "建立轮值照护，让每个家庭都能暂时休息。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "consent_rite",
+      "description": "亲自主持继任仪式，并写明退出权。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "released_crown_power",
+      "description": "封闭王宫电路，把王冠能源交给工程队。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "kept_war_power",
+      "description": "留下御印统率卫队，承担终局的全部命令。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "freed_conscripts",
+      "description": "解散强征名册，亲自护送拒绝者离城。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_load",
+      "description": "保留误差，让各区按知情协议接入。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "forced_load",
+      "description": "用军令强制接入，保证系统完整。",
+      "irreversible": true,
+      "isCrime": true,
+      "isViolent": false
+    },
+    {
+      "id": "personal_buffer",
+      "description": "把最危险的一路引向自己的承压器。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "evacuation_first",
+      "description": "暂停全域试验，先让人群通过渡口。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "stopped_purge",
+      "description": "拒绝集体处决，保护档案和证人。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "killed_innocent",
+      "description": "接过斧头，以恐惧结束争执。",
+      "irreversible": true,
+      "isCrime": true,
+      "isViolent": true
+    },
+    {
+      "id": "renounced_purge_power",
+      "description": "交还领导权，带反对屠杀的人去救伤者。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "accepted_judgment",
+      "description": "站在刑台上，要求先审判你自己的命令。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "trusted_companion_again",
+      "description": "把护送权交给她，自己进封印室谈判。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "last_rearguard",
+      "description": "亲自守山口，让两边伤者先走。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_road",
+      "description": "公开轮值名单，拒绝任何阵营独占道路。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "equal_queue",
+      "description": "严格按速度分流，不为任何熟人插队。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "public_consent",
+      "description": "承认拒绝权，在公开见证下接过权杖。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "reparation_covenant",
+      "description": "把忏悔与赔偿写入继任公约。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "oracle_unbound",
+      "description": "拆除神谕强制回路，将信仰留给个人。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "sole_volunteer",
+      "description": "把候选者全送出门，留下自己值守。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "refused_private_salvation",
+      "description": "拒绝私人赦免，准备关闭强制分配核心。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "built_exit_switch",
+      "description": "保留计算核心，建立任何人可退出的接口。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "betrayed_strangers",
+      "description": "接受交换，先保证自己的同伴存活。",
+      "irreversible": true,
+      "isCrime": true,
+      "isViolent": false
+    },
+    {
+      "id": "refused_substitute",
+      "description": "由自己承担它索要的份额，拒绝指定替身。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "hero_consent_renewed",
+      "description": "和他约定交接时刻，不再把同意视为永久。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_witnesses",
+      "description": "邀请两族医师留下见证他的决定。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "dismissed_armies",
+      "description": "要求军队退出，以普通人的身份陪他等天亮。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "kept_hospital_light",
+      "description": "留下维持灯与呼吸机，让医师只管救治。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "planned_bed_evacuation",
+      "description": "把每张病床编入渡口计划，按伤情安排船位。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "kept_families_together",
+      "description": "允许伤者选择自己的陪同者，不按种族分船。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "civil_hospital",
+      "description": "把医院钥匙交给共同理事会，拒绝军队接管。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "finite_succession",
+      "description": "签下有限期继任书，要求继任者继续寻找替代。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "opened_backup_channel",
+      "description": "拆一段椅管接入分流，给工程最后一次机会。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "erased_hero_credit",
+      "description": "请求同伴带走黎明的故事，只把痛苦留给自己。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "rejected_single_vessel",
+      "description": "拒绝独自承担，召集仍愿留下的平民。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "unlicensed_boost",
+      "description": "接入未经批准的龙晶，强行提高功率。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "power_kill_switch",
+      "description": "给力量套上自毁锁，请同伴保管钥匙。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "claimed_abyss",
+      "description": "吸尽周围恐惧，独占封印核心。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "accepted_restraint",
+      "description": "向受害者交还控制权，接受被永久封禁。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "gave_last_power",
+      "description": "自断供能链，把最后的力量送给撤离队。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "rotating_watch",
+      "description": "陪守门者轮值，不让任何人独撑到死。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_dragon_shield",
+      "description": "把龙巢护盾拆开，分别罩住病房与渡口。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "sent_egg_away",
+      "description": "让幼龙随难民走，自己守住将熄的炉火。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "befriended_dragon",
+      "description": "邀请古龙与平民签共同守望契约。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "yielded_command",
+      "description": "把指挥交给受训者，自己守住会议后的道路。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "saved_seeds",
+      "description": "为种子与儿童保留第一批船位。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "emergency_dictator",
+      "description": "请求临时独裁到日落，用效率赌信任。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "kept_ferry",
+      "description": "保留渡船，把全局胜负交给上游工程。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "made_public_bridge",
+      "description": "拆船作分流浮桥，把个人退路接成公共道路。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "last_ferry_return",
+      "description": "把最后一班船留给伤员，自己划回暗处。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "mixed_ferry_crew",
+      "description": "请两族水手共同守船，让家人先过河。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "chose_exile",
+      "description": "放下武器入城，替幸存者保存真实记忆。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "returned_final_time",
+      "description": "请守卫接纳孩子，自己回去守最后的路。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "independent_relief",
+      "description": "留在门外接应陌生人，不再加入任何军队。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "traded_route_knowledge",
+      "description": "用沿途记录换取工具，送往分压工地。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "chose_home",
+      "description": "留在家与邻人之间，守好最后一盏灯。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "final_rearguard",
+      "description": "把最后的船位留给家人，转身去守闸。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "distributed_future",
+      "description": "将种子、病历和钥匙分别交给三个孩子。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "refused_all_titles",
+      "description": "拒绝任何封号，只以邻居身份参加共同承压。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "sacrificed_self",
+      "description": "用王令组织自愿缓冲，亲自进入承压椅。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "saved_continent",
+      "description": "撤掉宫墙护盾，先保住中央撤离走廊。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "held_gate_final",
+      "description": "把账目交给共同议会，自己留守水闸。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "preserved_records",
+      "description": "保全原始账簿，带幸存者离开无法再守的城。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "enslaved_core",
+      "description": "把强制回路接到刑台，建立服从你的秩序。",
+      "irreversible": true,
+      "isCrime": true,
+      "isViolent": true
+    },
+    {
+      "id": "dismantled_scaffold",
+      "description": "拆掉刑台，把木料送去修撤离浮桥。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "killed_oracle",
+      "description": "关闭以神谕征用人的核心，承认协调能力也会失去。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "escorted_last",
+      "description": "带最后一队伤者穿过山口，然后放下武器。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "founded_border_watch",
+      "description": "驻守新的边界，让这里永远接纳后来者。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "walked_unmapped",
+      "description": "将指挥交给玛伦，独自寻找失联的村庄。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "became_demon_king",
+      "description": "接替艾德里安，公开承认魔王是一份职责。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "released_previous_hero",
+      "description": "尊重他的停止请求，将余压导入预留缓冲。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "protected_hospital",
+      "description": "接下医院的终身守护契约，拒绝军事征用。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "ferried_beds",
+      "description": "把病床编成船队，亲自带到安全岸。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "chose_ordinary_life",
+      "description": "拒绝任何职务，回村照料幸存的邻人。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "shared_watch_final",
+      "description": "将封印外门改成共同哨所，与龙族轮值。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "surrendered_power_final",
+      "description": "用残余力量撕开撤离通道，然后交出控制器。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "lost_self",
+      "description": "拒绝任何限制，向黑潮索取超过身体的力量。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "kept_dragon_care",
+      "description": "成为两族照护人的一员，守护龙巢与周边村庄。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "collective_final",
+      "description": "签下共同维护协议，亲自参加第一轮承压。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "ferried_last",
+      "description": "不冒险扩大系统，完成最后一轮渡运。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "accepted_exile",
+      "description": "承认离开战场，拒绝接受任何追授的荣耀。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "sword_as_signal",
+      "description": "将黎明举作停火信号，护送两族伤者离开。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "accepted_dragon_reparation",
+      "description": "接受监督，守住受损龙境并长期偿还赔偿。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    },
+    {
+      "id": "submitted_to_victims",
+      "description": "交出印玺，先完成受害者要求的撤离任务。",
+      "irreversible": true,
+      "isCrime": false,
+      "isViolent": false
+    }
+  ]
+}

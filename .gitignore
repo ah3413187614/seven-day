@@ -1,0 +1,28 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pem
+local.properties
+*credentials*
+*secret*
+# Editor and system caches
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+node_modules/
+.gradle/
+build/
+# Local test and packaging artifacts
+capability_test.txt
+assets/test_image.png
+generated_images/
+*.apk
+*.aab
+*.zip

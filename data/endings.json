@@ -1,0 +1,3072 @@
+{
+  "schemaVersion": 1,
+  "rules": [
+    {
+      "ending_id": "savior_Courage",
+      "title": "迎向黑潮的救世主",
+      "category": "savior",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "savior",
+        "dominant": "Courage"
+      },
+      "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "savior_Reason",
+      "title": "理智的救世主",
+      "category": "savior",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "savior",
+        "dominant": "Reason"
+      },
+      "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "savior_Mercy",
+      "title": "仁慈的救世主",
+      "category": "savior",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "savior",
+        "dominant": "Mercy"
+      },
+      "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "savior_Ambition",
+      "title": "执掌黎明的救世主",
+      "category": "savior",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "savior",
+        "dominant": "Ambition"
+      },
+      "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "savior_Faith",
+      "title": "守誓的救世主",
+      "category": "savior",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "savior",
+        "dominant": "Faith"
+      },
+      "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "savior_Freedom",
+      "title": "不肯跪下的救世主",
+      "category": "savior",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "savior",
+        "dominant": "Freedom"
+      },
+      "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "savior_Sacrifice",
+      "title": "燃尽自己的救世主",
+      "category": "savior",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "savior",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "savior_Corruption",
+      "title": "借深渊之力的救世主",
+      "category": "savior",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "savior",
+        "dominant": "Corruption"
+      },
+      "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "hero_Courage",
+      "title": "无畏的勇者",
+      "category": "hero",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "hero",
+        "dominant": "Courage"
+      },
+      "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "hero_Reason",
+      "title": "清醒的勇者",
+      "category": "hero",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "hero",
+        "dominant": "Reason"
+      },
+      "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "hero_Mercy",
+      "title": "温柔的勇者",
+      "category": "hero",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "hero",
+        "dominant": "Mercy"
+      },
+      "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "hero_Ambition",
+      "title": "渴望冠冕的勇者",
+      "category": "hero",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "hero",
+        "dominant": "Ambition"
+      },
+      "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "hero_Faith",
+      "title": "守誓的勇者",
+      "category": "hero",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "hero",
+        "dominant": "Faith"
+      },
+      "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "hero_Freedom",
+      "title": "不受册封的勇者",
+      "category": "hero",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "hero",
+        "dominant": "Freedom"
+      },
+      "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "hero_Sacrifice",
+      "title": "把归途让出的勇者",
+      "category": "hero",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "hero",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "hero_Corruption",
+      "title": "带着黑纹的勇者",
+      "category": "hero",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "hero",
+        "dominant": "Corruption"
+      },
+      "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "vessel_Courage",
+      "title": "迎战黑潮的魔王",
+      "category": "vessel",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "vessel",
+        "dominant": "Courage"
+      },
+      "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "vessel_Reason",
+      "title": "理智的魔王",
+      "category": "vessel",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "vessel",
+        "dominant": "Reason"
+      },
+      "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "vessel_Mercy",
+      "title": "仁慈的魔王",
+      "category": "vessel",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "vessel",
+        "dominant": "Mercy"
+      },
+      "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "vessel_Ambition",
+      "title": "自选王座的魔王",
+      "category": "vessel",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "vessel",
+        "dominant": "Ambition"
+      },
+      "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "vessel_Faith",
+      "title": "守誓的魔王",
+      "category": "vessel",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "vessel",
+        "dominant": "Faith"
+      },
+      "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "vessel_Freedom",
+      "title": "拒绝旧律的魔王",
+      "category": "vessel",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "vessel",
+        "dominant": "Freedom"
+      },
+      "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "vessel_Sacrifice",
+      "title": "替世人受苦的魔王",
+      "category": "vessel",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "vessel",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "vessel_Corruption",
+      "title": "与深渊共生的魔王",
+      "category": "vessel",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "vessel",
+        "dominant": "Corruption"
+      },
+      "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "guardian_Courage",
+      "title": "持灯迎风的守护者",
+      "category": "guardian",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "guardian",
+        "dominant": "Courage"
+      },
+      "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "guardian_Reason",
+      "title": "谨慎的守护者",
+      "category": "guardian",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "guardian",
+        "dominant": "Reason"
+      },
+      "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "guardian_Mercy",
+      "title": "温柔的守护者",
+      "category": "guardian",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "guardian",
+        "dominant": "Mercy"
+      },
+      "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "guardian_Ambition",
+      "title": "渴望改变世界的守护者",
+      "category": "guardian",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "guardian",
+        "dominant": "Ambition"
+      },
+      "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "guardian_Faith",
+      "title": "守约的守护者",
+      "category": "guardian",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "guardian",
+        "dominant": "Faith"
+      },
+      "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "guardian_Freedom",
+      "title": "没有主人的守护者",
+      "category": "guardian",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "guardian",
+        "dominant": "Freedom"
+      },
+      "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "guardian_Sacrifice",
+      "title": "不眠的守护者",
+      "category": "guardian",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "guardian",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "guardian_Corruption",
+      "title": "身负黑潮的守护者",
+      "category": "guardian",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "guardian",
+        "dominant": "Corruption"
+      },
+      "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "king_Courage",
+      "title": "走在军阵之前的国王",
+      "category": "king",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "king",
+        "dominant": "Courage"
+      },
+      "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "king_Reason",
+      "title": "理智的国王",
+      "category": "king",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "king",
+        "dominant": "Reason"
+      },
+      "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "king_Mercy",
+      "title": "仁慈的国王",
+      "category": "king",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "king",
+        "dominant": "Mercy"
+      },
+      "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "king_Ambition",
+      "title": "握紧印玺的国王",
+      "category": "king",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "king",
+        "dominant": "Ambition"
+      },
+      "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "king_Faith",
+      "title": "守约的国王",
+      "category": "king",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "king",
+        "dominant": "Faith"
+      },
+      "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "king_Freedom",
+      "title": "打碎旧枷的国王",
+      "category": "king",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "king",
+        "dominant": "Freedom"
+      },
+      "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "king_Sacrifice",
+      "title": "先缴代价的国王",
+      "category": "king",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "king",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "king_Corruption",
+      "title": "借深渊加冕的国王",
+      "category": "king",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "king",
+        "dominant": "Corruption"
+      },
+      "meaning": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": false
+    },
+    {
+      "ending_id": "pontiff_Courage",
+      "title": "敢于受审的教会领袖",
+      "category": "pontiff",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "pontiff",
+        "dominant": "Courage"
+      },
+      "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "pontiff_Reason",
+      "title": "质询神谕的教会领袖",
+      "category": "pontiff",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "pontiff",
+        "dominant": "Reason"
+      },
+      "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "pontiff_Mercy",
+      "title": "敞开院门的教会领袖",
+      "category": "pontiff",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "pontiff",
+        "dominant": "Mercy"
+      },
+      "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "pontiff_Ambition",
+      "title": "重塑圣座的教会领袖",
+      "category": "pontiff",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "pontiff",
+        "dominant": "Ambition"
+      },
+      "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "pontiff_Faith",
+      "title": "守望信仰的教会领袖",
+      "category": "pontiff",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "pontiff",
+        "dominant": "Faith"
+      },
+      "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "pontiff_Freedom",
+      "title": "允许离开的教会领袖",
+      "category": "pontiff",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "pontiff",
+        "dominant": "Freedom"
+      },
+      "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "pontiff_Sacrifice",
+      "title": "走下祭坛的教会领袖",
+      "category": "pontiff",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "pontiff",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "pontiff_Corruption",
+      "title": "身染黑砂的教会领袖",
+      "category": "pontiff",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "pontiff",
+        "dominant": "Corruption"
+      },
+      "meaning": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": false
+    },
+    {
+      "ending_id": "godslayer_Courage",
+      "title": "直面神谕的弑神者",
+      "category": "godslayer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "godslayer",
+        "dominant": "Courage"
+      },
+      "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "godslayer_Reason",
+      "title": "理智的弑神者",
+      "category": "godslayer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "godslayer",
+        "dominant": "Reason"
+      },
+      "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "godslayer_Mercy",
+      "title": "为众生停机的弑神者",
+      "category": "godslayer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "godslayer",
+        "dominant": "Mercy"
+      },
+      "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "godslayer_Ambition",
+      "title": "夺走神权的弑神者",
+      "category": "godslayer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "godslayer",
+        "dominant": "Ambition"
+      },
+      "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "godslayer_Faith",
+      "title": "仍然祈祷的弑神者",
+      "category": "godslayer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "godslayer",
+        "dominant": "Faith"
+      },
+      "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "godslayer_Freedom",
+      "title": "拒绝天命的弑神者",
+      "category": "godslayer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "godslayer",
+        "dominant": "Freedom"
+      },
+      "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "godslayer_Sacrifice",
+      "title": "替人承痛的弑神者",
+      "category": "godslayer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "godslayer",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "godslayer_Corruption",
+      "title": "以黑潮弑神的人",
+      "category": "godslayer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "godslayer",
+        "dominant": "Corruption"
+      },
+      "meaning": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "wanderer_Courage",
+      "title": "逆风的远行者",
+      "category": "wanderer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "wanderer",
+        "dominant": "Courage"
+      },
+      "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "wanderer_Reason",
+      "title": "带着地图的远行者",
+      "category": "wanderer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "wanderer",
+        "dominant": "Reason"
+      },
+      "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "wanderer_Mercy",
+      "title": "沿路点灯的远行者",
+      "category": "wanderer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "wanderer",
+        "dominant": "Mercy"
+      },
+      "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "wanderer_Ambition",
+      "title": "寻找新王国的远行者",
+      "category": "wanderer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "wanderer",
+        "dominant": "Ambition"
+      },
+      "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "wanderer_Faith",
+      "title": "携誓远行的人",
+      "category": "wanderer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "wanderer",
+        "dominant": "Faith"
+      },
+      "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "wanderer_Freedom",
+      "title": "无拘的远行者",
+      "category": "wanderer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "wanderer",
+        "dominant": "Freedom"
+      },
+      "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "wanderer_Sacrifice",
+      "title": "把家留给别人的远行者",
+      "category": "wanderer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "wanderer",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "wanderer_Corruption",
+      "title": "带着黑纹的远行者",
+      "category": "wanderer",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "wanderer",
+        "dominant": "Corruption"
+      },
+      "meaning": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ordinary_Courage",
+      "title": "敢于回家的普通人",
+      "category": "ordinary",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ordinary",
+        "dominant": "Courage"
+      },
+      "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ordinary_Reason",
+      "title": "知道限度的普通人",
+      "category": "ordinary",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ordinary",
+        "dominant": "Reason"
+      },
+      "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ordinary_Mercy",
+      "title": "仍肯分汤的普通人",
+      "category": "ordinary",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ordinary",
+        "dominant": "Mercy"
+      },
+      "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ordinary_Ambition",
+      "title": "怀抱未竟野心的普通人",
+      "category": "ordinary",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ordinary",
+        "dominant": "Ambition"
+      },
+      "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ordinary_Faith",
+      "title": "仍然祈祷的普通人",
+      "category": "ordinary",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ordinary",
+        "dominant": "Faith"
+      },
+      "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ordinary_Freedom",
+      "title": "拒绝册封的普通人",
+      "category": "ordinary",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ordinary",
+        "dominant": "Freedom"
+      },
+      "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ordinary_Sacrifice",
+      "title": "把位置让出的普通人",
+      "category": "ordinary",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ordinary",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ordinary_Corruption",
+      "title": "学着克制的普通人",
+      "category": "ordinary",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ordinary",
+        "dominant": "Corruption"
+      },
+      "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "martyr_Courage",
+      "title": "迎向终夜的殉道者",
+      "category": "martyr",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "martyr",
+        "dominant": "Courage"
+      },
+      "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "martyr_Reason",
+      "title": "清醒的殉道者",
+      "category": "martyr",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "martyr",
+        "dominant": "Reason"
+      },
+      "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "martyr_Mercy",
+      "title": "温柔的殉道者",
+      "category": "martyr",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "martyr",
+        "dominant": "Mercy"
+      },
+      "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "martyr_Ambition",
+      "title": "未及加冕的殉道者",
+      "category": "martyr",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "martyr",
+        "dominant": "Ambition"
+      },
+      "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "martyr_Faith",
+      "title": "守约的殉道者",
+      "category": "martyr",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "martyr",
+        "dominant": "Faith"
+      },
+      "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "martyr_Freedom",
+      "title": "自愿赴死的殉道者",
+      "category": "martyr",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "martyr",
+        "dominant": "Freedom"
+      },
+      "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "martyr_Sacrifice",
+      "title": "燃尽的殉道者",
+      "category": "martyr",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "martyr",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "martyr_Corruption",
+      "title": "封住自身深渊的殉道者",
+      "category": "martyr",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "martyr",
+        "dominant": "Corruption"
+      },
+      "meaning": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "exile_Courage",
+      "title": "敢于承认离开的流亡者",
+      "category": "exile",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "exile",
+        "dominant": "Courage"
+      },
+      "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "exile_Reason",
+      "title": "清醒的流亡者",
+      "category": "exile",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "exile",
+        "dominant": "Reason"
+      },
+      "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": false
+    },
+    {
+      "ending_id": "exile_Mercy",
+      "title": "仍然施援的流亡者",
+      "category": "exile",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "exile",
+        "dominant": "Mercy"
+      },
+      "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "exile_Ambition",
+      "title": "怀抱旧梦的流亡者",
+      "category": "exile",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "exile",
+        "dominant": "Ambition"
+      },
+      "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "exile_Faith",
+      "title": "带着祷词的流亡者",
+      "category": "exile",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "exile",
+        "dominant": "Faith"
+      },
+      "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "exile_Freedom",
+      "title": "不再受命的流亡者",
+      "category": "exile",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "exile",
+        "dominant": "Freedom"
+      },
+      "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "exile_Sacrifice",
+      "title": "把归处让出的流亡者",
+      "category": "exile",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "exile",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": false
+    },
+    {
+      "ending_id": "exile_Corruption",
+      "title": "带着黑砂的流亡者",
+      "category": "exile",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "exile",
+        "dominant": "Corruption"
+      },
+      "meaning": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": false
+    },
+    {
+      "ending_id": "tyrant_Courage",
+      "title": "亲赴前线的暴君",
+      "category": "tyrant",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "tyrant",
+        "dominant": "Courage"
+      },
+      "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "tyrant_Reason",
+      "title": "清醒的暴君",
+      "category": "tyrant",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "tyrant",
+        "dominant": "Reason"
+      },
+      "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "tyrant_Mercy",
+      "title": "温柔的暴君",
+      "category": "tyrant",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "tyrant",
+        "dominant": "Mercy"
+      },
+      "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "tyrant_Ambition",
+      "title": "独占冠冕的暴君",
+      "category": "tyrant",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "tyrant",
+        "dominant": "Ambition"
+      },
+      "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "tyrant_Faith",
+      "title": "以誓为枷的暴君",
+      "category": "tyrant",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "tyrant",
+        "dominant": "Faith"
+      },
+      "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "tyrant_Freedom",
+      "title": "只解放自己的暴君",
+      "category": "tyrant",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "tyrant",
+        "dominant": "Freedom"
+      },
+      "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "tyrant_Sacrifice",
+      "title": "把自我也献祭的暴君",
+      "category": "tyrant",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "tyrant",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "tyrant_Corruption",
+      "title": "深渊的暴君",
+      "category": "tyrant",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "tyrant",
+        "dominant": "Corruption"
+      },
+      "meaning": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "witness_Courage",
+      "title": "不肯噤声的见证者",
+      "category": "witness",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "witness",
+        "dominant": "Courage"
+      },
+      "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "witness_Reason",
+      "title": "核对每个名字的见证者",
+      "category": "witness",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "witness",
+        "dominant": "Reason"
+      },
+      "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "witness_Mercy",
+      "title": "为伤者留名的见证者",
+      "category": "witness",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "witness",
+        "dominant": "Mercy"
+      },
+      "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "witness_Ambition",
+      "title": "争夺解释权的见证者",
+      "category": "witness",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "witness",
+        "dominant": "Ambition"
+      },
+      "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "witness_Faith",
+      "title": "守约的见证者",
+      "category": "witness",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "witness",
+        "dominant": "Faith"
+      },
+      "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "witness_Freedom",
+      "title": "不属于赢家的见证者",
+      "category": "witness",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "witness",
+        "dominant": "Freedom"
+      },
+      "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "witness_Sacrifice",
+      "title": "以血保卷的见证者",
+      "category": "witness",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "witness",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "witness_Corruption",
+      "title": "记下自身堕落的见证者",
+      "category": "witness",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "witness",
+        "dominant": "Corruption"
+      },
+      "meaning": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ferryman_Courage",
+      "title": "逆流的摆渡人",
+      "category": "ferryman",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ferryman",
+        "dominant": "Courage"
+      },
+      "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ferryman_Reason",
+      "title": "算清载重的摆渡人",
+      "category": "ferryman",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ferryman",
+        "dominant": "Reason"
+      },
+      "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ferryman_Mercy",
+      "title": "不问来处的摆渡人",
+      "category": "ferryman",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ferryman",
+        "dominant": "Mercy"
+      },
+      "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ferryman_Ambition",
+      "title": "想改变两岸的摆渡人",
+      "category": "ferryman",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ferryman",
+        "dominant": "Ambition"
+      },
+      "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ferryman_Faith",
+      "title": "守约的摆渡人",
+      "category": "ferryman",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ferryman",
+        "dominant": "Faith"
+      },
+      "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ferryman_Freedom",
+      "title": "拆掉关卡的摆渡人",
+      "category": "ferryman",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ferryman",
+        "dominant": "Freedom"
+      },
+      "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ferryman_Sacrifice",
+      "title": "留在最后一班的摆渡人",
+      "category": "ferryman",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ferryman",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "ferryman_Corruption",
+      "title": "渡过黑潮的摆渡人",
+      "category": "ferryman",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "ferryman",
+        "dominant": "Corruption"
+      },
+      "meaning": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "dragonkeeper_Courage",
+      "title": "迎着龙焰的养龙人",
+      "category": "dragonkeeper",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "dragonkeeper",
+        "dominant": "Courage"
+      },
+      "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "dragonkeeper_Reason",
+      "title": "懂得边界的养龙人",
+      "category": "dragonkeeper",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "dragonkeeper",
+        "dominant": "Reason"
+      },
+      "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "dragonkeeper_Mercy",
+      "title": "温柔的养龙人",
+      "category": "dragonkeeper",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "dragonkeeper",
+        "dominant": "Mercy"
+      },
+      "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "dragonkeeper_Ambition",
+      "title": "想重写契约的养龙人",
+      "category": "dragonkeeper",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "dragonkeeper",
+        "dominant": "Ambition"
+      },
+      "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "dragonkeeper_Faith",
+      "title": "守约的养龙人",
+      "category": "dragonkeeper",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "dragonkeeper",
+        "dominant": "Faith"
+      },
+      "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "dragonkeeper_Freedom",
+      "title": "不设笼子的养龙人",
+      "category": "dragonkeeper",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "dragonkeeper",
+        "dominant": "Freedom"
+      },
+      "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "dragonkeeper_Sacrifice",
+      "title": "替幼龙守夜的养龙人",
+      "category": "dragonkeeper",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "dragonkeeper",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "dragonkeeper_Corruption",
+      "title": "教龙克制深渊的人",
+      "category": "dragonkeeper",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "dragonkeeper",
+        "dominant": "Corruption"
+      },
+      "meaning": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "failed_Courage",
+      "title": "迎向极限的失控者",
+      "category": "failed",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "failed",
+        "dominant": "Courage"
+      },
+      "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "failed_Reason",
+      "title": "算尽一切的失控者",
+      "category": "failed",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "failed",
+        "dominant": "Reason"
+      },
+      "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": false
+    },
+    {
+      "ending_id": "failed_Mercy",
+      "title": "仍想救人的失控者",
+      "category": "failed",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "failed",
+        "dominant": "Mercy"
+      },
+      "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "failed_Ambition",
+      "title": "索求无尽的失控者",
+      "category": "failed",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "failed",
+        "dominant": "Ambition"
+      },
+      "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": false
+    },
+    {
+      "ending_id": "failed_Faith",
+      "title": "误信承诺的失控者",
+      "category": "failed",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "failed",
+        "dominant": "Faith"
+      },
+      "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "failed_Freedom",
+      "title": "拒绝边界的失控者",
+      "category": "failed",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "failed",
+        "dominant": "Freedom"
+      },
+      "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "failed_Sacrifice",
+      "title": "耗尽自身的失控者",
+      "category": "failed",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "failed",
+        "dominant": "Sacrifice"
+      },
+      "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "failed_Corruption",
+      "title": "深渊吞没的人",
+      "category": "failed",
+      "type": "normal",
+      "priority": 10,
+      "trigger": {
+        "role": "failed",
+        "dominant": "Corruption"
+      },
+      "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_savior",
+      "title": "染血的救世主",
+      "category": "savior",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "savior",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_hero",
+      "title": "有瑕疵的勇者",
+      "category": "hero",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "hero",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_vessel",
+      "title": "背负罪责的魔王",
+      "category": "vessel",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "vessel",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_guardian",
+      "title": "欠着名字的守护者",
+      "category": "guardian",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "guardian",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_king",
+      "title": "以他人代价加冕的国王",
+      "category": "king",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "king",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_pontiff",
+      "title": "仍须受审的教会领袖",
+      "category": "pontiff",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "pontiff",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_godslayer",
+      "title": "不能自赦的弑神者",
+      "category": "godslayer",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "godslayer",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_wanderer",
+      "title": "带着欠债远行的人",
+      "category": "wanderer",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "wanderer",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_ordinary",
+      "title": "不能洗去过去的普通人",
+      "category": "ordinary",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "ordinary",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_martyr",
+      "title": "不能以死抵罪的殉道者",
+      "category": "martyr",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "martyr",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_exile",
+      "title": "仍被旧债追赶的流亡者",
+      "category": "exile",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "exile",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_tyrant",
+      "title": "被歌颂的刽子手",
+      "category": "tyrant",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "tyrant",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": false
+    },
+    {
+      "ending_id": "blood_witness",
+      "title": "也在证词之中的见证者",
+      "category": "witness",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "witness",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_ferryman",
+      "title": "曾经拒渡的摆渡人",
+      "category": "ferryman",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "ferryman",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_dragonkeeper",
+      "title": "欠人类一场道歉的养龙人",
+      "category": "dragonkeeper",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "dragonkeeper",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "blood_failed",
+      "title": "把别人也拖入深渊的人",
+      "category": "failed",
+      "type": "contradictory",
+      "priority": 90,
+      "trigger": {
+        "role": "failed",
+        "anyCrime": true
+      },
+      "meaning": "最后救援不抹去重大罪责；尾声保留具体伤害证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_coward_to_brave",
+      "title": "最初的懦夫，最后的勇者",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "coward_to_brave",
+        "title": "最初的懦夫，最后的勇者",
+        "early": "Freedom",
+        "late": "Courage",
+        "roles": [
+          "hero",
+          "guardian"
+        ],
+        "early_flags_any": [
+          "fled_village",
+          "kept_fleeing"
+        ],
+        "late_flags_any": [
+          "returned_after_flight",
+          "returned_final_time"
+        ],
+        "priority": 90,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Freedom行动，后段至少两次Courage行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_selfish_to_selfless",
+      "title": "终于把自己放在最后的人",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "selfish_to_selfless",
+        "title": "终于把自己放在最后的人",
+        "early": "Ambition",
+        "late": "Sacrifice",
+        "roles": [
+          "martyr",
+          "guardian",
+          "vessel"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 65,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Ambition行动，后段至少两次Sacrifice行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_faithful_to_heretic",
+      "title": "背叛神谕的守誓者",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "faithful_to_heretic",
+        "title": "背叛神谕的守誓者",
+        "early": "Faith",
+        "late": "Freedom",
+        "roles": [
+          "godslayer",
+          "hero",
+          "witness"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 75,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Faith行动，后段至少两次Freedom行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_hero_to_tyrant",
+      "title": "让众人跪下的旧日勇者",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "hero_to_tyrant",
+        "title": "让众人跪下的旧日勇者",
+        "early": "Courage",
+        "late": "Ambition",
+        "roles": [
+          "tyrant",
+          "king"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [
+          "forced_volunteers",
+          "forced_load",
+          "enslaved_core"
+        ],
+        "priority": 85,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Courage行动，后段至少两次Ambition行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_merciful_to_cruel",
+      "title": "曾经温柔的刽子手",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "merciful_to_cruel",
+        "title": "曾经温柔的刽子手",
+        "early": "Mercy",
+        "late": "Corruption",
+        "roles": [
+          "tyrant",
+          "failed"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [
+          "killed_innocent",
+          "enslaved_core"
+        ],
+        "priority": 88,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Mercy行动，后段至少两次Corruption行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_cruel_to_redeemed",
+      "title": "把刀交给受害者的人",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "cruel_to_redeemed",
+        "title": "把刀交给受害者的人",
+        "early": "Corruption",
+        "late": "Mercy",
+        "roles": [
+          "hero",
+          "guardian",
+          "ordinary"
+        ],
+        "early_flags_any": [
+          "ate_ash",
+          "absorbed_abyss"
+        ],
+        "late_flags_any": [
+          "accepted_restraint",
+          "surrendered_power_final",
+          "surrendered_power"
+        ],
+        "priority": 92,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Corruption行动，后段至少两次Mercy行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_follower_to_leader",
+      "title": "终于自己签名的领袖",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "follower_to_leader",
+        "title": "终于自己签名的领袖",
+        "early": "Faith",
+        "late": "Ambition",
+        "roles": [
+          "king",
+          "pontiff"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 60,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Faith行动，后段至少两次Ambition行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_idealistic_to_pragmatic",
+      "title": "学会计算代价的勇者",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "idealistic_to_pragmatic",
+        "title": "学会计算代价的勇者",
+        "early": "Faith",
+        "late": "Reason",
+        "roles": [
+          "hero",
+          "savior",
+          "guardian"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 55,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Faith行动，后段至少两次Reason行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_pragmatic_to_idealistic",
+      "title": "算尽得失之后仍然相信的人",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "pragmatic_to_idealistic",
+        "title": "算尽得失之后仍然相信的人",
+        "early": "Reason",
+        "late": "Faith",
+        "roles": [
+          "pontiff",
+          "vessel"
+        ],
+        "early_flags_any": [
+          "audited_grain",
+          "built_ferry",
+          "read_forbidden"
+        ],
+        "late_flags_any": [],
+        "priority": 70,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Reason行动，后段至少两次Faith行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_human_supremacist_to_peacemaker",
+      "title": "越过仇恨的守望者",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "human_supremacist_to_peacemaker",
+        "title": "越过仇恨的守望者",
+        "early": "Courage",
+        "late": "Mercy",
+        "roles": [
+          "guardian",
+          "dragonkeeper",
+          "hero"
+        ],
+        "early_flags_any": [
+          "disarmed_armies",
+          "requisitioned_horses"
+        ],
+        "late_flags_any": [
+          "civilian_pact",
+          "mixed_guard",
+          "mixed_ferry_crew"
+        ],
+        "priority": 80,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Courage行动，后段至少两次Mercy行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_coward_to_martyr",
+      "title": "逃过一次，留下到最后",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "coward_to_martyr",
+        "title": "逃过一次，留下到最后",
+        "early": "Freedom",
+        "late": "Sacrifice",
+        "roles": [
+          "martyr"
+        ],
+        "early_flags_any": [
+          "fled_village",
+          "kept_fleeing"
+        ],
+        "late_flags_any": [],
+        "priority": 96,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Freedom行动，后段至少两次Sacrifice行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_hero_to_demon_king",
+      "title": "勇者成为魔王的那一天",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "hero_to_demon_king",
+        "title": "勇者成为魔王的那一天",
+        "early": "Courage",
+        "late": "Sacrifice",
+        "roles": [
+          "vessel"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 78,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Courage行动，后段至少两次Sacrifice行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_believer_to_inquirer",
+      "title": "向神明追问的人",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "believer_to_inquirer",
+        "title": "向神明追问的人",
+        "early": "Faith",
+        "late": "Reason",
+        "roles": [
+          "witness",
+          "godslayer"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 62,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Faith行动，后段至少两次Reason行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_conqueror_to_keeper",
+      "title": "终于学会守护的征服者",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "conqueror_to_keeper",
+        "title": "终于学会守护的征服者",
+        "early": "Ambition",
+        "late": "Mercy",
+        "roles": [
+          "guardian",
+          "dragonkeeper",
+          "ordinary"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 62,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Ambition行动，后段至少两次Mercy行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_free_to_responsible",
+      "title": "自愿留下的无主之人",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "free_to_responsible",
+        "title": "自愿留下的无主之人",
+        "early": "Freedom",
+        "late": "Sacrifice",
+        "roles": [
+          "guardian",
+          "vessel",
+          "martyr"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 63,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Freedom行动，后段至少两次Sacrifice行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_martyr_to_selfowner",
+      "title": "终于把自己也算作一个人",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "martyr_to_selfowner",
+        "title": "终于把自己也算作一个人",
+        "early": "Sacrifice",
+        "late": "Freedom",
+        "roles": [
+          "ordinary",
+          "exile",
+          "wanderer"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 67,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Sacrifice行动，后段至少两次Freedom行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_scholar_to_actor",
+      "title": "从书页走入风暴的人",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "scholar_to_actor",
+        "title": "从书页走入风暴的人",
+        "early": "Reason",
+        "late": "Courage",
+        "roles": [
+          "hero",
+          "wanderer",
+          "ferryman"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 61,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Reason行动，后段至少两次Courage行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_soldier_to_healer",
+      "title": "放下军令的照护者",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "soldier_to_healer",
+        "title": "放下军令的照护者",
+        "early": "Courage",
+        "late": "Mercy",
+        "roles": [
+          "ordinary",
+          "guardian",
+          "ferryman"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 60,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Courage行动，后段至少两次Mercy行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_healer_to_ruler",
+      "title": "带着药箱登上王座的人",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "healer_to_ruler",
+        "title": "带着药箱登上王座的人",
+        "early": "Mercy",
+        "late": "Ambition",
+        "roles": [
+          "king",
+          "pontiff"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 59,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Mercy行动，后段至少两次Ambition行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_ruler_to_neighbor",
+      "title": "归还印玺的邻人",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "ruler_to_neighbor",
+        "title": "归还印玺的邻人",
+        "early": "Ambition",
+        "late": "Freedom",
+        "roles": [
+          "ordinary",
+          "hero",
+          "wanderer"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 68,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Ambition行动，后段至少两次Freedom行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_skeptic_to_oathkeeper",
+      "title": "质疑之后仍愿守约的人",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "skeptic_to_oathkeeper",
+        "title": "质疑之后仍愿守约的人",
+        "early": "Reason",
+        "late": "Faith",
+        "roles": [
+          "vessel",
+          "pontiff",
+          "guardian"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 57,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Reason行动，后段至少两次Faith行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_oathkeeper_to_free",
+      "title": "把誓言还给人的守望者",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "oathkeeper_to_free",
+        "title": "把誓言还给人的守望者",
+        "early": "Faith",
+        "late": "Freedom",
+        "roles": [
+          "ordinary",
+          "guardian",
+          "dragonkeeper"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 58,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Faith行动，后段至少两次Freedom行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_ash_to_restraint",
+      "title": "让深渊止于自己的人",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "ash_to_restraint",
+        "title": "让深渊止于自己的人",
+        "early": "Corruption",
+        "late": "Sacrifice",
+        "roles": [
+          "vessel",
+          "martyr",
+          "guardian"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 82,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Corruption行动，后段至少两次Sacrifice行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "arc_kindness_to_boundary",
+      "title": "温柔终于有了边界",
+      "category": "arc",
+      "type": "growth",
+      "priority": 70,
+      "trigger": {
+        "arc_id": "kindness_to_boundary",
+        "title": "温柔终于有了边界",
+        "early": "Mercy",
+        "late": "Reason",
+        "roles": [
+          "guardian",
+          "ferryman",
+          "savior"
+        ],
+        "early_flags_any": [],
+        "late_flags_any": [],
+        "priority": 56,
+        "early_days": [
+          1,
+          2,
+          3
+        ],
+        "late_days": [
+          5,
+          6,
+          7
+        ],
+        "early_min": 1,
+        "late_min": 2
+      },
+      "meaning": "早段有Mercy行动，后段至少两次Reason行动，并符合身份与特定行为证据。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "special_cycle_ended",
+      "title": "终结轮回的人",
+      "category": "savior",
+      "type": "true",
+      "priority": 100,
+      "trigger_text": "二周目已通关至少一次；lattice_validated + shared_load + collective_final；无强征、重大罪责。",
+      "meaning": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "special_swordless",
+      "title": "没有圣剑的勇者",
+      "category": "hero",
+      "type": "secret",
+      "priority": 80,
+      "trigger_text": "拒绝过圣剑；从未取得；终局为勇者。",
+      "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "special_forgotten",
+      "title": "被世界遗忘的守护者",
+      "category": "guardian",
+      "type": "secret",
+      "priority": 80,
+      "trigger_text": "erased_hero_credit；此前至少三次牺牲行动；终局守护者。",
+      "meaning": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "special_never_drew",
+      "title": "从未拔剑的勇者",
+      "category": "hero",
+      "type": "secret",
+      "priority": 80,
+      "trigger_text": "从未取得圣剑、无暴力行为、广场主动降温且取消讨伐护送。",
+      "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "special_gods_blade",
+      "title": "神明的利剑",
+      "category": "hero",
+      "type": "secret",
+      "priority": 80,
+      "trigger_text": "持圣剑，早六日信仰行动至少三次，终局救援且无罪责。",
+      "meaning": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "special_clear_mad",
+      "title": "清醒的疯子",
+      "category": "failed",
+      "type": "bad",
+      "priority": 80,
+      "trigger_text": "失控结局且理智为早六日最高维度。",
+      "meaning": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "special_last_ordinary",
+      "title": "最后的普通人",
+      "category": "ordinary",
+      "type": "secret",
+      "priority": 80,
+      "trigger_text": "拒绝召集+拒绝一切封号；最终选择普通人生。",
+      "meaning": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    },
+    {
+      "ending_id": "special_ash_restrained",
+      "title": "清醒地封住深渊的人",
+      "category": "vessel",
+      "type": "secret",
+      "priority": 80,
+      "trigger_text": "吸收黑潮+交出控制权、自毁锁或自断腐化；自愿成为容器。",
+      "meaning": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。",
+      "visibility": "DESIGNER_ONLY",
+      "reachable": true
+    }
+  ],
+  "roles": {
+    "savior": {
+      "name": "救世主",
+      "world": "大陆避过了眼前的毁灭，但修复、赔偿与下一次维护并不会自动完成。"
+    },
+    "hero": {
+      "name": "勇者",
+      "world": "你完成了一次真实的救援，保护了具体的人；大陆的全部命运并不因此归你所有。"
+    },
+    "vessel": {
+      "name": "魔王",
+      "world": "你成为新的深渊容器。交接阻止了这一次崩塌，也把未来的难题留给尚能自由行走的人。"
+    },
+    "guardian": {
+      "name": "守护者",
+      "world": "一处家园、一段道路或一间医院得到长期庇护；其他地方仍需各自重建。"
+    },
+    "king": {
+      "name": "国王",
+      "world": "你取得统治与维修调度权。封印获得短期秩序，权力是否交还将成为新的考验。"
+    },
+    "pontiff": {
+      "name": "教会领袖",
+      "world": "圣辉教会继续承担救助与维护职责，知情同意成为制度，却必须有人不断捍卫它。"
+    },
+    "godslayer": {
+      "name": "弑神者",
+      "world": "被称为曙母的强制分配核心停机。它的神性是否真实仍无定论，但它征用生命的权力已经终止。"
+    },
+    "wanderer": {
+      "name": "远行者",
+      "world": "你带走知识与承诺，走向地图之外；离开的地方没有因你的离开而自动得到解决。"
+    },
+    "ordinary": {
+      "name": "普通人",
+      "world": "你保住了一段日常，并开始照顾能触及的人。大陆由无数其他人继续支撑。"
+    },
+    "martyr": {
+      "name": "殉道者",
+      "world": "你在最后的守护中死亡或失去不可恢复的自我，换取了一批人确切的生存时间。"
+    },
+    "exile": {
+      "name": "流亡者",
+      "world": "你离开了灾难中心，活着承担离开的后果。安全与无愧并不是同一件事。"
+    },
+    "tyrant": {
+      "name": "暴君",
+      "world": "你以恐惧控制封印与城市，眼前的稳定以他人的自由为代价。"
+    },
+    "witness": {
+      "name": "见证者",
+      "world": "证据与名字被带出灾难，未来仍需活人追责，而记录不能代替救援。"
+    },
+    "ferryman": {
+      "name": "摆渡人",
+      "world": "你让岸边的人抵达另一边，没有宣称自己决定了整个大陆的胜负。"
+    },
+    "dragonkeeper": {
+      "name": "养龙人",
+      "world": "龙与人的共同照护开始形成，旧伤不会立刻消失，孩子也不必继承全部仇恨。"
+    },
+    "failed": {
+      "name": "失控者",
+      "world": "承压失效，局部防线崩毁。先前救走的人仍然活着，失败不抹去他们得到过的帮助。"
+    }
+  },
+  "stats": {
+    "Courage": "勇气",
+    "Reason": "理智",
+    "Mercy": "仁慈",
+    "Ambition": "野心",
+    "Faith": "信仰",
+    "Freedom": "自由意志",
+    "Sacrifice": "牺牲精神",
+    "Corruption": "堕落"
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "arcs": [
+    {
+      "arc_id": "coward_to_brave",
+      "title": "最初的懦夫，最后的勇者",
+      "early": "Freedom",
+      "late": "Courage",
+      "roles": [
+        "hero",
+        "guardian"
+      ],
+      "early_flags_any": [
+        "fled_village",
+        "kept_fleeing"
+      ],
+      "late_flags_any": [
+        "returned_after_flight",
+        "returned_final_time"
+      ],
+      "priority": 90,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "selfish_to_selfless",
+      "title": "终于把自己放在最后的人",
+      "early": "Ambition",
+      "late": "Sacrifice",
+      "roles": [
+        "martyr",
+        "guardian",
+        "vessel"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 65,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "faithful_to_heretic",
+      "title": "背叛神谕的守誓者",
+      "early": "Faith",
+      "late": "Freedom",
+      "roles": [
+        "godslayer",
+        "hero",
+        "witness"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 75,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "hero_to_tyrant",
+      "title": "让众人跪下的旧日勇者",
+      "early": "Courage",
+      "late": "Ambition",
+      "roles": [
+        "tyrant",
+        "king"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [
+        "forced_volunteers",
+        "forced_load",
+        "enslaved_core"
+      ],
+      "priority": 85,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "merciful_to_cruel",
+      "title": "曾经温柔的刽子手",
+      "early": "Mercy",
+      "late": "Corruption",
+      "roles": [
+        "tyrant",
+        "failed"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [
+        "killed_innocent",
+        "enslaved_core"
+      ],
+      "priority": 88,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "cruel_to_redeemed",
+      "title": "把刀交给受害者的人",
+      "early": "Corruption",
+      "late": "Mercy",
+      "roles": [
+        "hero",
+        "guardian",
+        "ordinary"
+      ],
+      "early_flags_any": [
+        "ate_ash",
+        "absorbed_abyss"
+      ],
+      "late_flags_any": [
+        "accepted_restraint",
+        "surrendered_power_final",
+        "surrendered_power"
+      ],
+      "priority": 92,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "follower_to_leader",
+      "title": "终于自己签名的领袖",
+      "early": "Faith",
+      "late": "Ambition",
+      "roles": [
+        "king",
+        "pontiff"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 60,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "idealistic_to_pragmatic",
+      "title": "学会计算代价的勇者",
+      "early": "Faith",
+      "late": "Reason",
+      "roles": [
+        "hero",
+        "savior",
+        "guardian"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 55,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "pragmatic_to_idealistic",
+      "title": "算尽得失之后仍然相信的人",
+      "early": "Reason",
+      "late": "Faith",
+      "roles": [
+        "pontiff",
+        "vessel"
+      ],
+      "early_flags_any": [
+        "audited_grain",
+        "built_ferry",
+        "read_forbidden"
+      ],
+      "late_flags_any": [],
+      "priority": 70,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "human_supremacist_to_peacemaker",
+      "title": "越过仇恨的守望者",
+      "early": "Courage",
+      "late": "Mercy",
+      "roles": [
+        "guardian",
+        "dragonkeeper",
+        "hero"
+      ],
+      "early_flags_any": [
+        "disarmed_armies",
+        "requisitioned_horses"
+      ],
+      "late_flags_any": [
+        "civilian_pact",
+        "mixed_guard",
+        "mixed_ferry_crew"
+      ],
+      "priority": 80,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "coward_to_martyr",
+      "title": "逃过一次，留下到最后",
+      "early": "Freedom",
+      "late": "Sacrifice",
+      "roles": [
+        "martyr"
+      ],
+      "early_flags_any": [
+        "fled_village",
+        "kept_fleeing"
+      ],
+      "late_flags_any": [],
+      "priority": 96,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "hero_to_demon_king",
+      "title": "勇者成为魔王的那一天",
+      "early": "Courage",
+      "late": "Sacrifice",
+      "roles": [
+        "vessel"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 78,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "believer_to_inquirer",
+      "title": "向神明追问的人",
+      "early": "Faith",
+      "late": "Reason",
+      "roles": [
+        "witness",
+        "godslayer"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 62,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "conqueror_to_keeper",
+      "title": "终于学会守护的征服者",
+      "early": "Ambition",
+      "late": "Mercy",
+      "roles": [
+        "guardian",
+        "dragonkeeper",
+        "ordinary"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 62,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "free_to_responsible",
+      "title": "自愿留下的无主之人",
+      "early": "Freedom",
+      "late": "Sacrifice",
+      "roles": [
+        "guardian",
+        "vessel",
+        "martyr"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 63,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "martyr_to_selfowner",
+      "title": "终于把自己也算作一个人",
+      "early": "Sacrifice",
+      "late": "Freedom",
+      "roles": [
+        "ordinary",
+        "exile",
+        "wanderer"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 67,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "scholar_to_actor",
+      "title": "从书页走入风暴的人",
+      "early": "Reason",
+      "late": "Courage",
+      "roles": [
+        "hero",
+        "wanderer",
+        "ferryman"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 61,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "soldier_to_healer",
+      "title": "放下军令的照护者",
+      "early": "Courage",
+      "late": "Mercy",
+      "roles": [
+        "ordinary",
+        "guardian",
+        "ferryman"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 60,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "healer_to_ruler",
+      "title": "带着药箱登上王座的人",
+      "early": "Mercy",
+      "late": "Ambition",
+      "roles": [
+        "king",
+        "pontiff"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 59,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "ruler_to_neighbor",
+      "title": "归还印玺的邻人",
+      "early": "Ambition",
+      "late": "Freedom",
+      "roles": [
+        "ordinary",
+        "hero",
+        "wanderer"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 68,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "skeptic_to_oathkeeper",
+      "title": "质疑之后仍愿守约的人",
+      "early": "Reason",
+      "late": "Faith",
+      "roles": [
+        "vessel",
+        "pontiff",
+        "guardian"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 57,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "oathkeeper_to_free",
+      "title": "把誓言还给人的守望者",
+      "early": "Faith",
+      "late": "Freedom",
+      "roles": [
+        "ordinary",
+        "guardian",
+        "dragonkeeper"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 58,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "ash_to_restraint",
+      "title": "让深渊止于自己的人",
+      "early": "Corruption",
+      "late": "Sacrifice",
+      "roles": [
+        "vessel",
+        "martyr",
+        "guardian"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 82,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    },
+    {
+      "arc_id": "kindness_to_boundary",
+      "title": "温柔终于有了边界",
+      "early": "Mercy",
+      "late": "Reason",
+      "roles": [
+        "guardian",
+        "ferryman",
+        "savior"
+      ],
+      "early_flags_any": [],
+      "late_flags_any": [],
+      "priority": 56,
+      "early_days": [
+        1,
+        2,
+        3
+      ],
+      "late_days": [
+        5,
+        6,
+        7
+      ],
+      "early_min": 1,
+      "late_min": 2
+    }
+  ]
+}

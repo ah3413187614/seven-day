@@ -1,0 +1,6 @@
+{
+  "status": "blocked",
+  "executed": false,
+  "reason": "No browser executable available; browser download did not produce a valid installation.",
+  "replacement": "package.cjs passed embedded-script and DOM-shell tests; visual rendering is not covered."
+}
